@@ -1,0 +1,2117 @@
+ CALCULATION OF ARUPS SPECTRA FROM WAVECAR FILE
+
+ record length  =       15632  spins =           1  prec flag        45200
+ no. k points =         452
+ no. bands =           8
+ max. energy =   400.000000    
+ real space lattice vectors:
+ a1 =   2.14341283      -1.23749995       0.00000000    
+ a2 =   2.14341283       1.23749995       0.00000000    
+ a3 =   0.00000000       0.00000000       20.0000000    
+  
+ unit cell volume =   106.098938    
+ reciprocal lattice vectors:
+ b1 =   1.46569645      -2.53866076       0.00000000    
+ b2 =   1.46569645       2.53866076      -0.00000000    
+ b3 =  -0.00000000       0.00000000      0.314159274    
+  
+
+ read header from WAVECAR file
+ Entering energy vs. k plot mode ...
+
+ Total number of k-points in WAVECAR :          452
+                 Summation runs over :            1         452
+
+ k point #           1   input no. of plane waves =        1871
+ k value =   3.74200204E-16   3.74200204E-16   1.26237862E-15
+iq=  1 qsym=1 ib=   2 Ei=  -7.5463 Ekin=  33.1708 iekrange=  42  82 fermifac   1.0000
+iq=  1 qsym=1 ib=   3 Ei=  -3.0355 Ekin=  37.6816 iekrange= 155 195 fermifac   1.0000
+iq=  1 qsym=1 ib=   4 Ei=  -3.0355 Ekin=  37.6816 iekrange= 155 195 fermifac   1.0000
+ k point #           2   input no. of plane waves =        1865
+ k value =   3.33333351E-02   3.71230824E-16   1.26237862E-15
+iq=  2 qsym=1 ib=   2 Ei=  -7.5152 Ekin=  33.2019 iekrange=  43  83 fermifac   1.0000
+iq=  2 qsym=1 ib=   3 Ei=  -3.1437 Ekin=  37.5734 iekrange= 152 192 fermifac   1.0000
+iq=  2 qsym=1 ib=   4 Ei=  -3.0923 Ekin=  37.6248 iekrange= 153 193 fermifac   1.0000
+ k point #           3   input no. of plane waves =        1863
+ k value =   6.66666701E-02   3.67761377E-16   1.26237862E-15
+iq=  3 qsym=1 ib=   2 Ei=  -7.4220 Ekin=  33.2951 iekrange=  45  85 fermifac   1.0000
+iq=  3 qsym=1 ib=   3 Ei=  -3.4585 Ekin=  37.2586 iekrange= 144 184 fermifac   1.0000
+iq=  3 qsym=1 ib=   4 Ei=  -3.2549 Ekin=  37.4622 iekrange= 149 189 fermifac   1.0000
+ k point #           4   input no. of plane waves =        1871
+ k value =  0.100000001       3.67761377E-16   1.26237862E-15
+iq=  4 qsym=1 ib=   2 Ei=  -7.2669 Ekin=  33.4502 iekrange=  49  89 fermifac   1.0000
+iq=  4 qsym=1 ib=   3 Ei=  -3.9514 Ekin=  36.7657 iekrange= 132 172 fermifac   1.0000
+iq=  4 qsym=1 ib=   4 Ei=  -3.5040 Ekin=  37.2131 iekrange= 143 183 fermifac   1.0000
+ k point #           5   input no. of plane waves =        1881
+ k value =  0.133333340       3.74700271E-16   1.26237862E-15
+iq=  5 qsym=1 ib=   2 Ei=  -7.0509 Ekin=  33.6662 iekrange=  54  94 fermifac   1.0000
+iq=  5 qsym=1 ib=   3 Ei=  -4.5842 Ekin=  36.1329 iekrange= 116 156 fermifac   1.0000
+iq=  5 qsym=1 ib=   4 Ei=  -3.8125 Ekin=  36.9046 iekrange= 135 175 fermifac   1.0000
+ k point #           6   input no. of plane waves =        1891
+ k value =  0.166666672       3.88578059E-16   1.26237862E-15
+iq=  6 qsym=1 ib=   2 Ei=  -6.7752 Ekin=  33.9419 iekrange=  61 101 fermifac   1.0000
+iq=  6 qsym=1 ib=   3 Ei=  -5.3197 Ekin=  35.3974 iekrange=  98 138 fermifac   1.0000
+iq=  6 qsym=1 ib=   4 Ei=  -4.1549 Ekin=  36.5622 iekrange= 127 167 fermifac   1.0000
+ k point #           7   input no. of plane waves =        1907
+ k value =  0.200000003       3.88578059E-16   1.26237862E-15
+iq=  7 qsym=1 ib=   2 Ei=  -6.4408 Ekin=  34.2763 iekrange=  69 109 fermifac   1.0000
+iq=  7 qsym=1 ib=   3 Ei=  -6.1260 Ekin=  34.5911 iekrange=  77 117 fermifac   1.0000
+iq=  7 qsym=1 ib=   4 Ei=  -4.5097 Ekin=  36.2074 iekrange= 118 158 fermifac   1.0000
+ k point #           8   input no. of plane waves =        1919
+ k value =  0.233333334       3.88578059E-16   1.26237862E-15
+iq=  8 qsym=1 ib=   2 Ei=  -6.9755 Ekin=  33.7416 iekrange=  56  96 fermifac   1.0000
+iq=  8 qsym=1 ib=   3 Ei=  -6.0501 Ekin=  34.6670 iekrange=  79 119 fermifac   1.0000
+iq=  8 qsym=1 ib=   4 Ei=  -4.8589 Ekin=  35.8582 iekrange= 109 149 fermifac   1.0000
+ k point #           9   input no. of plane waves =        1921
+ k value =  0.266666681       3.88578059E-16   1.26237862E-15
+iq=  9 qsym=1 ib=   2 Ei=  -7.8479 Ekin=  32.8692 iekrange=  34  74 fermifac   1.0000
+iq=  9 qsym=1 ib=   3 Ei=  -5.6058 Ekin=  35.1113 iekrange=  90 130 fermifac   1.0000
+iq=  9 qsym=1 ib=   4 Ei=  -5.1886 Ekin=  35.5285 iekrange= 101 141 fermifac   1.0000
+ k point #          10   input no. of plane waves =        1923
+ k value =  0.300000012       3.60822483E-16   1.26237862E-15
+iq= 10 qsym=1 ib=   2 Ei=  -8.7275 Ekin=  31.9896 iekrange=  12  52 fermifac   1.0000
+iq= 10 qsym=1 ib=   3 Ei=  -5.4892 Ekin=  35.2279 iekrange=  93 133 fermifac   1.0000
+iq= 10 qsym=1 ib=   4 Ei=  -5.1133 Ekin=  35.6038 iekrange= 103 143 fermifac   1.0000
+ k point #          11   input no. of plane waves =        1937
+ k value =  0.333333343       3.33066907E-16   1.26237862E-15
+iq= 11 qsym=1 ib=   2 Ei=  -9.6010 Ekin=  31.1161 iekrange=   1  30 fermifac   1.0000
+iq= 11 qsym=1 ib=   3 Ei=  -5.7533 Ekin=  34.9638 iekrange=  87 127 fermifac   1.0000
+iq= 11 qsym=1 ib=   4 Ei=  -4.5799 Ekin=  36.1372 iekrange= 116 156 fermifac   1.0000
+ k point #          12   input no. of plane waves =        1931
+ k value =  0.366666675       3.33066907E-16   1.26237862E-15
+iq= 12 qsym=1 ib=   2 Ei= -10.4572 Ekin=  30.2599 iekrange=   1   9 fermifac   1.0000
+iq= 12 qsym=1 ib=   3 Ei=  -5.9751 Ekin=  34.7420 iekrange=  81 121 fermifac   1.0000
+iq= 12 qsym=1 ib=   4 Ei=  -4.0176 Ekin=  36.6995 iekrange= 130 170 fermifac   1.0000
+ k point #          13   input no. of plane waves =        1933
+ k value =  0.400000006       3.33066907E-16   1.26237862E-15
+iq= 13 qsym=1 ib=   3 Ei=  -6.1516 Ekin=  34.5655 iekrange=  77 117 fermifac   1.0000
+iq= 13 qsym=1 ib=   4 Ei=  -3.4485 Ekin=  37.2686 iekrange= 144 184 fermifac   1.0000
+ k point #          14   input no. of plane waves =        1931
+ k value =  0.433333337       3.05311332E-16   1.26237862E-15
+iq= 14 qsym=1 ib=   3 Ei=  -6.2789 Ekin=  34.4382 iekrange=  74 114 fermifac   1.0000
+iq= 14 qsym=1 ib=   4 Ei=  -2.9157 Ekin=  37.8014 iekrange= 158 198 fermifac   1.0000
+ k point #          15   input no. of plane waves =        1917
+ k value =  0.466666669       3.33066907E-16   1.26237862E-15
+iq= 15 qsym=1 ib=   3 Ei=  -6.3557 Ekin=  34.3614 iekrange=  72 112 fermifac   1.0000
+iq= 15 qsym=1 ib=   4 Ei=  -2.5034 Ekin=  38.2137 iekrange= 168 208 fermifac   1.0000
+ k point #          16   input no. of plane waves =        1910
+ k value =  0.500000000       3.33066907E-16   1.26237862E-15
+iq= 16 qsym=1 ib=   3 Ei=  -6.3817 Ekin=  34.3354 iekrange=  71 111 fermifac   1.0000
+iq= 16 qsym=1 ib=   4 Ei=  -2.3401 Ekin=  38.3770 iekrange= 172 212 fermifac   1.0000
+ k point #          17   input no. of plane waves =        1865
+ k value =   3.71230824E-16   3.33333351E-02   1.26237862E-15
+iq= 17 qsym=1 ib=   2 Ei=  -7.5152 Ekin=  33.2019 iekrange=  43  83 fermifac   1.0000
+iq= 17 qsym=1 ib=   3 Ei=  -3.1437 Ekin=  37.5734 iekrange= 152 192 fermifac   1.0000
+iq= 17 qsym=1 ib=   4 Ei=  -3.0923 Ekin=  37.6248 iekrange= 153 193 fermifac   1.0000
+ k point #          18   input no. of plane waves =        1865
+ k value =   3.33333351E-02   3.33333351E-02   1.26237862E-15
+iq= 18 qsym=1 ib=   2 Ei=  -7.5152 Ekin=  33.2019 iekrange=  43  83 fermifac   1.0000
+iq= 18 qsym=1 ib=   3 Ei=  -3.1437 Ekin=  37.5734 iekrange= 152 192 fermifac   1.0000
+iq= 18 qsym=1 ib=   4 Ei=  -3.0923 Ekin=  37.6248 iekrange= 153 193 fermifac   1.0000
+ k point #          19   input no. of plane waves =        1860
+ k value =   6.66666701E-02   3.33333351E-02   1.26237862E-15
+iq= 19 qsym=1 ib=   2 Ei=  -7.4530 Ekin=  33.2641 iekrange=  44  84 fermifac   1.0000
+iq= 19 qsym=1 ib=   3 Ei=  -3.3515 Ekin=  37.3656 iekrange= 147 187 fermifac   1.0000
+iq= 19 qsym=1 ib=   4 Ei=  -3.2059 Ekin=  37.5112 iekrange= 150 190 fermifac   1.0000
+ k point #          20   input no. of plane waves =        1859
+ k value =  0.100000001       3.33333351E-02   1.26237862E-15
+iq= 20 qsym=1 ib=   2 Ei=  -7.3289 Ekin=  33.3882 iekrange=  47  87 fermifac   1.0000
+iq= 20 qsym=1 ib=   3 Ei=  -3.7461 Ekin=  36.9710 iekrange= 137 177 fermifac   1.0000
+iq= 20 qsym=1 ib=   4 Ei=  -3.4212 Ekin=  37.2959 iekrange= 145 185 fermifac   1.0000
+ k point #          21   input no. of plane waves =        1862
+ k value =  0.133333340       3.33333351E-02   1.26237862E-15
+iq= 21 qsym=1 ib=   2 Ei=  -7.1433 Ekin=  33.5738 iekrange=  52  92 fermifac   1.0000
+iq= 21 qsym=1 ib=   3 Ei=  -4.2973 Ekin=  36.4198 iekrange= 123 163 fermifac   1.0000
+iq= 21 qsym=1 ib=   4 Ei=  -3.7111 Ekin=  37.0060 iekrange= 138 178 fermifac   1.0000
+ k point #          22   input no. of plane waves =        1885
+ k value =  0.166666672       3.33333351E-02   1.26237862E-15
+iq= 22 qsym=1 ib=   2 Ei=  -6.8975 Ekin=  33.8196 iekrange=  58  98 fermifac   1.0000
+iq= 22 qsym=1 ib=   3 Ei=  -4.9719 Ekin=  35.7452 iekrange= 106 146 fermifac   1.0000
+iq= 22 qsym=1 ib=   4 Ei=  -4.0475 Ekin=  36.6696 iekrange= 129 169 fermifac   1.0000
+ k point #          23   input no. of plane waves =        1895
+ k value =  0.200000003       3.33333351E-02   1.26237862E-15
+iq= 23 qsym=1 ib=   2 Ei=  -6.5924 Ekin=  34.1247 iekrange=  66 106 fermifac   1.0000
+iq= 23 qsym=1 ib=   3 Ei=  -5.7342 Ekin=  34.9829 iekrange=  87 127 fermifac   1.0000
+iq= 23 qsym=1 ib=   4 Ei=  -4.4045 Ekin=  36.3126 iekrange= 120 160 fermifac   1.0000
+ k point #          24   input no. of plane waves =        1908
+ k value =  0.233333334       3.33333351E-02   1.26237862E-15
+iq= 24 qsym=1 ib=   2 Ei=  -6.5556 Ekin=  34.1615 iekrange=  67 107 fermifac   1.0000
+iq= 24 qsym=1 ib=   3 Ei=  -6.2297 Ekin=  34.4874 iekrange=  75 115 fermifac   1.0000
+iq= 24 qsym=1 ib=   4 Ei=  -4.7632 Ekin=  35.9539 iekrange= 111 151 fermifac   1.0000
+ k point #          25   input no. of plane waves =        1914
+ k value =  0.266666681       3.33333351E-02   1.26237862E-15
+iq= 25 qsym=1 ib=   2 Ei=  -7.4117 Ekin=  33.3054 iekrange=  45  85 fermifac   1.0000
+iq= 25 qsym=1 ib=   3 Ei=  -5.8119 Ekin=  34.9052 iekrange=  85 125 fermifac   1.0000
+iq= 25 qsym=1 ib=   4 Ei=  -5.1074 Ekin=  35.6097 iekrange= 103 143 fermifac   1.0000
+ k point #          26   input no. of plane waves =        1918
+ k value =  0.300000012       3.33333351E-02   1.26237862E-15
+iq= 26 qsym=1 ib=   2 Ei=  -8.2842 Ekin=  32.4329 iekrange=  23  63 fermifac   1.0000
+iq= 26 qsym=1 ib=   3 Ei=  -5.4265 Ekin=  35.2906 iekrange=  95 135 fermifac   1.0000
+iq= 26 qsym=1 ib=   4 Ei=  -5.3429 Ekin=  35.3742 iekrange=  97 137 fermifac   1.0000
+ k point #          27   input no. of plane waves =        1928
+ k value =  0.333333343       3.33333351E-02   1.26237862E-15
+iq= 27 qsym=1 ib=   2 Ei=  -9.1584 Ekin=  31.5587 iekrange=   2  42 fermifac   1.0000
+iq= 27 qsym=1 ib=   3 Ei=  -5.7115 Ekin=  35.0056 iekrange=  88 128 fermifac   1.0000
+iq= 27 qsym=1 ib=   4 Ei=  -4.8291 Ekin=  35.8880 iekrange= 110 150 fermifac   1.0000
+ k point #          28   input no. of plane waves =        1932
+ k value =  0.366666675       3.33333351E-02   1.26237862E-15
+iq= 28 qsym=1 ib=   2 Ei= -10.0217 Ekin=  30.6954 iekrange=   1  20 fermifac   1.0000
+iq= 28 qsym=1 ib=   3 Ei=  -5.9563 Ekin=  34.7608 iekrange=  82 122 fermifac   1.0000
+iq= 28 qsym=1 ib=   4 Ei=  -4.2791 Ekin=  36.4380 iekrange= 124 164 fermifac   1.0000
+ k point #          29   input no. of plane waves =        1931
+ k value =  0.400000006       3.33333351E-02   1.26237862E-15
+iq= 29 qsym=1 ib=   3 Ei=  -6.1567 Ekin=  34.5604 iekrange=  77 117 fermifac   1.0000
+iq= 29 qsym=1 ib=   4 Ei=  -3.7095 Ekin=  37.0076 iekrange= 138 178 fermifac   1.0000
+ k point #          30   input no. of plane waves =        1931
+ k value =  0.433333337       3.33333351E-02   1.26237862E-15
+iq= 30 qsym=1 ib=   3 Ei=  -6.3095 Ekin=  34.4076 iekrange=  73 113 fermifac   1.0000
+iq= 30 qsym=1 ib=   4 Ei=  -3.1510 Ekin=  37.5661 iekrange= 152 192 fermifac   1.0000
+ k point #          31   input no. of plane waves =        1941
+ k value =  0.466666669       3.33333351E-02   1.26237862E-15
+iq= 31 qsym=1 ib=   3 Ei=  -6.4127 Ekin=  34.3044 iekrange=  70 110 fermifac   1.0000
+iq= 31 qsym=1 ib=   4 Ei=  -2.6644 Ekin=  38.0527 iekrange= 164 204 fermifac   1.0000
+ k point #          32   input no. of plane waves =        1935
+ k value =  0.500000000       3.33333351E-02   1.26237862E-15
+iq= 32 qsym=1 ib=   3 Ei=  -6.4643 Ekin=  34.2528 iekrange=  69 109 fermifac   1.0000
+iq= 32 qsym=1 ib=   4 Ei=  -2.3592 Ekin=  38.3579 iekrange= 172 212 fermifac   1.0000
+ k point #          33   input no. of plane waves =        1935
+ k value = -0.466666669       3.33333351E-02   1.26237862E-15
+iq= 33 qsym=1 ib=   3 Ei=  -6.4643 Ekin=  34.2528 iekrange=  69 109 fermifac   1.0000
+iq= 33 qsym=1 ib=   4 Ei=  -2.3592 Ekin=  38.3579 iekrange= 172 212 fermifac   1.0000
+ k point #          34   input no. of plane waves =        1941
+ k value = -0.433333337       3.33333351E-02   1.26237862E-15
+iq= 34 qsym=1 ib=   3 Ei=  -6.4127 Ekin=  34.3044 iekrange=  70 110 fermifac   1.0000
+iq= 34 qsym=1 ib=   4 Ei=  -2.6644 Ekin=  38.0527 iekrange= 164 204 fermifac   1.0000
+ k point #          35   input no. of plane waves =        1931
+ k value = -0.400000006       3.33333351E-02   1.26237862E-15
+iq= 35 qsym=1 ib=   3 Ei=  -6.3095 Ekin=  34.4076 iekrange=  73 113 fermifac   1.0000
+iq= 35 qsym=1 ib=   4 Ei=  -3.1510 Ekin=  37.5661 iekrange= 152 192 fermifac   1.0000
+ k point #          36   input no. of plane waves =        1931
+ k value = -0.366666675       3.33333351E-02   1.26237862E-15
+iq= 36 qsym=1 ib=   3 Ei=  -6.1567 Ekin=  34.5604 iekrange=  77 117 fermifac   1.0000
+iq= 36 qsym=1 ib=   4 Ei=  -3.7095 Ekin=  37.0076 iekrange= 138 178 fermifac   1.0000
+ k point #          37   input no. of plane waves =        1932
+ k value = -0.333333343       3.33333351E-02   1.26237862E-15
+iq= 37 qsym=1 ib=   2 Ei= -10.0217 Ekin=  30.6954 iekrange=   1  20 fermifac   1.0000
+iq= 37 qsym=1 ib=   3 Ei=  -5.9563 Ekin=  34.7608 iekrange=  82 122 fermifac   1.0000
+iq= 37 qsym=1 ib=   4 Ei=  -4.2791 Ekin=  36.4380 iekrange= 124 164 fermifac   1.0000
+ k point #          38   input no. of plane waves =        1928
+ k value = -0.300000012       3.33333351E-02   1.26237862E-15
+iq= 38 qsym=1 ib=   2 Ei=  -9.1584 Ekin=  31.5587 iekrange=   2  42 fermifac   1.0000
+iq= 38 qsym=1 ib=   3 Ei=  -5.7115 Ekin=  35.0056 iekrange=  88 128 fermifac   1.0000
+iq= 38 qsym=1 ib=   4 Ei=  -4.8291 Ekin=  35.8880 iekrange= 110 150 fermifac   1.0000
+ k point #          39   input no. of plane waves =        1918
+ k value = -0.266666681       3.33333351E-02   1.26237862E-15
+iq= 39 qsym=1 ib=   2 Ei=  -8.2842 Ekin=  32.4329 iekrange=  23  63 fermifac   1.0000
+iq= 39 qsym=1 ib=   3 Ei=  -5.4265 Ekin=  35.2906 iekrange=  95 135 fermifac   1.0000
+iq= 39 qsym=1 ib=   4 Ei=  -5.3429 Ekin=  35.3742 iekrange=  97 137 fermifac   1.0000
+ k point #          40   input no. of plane waves =        1914
+ k value = -0.233333334       3.33333351E-02   1.26237862E-15
+iq= 40 qsym=1 ib=   2 Ei=  -7.4117 Ekin=  33.3054 iekrange=  45  85 fermifac   1.0000
+iq= 40 qsym=1 ib=   3 Ei=  -5.8119 Ekin=  34.9052 iekrange=  85 125 fermifac   1.0000
+iq= 40 qsym=1 ib=   4 Ei=  -5.1074 Ekin=  35.6097 iekrange= 103 143 fermifac   1.0000
+ k point #          41   input no. of plane waves =        1908
+ k value = -0.200000003       3.33333351E-02   1.26237862E-15
+iq= 41 qsym=1 ib=   2 Ei=  -6.5556 Ekin=  34.1615 iekrange=  67 107 fermifac   1.0000
+iq= 41 qsym=1 ib=   3 Ei=  -6.2297 Ekin=  34.4874 iekrange=  75 115 fermifac   1.0000
+iq= 41 qsym=1 ib=   4 Ei=  -4.7632 Ekin=  35.9539 iekrange= 111 151 fermifac   1.0000
+ k point #          42   input no. of plane waves =        1895
+ k value = -0.166666672       3.33333351E-02   1.26237862E-15
+iq= 42 qsym=1 ib=   2 Ei=  -6.5924 Ekin=  34.1247 iekrange=  66 106 fermifac   1.0000
+iq= 42 qsym=1 ib=   3 Ei=  -5.7342 Ekin=  34.9829 iekrange=  87 127 fermifac   1.0000
+iq= 42 qsym=1 ib=   4 Ei=  -4.4045 Ekin=  36.3126 iekrange= 120 160 fermifac   1.0000
+ k point #          43   input no. of plane waves =        1885
+ k value = -0.133333340       3.33333351E-02   1.26237862E-15
+iq= 43 qsym=1 ib=   2 Ei=  -6.8975 Ekin=  33.8196 iekrange=  58  98 fermifac   1.0000
+iq= 43 qsym=1 ib=   3 Ei=  -4.9719 Ekin=  35.7452 iekrange= 106 146 fermifac   1.0000
+iq= 43 qsym=1 ib=   4 Ei=  -4.0475 Ekin=  36.6696 iekrange= 129 169 fermifac   1.0000
+ k point #          44   input no. of plane waves =        1862
+ k value = -0.100000001       3.33333351E-02   1.26237862E-15
+iq= 44 qsym=1 ib=   2 Ei=  -7.1433 Ekin=  33.5738 iekrange=  52  92 fermifac   1.0000
+iq= 44 qsym=1 ib=   3 Ei=  -4.2973 Ekin=  36.4198 iekrange= 123 163 fermifac   1.0000
+iq= 44 qsym=1 ib=   4 Ei=  -3.7111 Ekin=  37.0060 iekrange= 138 178 fermifac   1.0000
+ k point #          45   input no. of plane waves =        1859
+ k value =  -6.66666701E-02   3.33333351E-02   1.26237862E-15
+iq= 45 qsym=1 ib=   2 Ei=  -7.3289 Ekin=  33.3882 iekrange=  47  87 fermifac   1.0000
+iq= 45 qsym=1 ib=   3 Ei=  -3.7460 Ekin=  36.9711 iekrange= 137 177 fermifac   1.0000
+iq= 45 qsym=1 ib=   4 Ei=  -3.4212 Ekin=  37.2959 iekrange= 145 185 fermifac   1.0000
+ k point #          46   input no. of plane waves =        1860
+ k value =  -3.33333351E-02   3.33333351E-02   1.26237862E-15
+iq= 46 qsym=1 ib=   2 Ei=  -7.4530 Ekin=  33.2641 iekrange=  44  84 fermifac   1.0000
+iq= 46 qsym=1 ib=   3 Ei=  -3.3515 Ekin=  37.3656 iekrange= 147 187 fermifac   1.0000
+iq= 46 qsym=1 ib=   4 Ei=  -3.2059 Ekin=  37.5112 iekrange= 150 190 fermifac   1.0000
+ k point #          47   input no. of plane waves =        1863
+ k value =   3.67761377E-16   6.66666701E-02   1.26237862E-15
+iq= 47 qsym=1 ib=   2 Ei=  -7.4220 Ekin=  33.2951 iekrange=  45  85 fermifac   1.0000
+iq= 47 qsym=1 ib=   3 Ei=  -3.4585 Ekin=  37.2586 iekrange= 144 184 fermifac   1.0000
+iq= 47 qsym=1 ib=   4 Ei=  -3.2549 Ekin=  37.4622 iekrange= 149 189 fermifac   1.0000
+ k point #          48   input no. of plane waves =        1860
+ k value =   3.33333351E-02   6.66666701E-02   1.26237862E-15
+iq= 48 qsym=1 ib=   2 Ei=  -7.4530 Ekin=  33.2641 iekrange=  44  84 fermifac   1.0000
+iq= 48 qsym=1 ib=   3 Ei=  -3.3515 Ekin=  37.3656 iekrange= 147 187 fermifac   1.0000
+iq= 48 qsym=1 ib=   4 Ei=  -3.2059 Ekin=  37.5112 iekrange= 150 190 fermifac   1.0000
+ k point #          49   input no. of plane waves =        1863
+ k value =   6.66666701E-02   6.66666701E-02   1.26237862E-15
+iq= 49 qsym=1 ib=   2 Ei=  -7.4220 Ekin=  33.2951 iekrange=  45  85 fermifac   1.0000
+iq= 49 qsym=1 ib=   3 Ei=  -3.4585 Ekin=  37.2586 iekrange= 144 184 fermifac   1.0000
+iq= 49 qsym=1 ib=   4 Ei=  -3.2549 Ekin=  37.4622 iekrange= 149 189 fermifac   1.0000
+ k point #          50   input no. of plane waves =        1859
+ k value =  0.100000001       6.66666701E-02   1.26237862E-15
+iq= 50 qsym=1 ib=   2 Ei=  -7.3289 Ekin=  33.3882 iekrange=  47  87 fermifac   1.0000
+iq= 50 qsym=1 ib=   3 Ei=  -3.7461 Ekin=  36.9710 iekrange= 137 177 fermifac   1.0000
+iq= 50 qsym=1 ib=   4 Ei=  -3.4212 Ekin=  37.2959 iekrange= 145 185 fermifac   1.0000
+ k point #          51   input no. of plane waves =        1862
+ k value =  0.133333340       6.66666701E-02   1.26237862E-15
+iq= 51 qsym=1 ib=   2 Ei=  -7.1740 Ekin=  33.5431 iekrange=  51  91 fermifac   1.0000
+iq= 51 qsym=1 ib=   3 Ei=  -4.1823 Ekin=  36.5348 iekrange= 126 166 fermifac   1.0000
+iq= 51 qsym=1 ib=   4 Ei=  -3.6948 Ekin=  37.0223 iekrange= 138 178 fermifac   1.0000
+ k point #          52   input no. of plane waves =        1873
+ k value =  0.166666672       6.66666701E-02   1.26237862E-15
+iq= 52 qsym=1 ib=   2 Ei=  -6.9585 Ekin=  33.7586 iekrange=  57  97 fermifac   1.0000
+iq= 52 qsym=1 ib=   3 Ei=  -4.7505 Ekin=  35.9666 iekrange= 112 152 fermifac   1.0000
+iq= 52 qsym=1 ib=   4 Ei=  -4.0377 Ekin=  36.6794 iekrange= 130 170 fermifac   1.0000
+ k point #          53   input no. of plane waves =        1893
+ k value =  0.200000003       6.66666701E-02   1.26237862E-15
+iq= 53 qsym=1 ib=   2 Ei=  -6.6833 Ekin=  34.0338 iekrange=  63 103 fermifac   1.0000
+iq= 53 qsym=1 ib=   3 Ei=  -5.4280 Ekin=  35.2891 iekrange=  95 135 fermifac   1.0000
+iq= 53 qsym=1 ib=   4 Ei=  -4.4129 Ekin=  36.3042 iekrange= 120 160 fermifac   1.0000
+ k point #          54   input no. of plane waves =        1907
+ k value =  0.233333334       6.66666701E-02   1.26237862E-15
+iq= 54 qsym=1 ib=   2 Ei=  -6.3497 Ekin=  34.3674 iekrange=  72 112 fermifac   1.0000
+iq= 54 qsym=1 ib=   3 Ei=  -6.1867 Ekin=  34.5304 iekrange=  76 116 fermifac   1.0000
+iq= 54 qsym=1 ib=   4 Ei=  -4.7937 Ekin=  35.9234 iekrange= 111 151 fermifac   1.0000
+ k point #          55   input no. of plane waves =        1913
+ k value =  0.266666681       6.66666701E-02   1.26237862E-15
+iq= 55 qsym=1 ib=   2 Ei=  -7.0007 Ekin=  33.7164 iekrange=  55  95 fermifac   1.0000
+iq= 55 qsym=1 ib=   3 Ei=  -5.9596 Ekin=  34.7575 iekrange=  82 122 fermifac   1.0000
+iq= 55 qsym=1 ib=   4 Ei=  -5.1619 Ekin=  35.5552 iekrange= 101 141 fermifac   1.0000
+ k point #          56   input no. of plane waves =        1923
+ k value =  0.300000012       6.66666701E-02   1.26237862E-15
+iq= 56 qsym=1 ib=   2 Ei=  -7.8472 Ekin=  32.8699 iekrange=  34  74 fermifac   1.0000
+iq= 56 qsym=1 ib=   3 Ei=  -5.5165 Ekin=  35.2006 iekrange=  93 133 fermifac   1.0000
+iq= 56 qsym=1 ib=   4 Ei=  -5.5055 Ekin=  35.2116 iekrange=  93 133 fermifac   1.0000
+ k point #          57   input no. of plane waves =        1929
+ k value =  0.333333343       6.66666701E-02   1.26237862E-15
+iq= 57 qsym=1 ib=   2 Ei=  -8.7074 Ekin=  32.0097 iekrange=  13  53 fermifac   1.0000
+iq= 57 qsym=1 ib=   3 Ei=  -5.8157 Ekin=  34.9014 iekrange=  85 125 fermifac   1.0000
+iq= 57 qsym=1 ib=   4 Ei=  -5.0246 Ekin=  35.6925 iekrange= 105 145 fermifac   1.0000
+ k point #          58   input no. of plane waves =        1941
+ k value =  0.366666675       6.66666701E-02   1.26237862E-15
+iq= 58 qsym=1 ib=   2 Ei=  -9.5667 Ekin=  31.1504 iekrange=   1  31 fermifac   1.0000
+iq= 58 qsym=1 ib=   3 Ei=  -6.0863 Ekin=  34.6308 iekrange=  78 118 fermifac   1.0000
+iq= 58 qsym=1 ib=   4 Ei=  -4.4919 Ekin=  36.2252 iekrange= 118 158 fermifac   1.0000
+ k point #          59   input no. of plane waves =        1945
+ k value =  0.400000006       6.66666701E-02   1.26237862E-15
+iq= 59 qsym=1 ib=   2 Ei= -10.4125 Ekin=  30.3046 iekrange=   1  10 fermifac   1.0000
+iq= 59 qsym=1 ib=   3 Ei=  -6.3127 Ekin=  34.4044 iekrange=  73 113 fermifac   1.0000
+iq= 59 qsym=1 ib=   4 Ei=  -3.9298 Ekin=  36.7873 iekrange= 132 172 fermifac   1.0000
+ k point #          60   input no. of plane waves =        1941
+ k value =  0.433333337       6.66666701E-02   1.26237862E-15
+iq= 60 qsym=1 ib=   3 Ei=  -6.4917 Ekin=  34.2254 iekrange=  68 108 fermifac   1.0000
+iq= 60 qsym=1 ib=   4 Ei=  -3.3602 Ekin=  37.3569 iekrange= 146 186 fermifac   1.0000
+ k point #          61   input no. of plane waves =        1951
+ k value =  0.466666669       6.66666701E-02   1.26237862E-15
+iq= 61 qsym=1 ib=   3 Ei=  -6.6212 Ekin=  34.0959 iekrange=  65 105 fermifac   1.0000
+iq= 61 qsym=1 ib=   4 Ei=  -2.8262 Ekin=  37.8909 iekrange= 160 200 fermifac   1.0000
+ k point #          62   input no. of plane waves =        1945
+ k value =  0.500000000       6.66666701E-02   1.26237862E-15
+iq= 62 qsym=1 ib=   3 Ei=  -6.6994 Ekin=  34.0177 iekrange=  63 103 fermifac   1.0000
+iq= 62 qsym=1 ib=   4 Ei=  -2.4106 Ekin=  38.3065 iekrange= 170 210 fermifac   1.0000
+ k point #          63   input no. of plane waves =        1938
+ k value = -0.466666669       6.66666701E-02   1.26237862E-15
+iq= 63 qsym=1 ib=   3 Ei=  -6.7256 Ekin=  33.9915 iekrange=  62 102 fermifac   1.0000
+iq= 63 qsym=1 ib=   4 Ei=  -2.2455 Ekin=  38.4716 iekrange= 174 214 fermifac   1.0000
+ k point #          64   input no. of plane waves =        1945
+ k value = -0.433333337       6.66666701E-02   1.26237862E-15
+iq= 64 qsym=1 ib=   3 Ei=  -6.6994 Ekin=  34.0177 iekrange=  63 103 fermifac   1.0000
+iq= 64 qsym=1 ib=   4 Ei=  -2.4106 Ekin=  38.3065 iekrange= 170 210 fermifac   1.0000
+ k point #          65   input no. of plane waves =        1951
+ k value = -0.400000006       6.66666701E-02   1.26237862E-15
+iq= 65 qsym=1 ib=   3 Ei=  -6.6212 Ekin=  34.0959 iekrange=  65 105 fermifac   1.0000
+iq= 65 qsym=1 ib=   4 Ei=  -2.8262 Ekin=  37.8909 iekrange= 160 200 fermifac   1.0000
+ k point #          66   input no. of plane waves =        1941
+ k value = -0.366666675       6.66666701E-02   1.26237862E-15
+iq= 66 qsym=1 ib=   3 Ei=  -6.4917 Ekin=  34.2254 iekrange=  68 108 fermifac   1.0000
+iq= 66 qsym=1 ib=   4 Ei=  -3.3602 Ekin=  37.3569 iekrange= 146 186 fermifac   1.0000
+ k point #          67   input no. of plane waves =        1945
+ k value = -0.333333343       6.66666701E-02   1.26237862E-15
+iq= 67 qsym=1 ib=   2 Ei= -10.4125 Ekin=  30.3046 iekrange=   1  10 fermifac   1.0000
+iq= 67 qsym=1 ib=   3 Ei=  -6.3127 Ekin=  34.4044 iekrange=  73 113 fermifac   1.0000
+iq= 67 qsym=1 ib=   4 Ei=  -3.9298 Ekin=  36.7873 iekrange= 132 172 fermifac   1.0000
+ k point #          68   input no. of plane waves =        1941
+ k value = -0.300000012       6.66666701E-02   1.26237862E-15
+iq= 68 qsym=1 ib=   2 Ei=  -9.5667 Ekin=  31.1504 iekrange=   1  31 fermifac   1.0000
+iq= 68 qsym=1 ib=   3 Ei=  -6.0863 Ekin=  34.6308 iekrange=  78 118 fermifac   1.0000
+iq= 68 qsym=1 ib=   4 Ei=  -4.4919 Ekin=  36.2252 iekrange= 118 158 fermifac   1.0000
+ k point #          69   input no. of plane waves =        1929
+ k value = -0.266666681       6.66666701E-02   1.26237862E-15
+iq= 69 qsym=1 ib=   2 Ei=  -8.7074 Ekin=  32.0097 iekrange=  13  53 fermifac   1.0000
+iq= 69 qsym=1 ib=   3 Ei=  -5.8157 Ekin=  34.9014 iekrange=  85 125 fermifac   1.0000
+iq= 69 qsym=1 ib=   4 Ei=  -5.0246 Ekin=  35.6925 iekrange= 105 145 fermifac   1.0000
+ k point #          70   input no. of plane waves =        1923
+ k value = -0.233333334       6.66666701E-02   1.26237862E-15
+iq= 70 qsym=1 ib=   2 Ei=  -7.8472 Ekin=  32.8699 iekrange=  34  74 fermifac   1.0000
+iq= 70 qsym=1 ib=   3 Ei=  -5.5165 Ekin=  35.2006 iekrange=  93 133 fermifac   1.0000
+iq= 70 qsym=1 ib=   4 Ei=  -5.5055 Ekin=  35.2116 iekrange=  93 133 fermifac   1.0000
+ k point #          71   input no. of plane waves =        1913
+ k value = -0.200000003       6.66666701E-02   1.26237862E-15
+iq= 71 qsym=1 ib=   2 Ei=  -7.0007 Ekin=  33.7164 iekrange=  55  95 fermifac   1.0000
+iq= 71 qsym=1 ib=   3 Ei=  -5.9596 Ekin=  34.7575 iekrange=  82 122 fermifac   1.0000
+iq= 71 qsym=1 ib=   4 Ei=  -5.1619 Ekin=  35.5552 iekrange= 101 141 fermifac   1.0000
+ k point #          72   input no. of plane waves =        1907
+ k value = -0.166666672       6.66666701E-02   1.26237862E-15
+iq= 72 qsym=1 ib=   2 Ei=  -6.3497 Ekin=  34.3674 iekrange=  72 112 fermifac   1.0000
+iq= 72 qsym=1 ib=   3 Ei=  -6.1867 Ekin=  34.5304 iekrange=  76 116 fermifac   1.0000
+iq= 72 qsym=1 ib=   4 Ei=  -4.7937 Ekin=  35.9234 iekrange= 111 151 fermifac   1.0000
+ k point #          73   input no. of plane waves =        1893
+ k value = -0.133333340       6.66666701E-02   1.26237862E-15
+iq= 73 qsym=1 ib=   2 Ei=  -6.6833 Ekin=  34.0338 iekrange=  63 103 fermifac   1.0000
+iq= 73 qsym=1 ib=   3 Ei=  -5.4280 Ekin=  35.2891 iekrange=  95 135 fermifac   1.0000
+iq= 73 qsym=1 ib=   4 Ei=  -4.4129 Ekin=  36.3042 iekrange= 120 160 fermifac   1.0000
+ k point #          74   input no. of plane waves =        1873
+ k value = -0.100000001       6.66666701E-02   1.26237862E-15
+iq= 74 qsym=1 ib=   2 Ei=  -6.9585 Ekin=  33.7586 iekrange=  57  97 fermifac   1.0000
+iq= 74 qsym=1 ib=   3 Ei=  -4.7505 Ekin=  35.9666 iekrange= 112 152 fermifac   1.0000
+iq= 74 qsym=1 ib=   4 Ei=  -4.0377 Ekin=  36.6794 iekrange= 130 170 fermifac   1.0000
+ k point #          75   input no. of plane waves =        1862
+ k value =  -6.66666701E-02   6.66666701E-02   1.26237862E-15
+iq= 75 qsym=1 ib=   2 Ei=  -7.1740 Ekin=  33.5431 iekrange=  51  91 fermifac   1.0000
+iq= 75 qsym=1 ib=   3 Ei=  -4.1823 Ekin=  36.5348 iekrange= 126 166 fermifac   1.0000
+iq= 75 qsym=1 ib=   4 Ei=  -3.6948 Ekin=  37.0223 iekrange= 138 178 fermifac   1.0000
+ k point #          76   input no. of plane waves =        1859
+ k value =  -3.33333351E-02   6.66666701E-02   1.26237862E-15
+iq= 76 qsym=1 ib=   2 Ei=  -7.3289 Ekin=  33.3882 iekrange=  47  87 fermifac   1.0000
+iq= 76 qsym=1 ib=   3 Ei=  -3.7460 Ekin=  36.9711 iekrange= 137 177 fermifac   1.0000
+iq= 76 qsym=1 ib=   4 Ei=  -3.4212 Ekin=  37.2959 iekrange= 145 185 fermifac   1.0000
+ k point #          77   input no. of plane waves =        1871
+ k value =   3.67761377E-16  0.100000001       1.26237862E-15
+iq= 77 qsym=1 ib=   2 Ei=  -7.2669 Ekin=  33.4502 iekrange=  49  89 fermifac   1.0000
+iq= 77 qsym=1 ib=   3 Ei=  -3.9514 Ekin=  36.7657 iekrange= 132 172 fermifac   1.0000
+iq= 77 qsym=1 ib=   4 Ei=  -3.5040 Ekin=  37.2131 iekrange= 143 183 fermifac   1.0000
+ k point #          78   input no. of plane waves =        1859
+ k value =   3.33333351E-02  0.100000001       1.26237862E-15
+iq= 78 qsym=1 ib=   2 Ei=  -7.3289 Ekin=  33.3882 iekrange=  47  87 fermifac   1.0000
+iq= 78 qsym=1 ib=   3 Ei=  -3.7461 Ekin=  36.9710 iekrange= 137 177 fermifac   1.0000
+iq= 78 qsym=1 ib=   4 Ei=  -3.4212 Ekin=  37.2959 iekrange= 145 185 fermifac   1.0000
+ k point #          79   input no. of plane waves =        1859
+ k value =   6.66666701E-02  0.100000001       1.26237862E-15
+iq= 79 qsym=1 ib=   2 Ei=  -7.3289 Ekin=  33.3882 iekrange=  47  87 fermifac   1.0000
+iq= 79 qsym=1 ib=   3 Ei=  -3.7461 Ekin=  36.9710 iekrange= 137 177 fermifac   1.0000
+iq= 79 qsym=1 ib=   4 Ei=  -3.4212 Ekin=  37.2959 iekrange= 145 185 fermifac   1.0000
+ k point #          80   input no. of plane waves =        1871
+ k value =  0.100000001      0.100000001       1.26237862E-15
+iq= 80 qsym=1 ib=   2 Ei=  -7.2669 Ekin=  33.4502 iekrange=  49  89 fermifac   1.0000
+iq= 80 qsym=1 ib=   3 Ei=  -3.9514 Ekin=  36.7657 iekrange= 132 172 fermifac   1.0000
+iq= 80 qsym=1 ib=   4 Ei=  -3.5040 Ekin=  37.2131 iekrange= 143 183 fermifac   1.0000
+ k point #          81   input no. of plane waves =        1862
+ k value =  0.133333340      0.100000001       1.26237862E-15
+iq= 81 qsym=1 ib=   2 Ei=  -7.1433 Ekin=  33.5738 iekrange=  52  92 fermifac   1.0000
+iq= 81 qsym=1 ib=   3 Ei=  -4.2973 Ekin=  36.4198 iekrange= 123 163 fermifac   1.0000
+iq= 81 qsym=1 ib=   4 Ei=  -3.7111 Ekin=  37.0060 iekrange= 138 178 fermifac   1.0000
+ k point #          82   input no. of plane waves =        1873
+ k value =  0.166666672      0.100000001       1.26237862E-15
+iq= 82 qsym=1 ib=   2 Ei=  -6.9585 Ekin=  33.7586 iekrange=  57  97 fermifac   1.0000
+iq= 82 qsym=1 ib=   3 Ei=  -4.7505 Ekin=  35.9666 iekrange= 112 152 fermifac   1.0000
+iq= 82 qsym=1 ib=   4 Ei=  -4.0377 Ekin=  36.6794 iekrange= 130 170 fermifac   1.0000
+ k point #          83   input no. of plane waves =        1888
+ k value =  0.200000003      0.100000001       1.26237862E-15
+iq= 83 qsym=1 ib=   2 Ei=  -6.7137 Ekin=  34.0034 iekrange=  63 103 fermifac   1.0000
+iq= 83 qsym=1 ib=   3 Ei=  -5.3002 Ekin=  35.4169 iekrange=  98 138 fermifac   1.0000
+iq= 83 qsym=1 ib=   4 Ei=  -4.4414 Ekin=  36.2757 iekrange= 119 159 fermifac   1.0000
+ k point #          84   input no. of plane waves =        1904
+ k value =  0.233333334      0.100000001       1.26237862E-15
+iq= 84 qsym=1 ib=   2 Ei=  -6.4098 Ekin=  34.3073 iekrange=  70 110 fermifac   1.0000
+iq= 84 qsym=1 ib=   3 Ei=  -5.9430 Ekin=  34.7741 iekrange=  82 122 fermifac   1.0000
+iq= 84 qsym=1 ib=   4 Ei=  -4.8711 Ekin=  35.8460 iekrange= 109 149 fermifac   1.0000
+ k point #          85   input no. of plane waves =        1920
+ k value =  0.266666681      0.100000001       1.26237862E-15
+iq= 85 qsym=1 ib=   2 Ei=  -6.6678 Ekin=  34.0493 iekrange=  64 104 fermifac   1.0000
+iq= 85 qsym=1 ib=   3 Ei=  -6.0486 Ekin=  34.6685 iekrange=  79 119 fermifac   1.0000
+iq= 85 qsym=1 ib=   4 Ei=  -5.2889 Ekin=  35.4282 iekrange=  98 138 fermifac   1.0000
+ k point #          86   input no. of plane waves =        1922
+ k value =  0.300000012      0.100000001       1.26237862E-15
+iq= 86 qsym=1 ib=   2 Ei=  -7.4521 Ekin=  33.2650 iekrange=  44  84 fermifac   1.0000
+iq= 86 qsym=1 ib=   3 Ei=  -5.6759 Ekin=  35.0412 iekrange=  89 129 fermifac   1.0000
+iq= 86 qsym=1 ib=   4 Ei=  -5.6327 Ekin=  35.0844 iekrange=  90 130 fermifac   1.0000
+ k point #          87   input no. of plane waves =        1931
+ k value =  0.333333343      0.100000001       1.26237862E-15
+iq= 87 qsym=1 ib=   2 Ei=  -8.2730 Ekin=  32.4441 iekrange=  24  64 fermifac   1.0000
+iq= 87 qsym=1 ib=   3 Ei=  -6.0242 Ekin=  34.6929 iekrange=  80 120 fermifac   1.0000
+iq= 87 qsym=1 ib=   4 Ei=  -5.1657 Ekin=  35.5514 iekrange= 101 141 fermifac   1.0000
+ k point #          88   input no. of plane waves =        1939
+ k value =  0.366666675      0.100000001       1.26237862E-15
+iq= 88 qsym=1 ib=   2 Ei=  -9.1098 Ekin=  31.6073 iekrange=   3  43 fermifac   1.0000
+iq= 88 qsym=1 ib=   3 Ei=  -6.3289 Ekin=  34.3882 iekrange=  72 112 fermifac   1.0000
+iq= 88 qsym=1 ib=   4 Ei=  -4.6532 Ekin=  36.0639 iekrange= 114 154 fermifac   1.0000
+ k point #          89   input no. of plane waves =        1941
+ k value =  0.400000006      0.100000001       1.26237862E-15
+iq= 89 qsym=1 ib=   2 Ei=  -9.9462 Ekin=  30.7709 iekrange=   1  22 fermifac   1.0000
+iq= 89 qsym=1 ib=   3 Ei=  -6.5866 Ekin=  34.1305 iekrange=  66 106 fermifac   1.0000
+iq= 89 qsym=1 ib=   4 Ei=  -4.1046 Ekin=  36.6125 iekrange= 128 168 fermifac   1.0000
+ k point #          90   input no. of plane waves =        1947
+ k value =  0.433333337      0.100000001       1.26237862E-15
+iq= 90 qsym=1 ib=   2 Ei= -10.7683 Ekin=  29.9488 iekrange=   1   1 fermifac   1.0000
+iq= 90 qsym=1 ib=   3 Ei=  -6.7957 Ekin=  33.9214 iekrange=  61 101 fermifac   1.0000
+iq= 90 qsym=1 ib=   4 Ei=  -3.5353 Ekin=  37.1818 iekrange= 142 182 fermifac   1.0000
+ k point #          91   input no. of plane waves =        1945
+ k value =  0.466666669      0.100000001       1.26237862E-15
+iq= 91 qsym=1 ib=   3 Ei=  -6.9536 Ekin=  33.7635 iekrange=  57  97 fermifac   1.0000
+iq= 91 qsym=1 ib=   4 Ei=  -2.9747 Ekin=  37.7424 iekrange= 156 196 fermifac   1.0000
+ k point #          92   input no. of plane waves =        1949
+ k value =  0.500000000      0.100000001       1.26237862E-15
+iq= 92 qsym=1 ib=   3 Ei=  -7.0597 Ekin=  33.6574 iekrange=  54  94 fermifac   1.0000
+iq= 92 qsym=1 ib=   4 Ei=  -2.4825 Ekin=  38.2346 iekrange= 168 208 fermifac   1.0000
+ k point #          93   input no. of plane waves =        1941
+ k value = -0.466666669      0.100000001       1.26237862E-15
+iq= 93 qsym=1 ib=   3 Ei=  -7.1129 Ekin=  33.6042 iekrange=  53  93 fermifac   1.0000
+iq= 93 qsym=1 ib=   4 Ei=  -2.1702 Ekin=  38.5469 iekrange= 176 216 fermifac   1.0000
+ k point #          94   input no. of plane waves =        1941
+ k value = -0.433333337      0.100000001       1.26237862E-15
+iq= 94 qsym=1 ib=   3 Ei=  -7.1129 Ekin=  33.6042 iekrange=  53  93 fermifac   1.0000
+iq= 94 qsym=1 ib=   4 Ei=  -2.1702 Ekin=  38.5469 iekrange= 176 216 fermifac   1.0000
+ k point #          95   input no. of plane waves =        1949
+ k value = -0.400000006      0.100000001       1.26237862E-15
+iq= 95 qsym=1 ib=   3 Ei=  -7.0597 Ekin=  33.6574 iekrange=  54  94 fermifac   1.0000
+iq= 95 qsym=1 ib=   4 Ei=  -2.4825 Ekin=  38.2346 iekrange= 168 208 fermifac   1.0000
+ k point #          96   input no. of plane waves =        1945
+ k value = -0.366666675      0.100000001       1.26237862E-15
+iq= 96 qsym=1 ib=   3 Ei=  -6.9536 Ekin=  33.7635 iekrange=  57  97 fermifac   1.0000
+iq= 96 qsym=1 ib=   4 Ei=  -2.9747 Ekin=  37.7424 iekrange= 156 196 fermifac   1.0000
+ k point #          97   input no. of plane waves =        1947
+ k value = -0.333333343      0.100000001       1.26237862E-15
+iq= 97 qsym=1 ib=   2 Ei= -10.7683 Ekin=  29.9488 iekrange=   1   1 fermifac   1.0000
+iq= 97 qsym=1 ib=   3 Ei=  -6.7957 Ekin=  33.9214 iekrange=  61 101 fermifac   1.0000
+iq= 97 qsym=1 ib=   4 Ei=  -3.5353 Ekin=  37.1818 iekrange= 142 182 fermifac   1.0000
+ k point #          98   input no. of plane waves =        1941
+ k value = -0.300000012      0.100000001       1.26237862E-15
+iq= 98 qsym=1 ib=   2 Ei=  -9.9462 Ekin=  30.7709 iekrange=   1  22 fermifac   1.0000
+iq= 98 qsym=1 ib=   3 Ei=  -6.5866 Ekin=  34.1305 iekrange=  66 106 fermifac   1.0000
+iq= 98 qsym=1 ib=   4 Ei=  -4.1046 Ekin=  36.6125 iekrange= 128 168 fermifac   1.0000
+ k point #          99   input no. of plane waves =        1939
+ k value = -0.266666681      0.100000001       1.26237862E-15
+iq= 99 qsym=1 ib=   2 Ei=  -9.1098 Ekin=  31.6073 iekrange=   3  43 fermifac   1.0000
+iq= 99 qsym=1 ib=   3 Ei=  -6.3289 Ekin=  34.3882 iekrange=  72 112 fermifac   1.0000
+iq= 99 qsym=1 ib=   4 Ei=  -4.6532 Ekin=  36.0639 iekrange= 114 154 fermifac   1.0000
+ k point #         100   input no. of plane waves =        1931
+ k value = -0.233333334      0.100000001       1.26237862E-15
+iq=100 qsym=1 ib=   2 Ei=  -8.2730 Ekin=  32.4441 iekrange=  24  64 fermifac   1.0000
+iq=100 qsym=1 ib=   3 Ei=  -6.0242 Ekin=  34.6929 iekrange=  80 120 fermifac   1.0000
+iq=100 qsym=1 ib=   4 Ei=  -5.1657 Ekin=  35.5514 iekrange= 101 141 fermifac   1.0000
+ k point #         101   input no. of plane waves =        1922
+ k value = -0.200000003      0.100000001       1.26237862E-15
+iq=101 qsym=1 ib=   2 Ei=  -7.4521 Ekin=  33.2650 iekrange=  44  84 fermifac   1.0000
+iq=101 qsym=1 ib=   3 Ei=  -5.6759 Ekin=  35.0412 iekrange=  89 129 fermifac   1.0000
+iq=101 qsym=1 ib=   4 Ei=  -5.6327 Ekin=  35.0844 iekrange=  90 130 fermifac   1.0000
+ k point #         102   input no. of plane waves =        1920
+ k value = -0.166666672      0.100000001       1.26237862E-15
+iq=102 qsym=1 ib=   2 Ei=  -6.6678 Ekin=  34.0493 iekrange=  64 104 fermifac   1.0000
+iq=102 qsym=1 ib=   3 Ei=  -6.0486 Ekin=  34.6685 iekrange=  79 119 fermifac   1.0000
+iq=102 qsym=1 ib=   4 Ei=  -5.2889 Ekin=  35.4282 iekrange=  98 138 fermifac   1.0000
+ k point #         103   input no. of plane waves =        1904
+ k value = -0.133333340      0.100000001       1.26237862E-15
+iq=103 qsym=1 ib=   2 Ei=  -6.4098 Ekin=  34.3073 iekrange=  70 110 fermifac   1.0000
+iq=103 qsym=1 ib=   3 Ei=  -5.9430 Ekin=  34.7741 iekrange=  82 122 fermifac   1.0000
+iq=103 qsym=1 ib=   4 Ei=  -4.8712 Ekin=  35.8459 iekrange= 109 149 fermifac   1.0000
+ k point #         104   input no. of plane waves =        1888
+ k value = -0.100000001      0.100000001       1.26237862E-15
+iq=104 qsym=1 ib=   2 Ei=  -6.7137 Ekin=  34.0034 iekrange=  63 103 fermifac   1.0000
+iq=104 qsym=1 ib=   3 Ei=  -5.3002 Ekin=  35.4169 iekrange=  98 138 fermifac   1.0000
+iq=104 qsym=1 ib=   4 Ei=  -4.4415 Ekin=  36.2756 iekrange= 119 159 fermifac   1.0000
+ k point #         105   input no. of plane waves =        1873
+ k value =  -6.66666701E-02  0.100000001       1.26237862E-15
+iq=105 qsym=1 ib=   2 Ei=  -6.9585 Ekin=  33.7586 iekrange=  57  97 fermifac   1.0000
+iq=105 qsym=1 ib=   3 Ei=  -4.7505 Ekin=  35.9666 iekrange= 112 152 fermifac   1.0000
+iq=105 qsym=1 ib=   4 Ei=  -4.0377 Ekin=  36.6794 iekrange= 130 170 fermifac   1.0000
+ k point #         106   input no. of plane waves =        1862
+ k value =  -3.33333351E-02  0.100000001       1.26237862E-15
+iq=106 qsym=1 ib=   2 Ei=  -7.1433 Ekin=  33.5738 iekrange=  52  92 fermifac   1.0000
+iq=106 qsym=1 ib=   3 Ei=  -4.2973 Ekin=  36.4198 iekrange= 123 163 fermifac   1.0000
+iq=106 qsym=1 ib=   4 Ei=  -3.7111 Ekin=  37.0060 iekrange= 138 178 fermifac   1.0000
+ k point #         107   input no. of plane waves =        1881
+ k value =   3.74700271E-16  0.133333340       1.26237862E-15
+iq=107 qsym=1 ib=   2 Ei=  -7.0509 Ekin=  33.6662 iekrange=  54  94 fermifac   1.0000
+iq=107 qsym=1 ib=   3 Ei=  -4.5842 Ekin=  36.1329 iekrange= 116 156 fermifac   1.0000
+iq=107 qsym=1 ib=   4 Ei=  -3.8125 Ekin=  36.9046 iekrange= 135 175 fermifac   1.0000
+ k point #         108   input no. of plane waves =        1862
+ k value =   3.33333351E-02  0.133333340       1.26237862E-15
+iq=108 qsym=1 ib=   2 Ei=  -7.1433 Ekin=  33.5738 iekrange=  52  92 fermifac   1.0000
+iq=108 qsym=1 ib=   3 Ei=  -4.2973 Ekin=  36.4198 iekrange= 123 163 fermifac   1.0000
+iq=108 qsym=1 ib=   4 Ei=  -3.7111 Ekin=  37.0060 iekrange= 138 178 fermifac   1.0000
+ k point #         109   input no. of plane waves =        1862
+ k value =   6.66666701E-02  0.133333340       1.26237862E-15
+iq=109 qsym=1 ib=   2 Ei=  -7.1740 Ekin=  33.5431 iekrange=  51  91 fermifac   1.0000
+iq=109 qsym=1 ib=   3 Ei=  -4.1823 Ekin=  36.5348 iekrange= 126 166 fermifac   1.0000
+iq=109 qsym=1 ib=   4 Ei=  -3.6948 Ekin=  37.0223 iekrange= 138 178 fermifac   1.0000
+ k point #         110   input no. of plane waves =        1862
+ k value =  0.100000001      0.133333340       1.26237862E-15
+iq=110 qsym=1 ib=   2 Ei=  -7.1433 Ekin=  33.5738 iekrange=  52  92 fermifac   1.0000
+iq=110 qsym=1 ib=   3 Ei=  -4.2973 Ekin=  36.4198 iekrange= 123 163 fermifac   1.0000
+iq=110 qsym=1 ib=   4 Ei=  -3.7111 Ekin=  37.0060 iekrange= 138 178 fermifac   1.0000
+ k point #         111   input no. of plane waves =        1881
+ k value =  0.133333340      0.133333340       1.26237862E-15
+iq=111 qsym=1 ib=   2 Ei=  -7.0509 Ekin=  33.6662 iekrange=  54  94 fermifac   1.0000
+iq=111 qsym=1 ib=   3 Ei=  -4.5842 Ekin=  36.1329 iekrange= 116 156 fermifac   1.0000
+iq=111 qsym=1 ib=   4 Ei=  -3.8125 Ekin=  36.9046 iekrange= 135 175 fermifac   1.0000
+ k point #         112   input no. of plane waves =        1885
+ k value =  0.166666672      0.133333340       1.26237862E-15
+iq=112 qsym=1 ib=   2 Ei=  -6.8975 Ekin=  33.8196 iekrange=  58  98 fermifac   1.0000
+iq=112 qsym=1 ib=   3 Ei=  -4.9719 Ekin=  35.7452 iekrange= 106 146 fermifac   1.0000
+iq=112 qsym=1 ib=   4 Ei=  -4.0475 Ekin=  36.6696 iekrange= 129 169 fermifac   1.0000
+ k point #         113   input no. of plane waves =        1893
+ k value =  0.200000003      0.133333340       1.26237862E-15
+iq=113 qsym=1 ib=   2 Ei=  -6.6833 Ekin=  34.0338 iekrange=  63 103 fermifac   1.0000
+iq=113 qsym=1 ib=   3 Ei=  -5.4280 Ekin=  35.2891 iekrange=  95 135 fermifac   1.0000
+iq=113 qsym=1 ib=   4 Ei=  -4.4129 Ekin=  36.3042 iekrange= 120 160 fermifac   1.0000
+ k point #         114   input no. of plane waves =        1904
+ k value =  0.233333334      0.133333340       1.26237862E-15
+iq=114 qsym=1 ib=   2 Ei=  -6.4098 Ekin=  34.3073 iekrange=  70 110 fermifac   1.0000
+iq=114 qsym=1 ib=   3 Ei=  -5.9430 Ekin=  34.7741 iekrange=  82 122 fermifac   1.0000
+iq=114 qsym=1 ib=   4 Ei=  -4.8711 Ekin=  35.8460 iekrange= 109 149 fermifac   1.0000
+ k point #         115   input no. of plane waves =        1918
+ k value =  0.266666681      0.133333340       1.26237862E-15
+iq=115 qsym=1 ib=   2 Ei=  -6.5253 Ekin=  34.1918 iekrange=  67 107 fermifac   1.0000
+iq=115 qsym=1 ib=   3 Ei=  -6.0782 Ekin=  34.6389 iekrange=  79 119 fermifac   1.0000
+iq=115 qsym=1 ib=   4 Ei=  -5.3644 Ekin=  35.3527 iekrange=  96 136 fermifac   1.0000
+ k point #         116   input no. of plane waves =        1930
+ k value =  0.300000012      0.133333340       1.26237862E-15
+iq=116 qsym=1 ib=   2 Ei=  -7.1834 Ekin=  33.5337 iekrange=  51  91 fermifac   1.0000
+iq=116 qsym=1 ib=   3 Ei=  -5.8383 Ekin=  34.8788 iekrange=  85 125 fermifac   1.0000
+iq=116 qsym=1 ib=   4 Ei=  -5.6908 Ekin=  35.0263 iekrange=  88 128 fermifac   1.0000
+ k point #         117   input no. of plane waves =        1930
+ k value =  0.333333343      0.133333340       1.26237862E-15
+iq=117 qsym=1 ib=   2 Ei=  -7.9110 Ekin=  32.8061 iekrange=  33  73 fermifac   1.0000
+iq=117 qsym=1 ib=   3 Ei=  -6.2611 Ekin=  34.4560 iekrange=  74 114 fermifac   1.0000
+iq=117 qsym=1 ib=   4 Ei=  -5.2507 Ekin=  35.4664 iekrange=  99 139 fermifac   1.0000
+ k point #         118   input no. of plane waves =        1937
+ k value =  0.366666675      0.133333340       1.26237862E-15
+iq=118 qsym=1 ib=   2 Ei=  -8.6877 Ekin=  32.0294 iekrange=  13  53 fermifac   1.0000
+iq=118 qsym=1 ib=   3 Ei=  -6.6249 Ekin=  34.0922 iekrange=  65 105 fermifac   1.0000
+iq=118 qsym=1 ib=   4 Ei=  -4.7620 Ekin=  35.9551 iekrange= 111 151 fermifac   1.0000
+ k point #         119   input no. of plane waves =        1939
+ k value =  0.400000006      0.133333340       1.26237862E-15
+iq=119 qsym=1 ib=   2 Ei=  -9.4888 Ekin=  31.2283 iekrange=   1  33 fermifac   1.0000
+iq=119 qsym=1 ib=   3 Ei=  -6.9300 Ekin=  33.7871 iekrange=  57  97 fermifac   1.0000
+iq=119 qsym=1 ib=   4 Ei=  -4.2314 Ekin=  36.4857 iekrange= 125 165 fermifac   1.0000
+ k point #         120   input no. of plane waves =        1945
+ k value =  0.433333337      0.133333340       1.26237862E-15
+iq=120 qsym=1 ib=   2 Ei= -10.2940 Ekin=  30.4231 iekrange=   1  13 fermifac   1.0000
+iq=120 qsym=1 ib=   3 Ei=  -7.1785 Ekin=  33.5386 iekrange=  51  91 fermifac   1.0000
+iq=120 qsym=1 ib=   4 Ei=  -3.6708 Ekin=  37.0463 iekrange= 139 179 fermifac   1.0000
+ k point #         121   input no. of plane waves =        1945
+ k value =  0.466666669      0.133333340       1.26237862E-15
+iq=121 qsym=1 ib=   3 Ei=  -7.3713 Ekin=  33.3458 iekrange=  46  86 fermifac   1.0000
+iq=121 qsym=1 ib=   4 Ei=  -3.0999 Ekin=  37.6172 iekrange= 153 193 fermifac   1.0000
+ k point #         122   input no. of plane waves =        1949
+ k value =  0.500000000      0.133333340       1.26237862E-15
+iq=122 qsym=1 ib=   3 Ei=  -7.5089 Ekin=  33.2082 iekrange=  43  83 fermifac   1.0000
+iq=122 qsym=1 ib=   4 Ei=  -2.5597 Ekin=  38.1574 iekrange= 167 207 fermifac   1.0000
+ k point #         123   input no. of plane waves =        1947
+ k value = -0.466666669      0.133333340       1.26237862E-15
+iq=123 qsym=1 ib=   3 Ei=  -7.5916 Ekin=  33.1255 iekrange=  41  81 fermifac   1.0000
+iq=123 qsym=1 ib=   4 Ei=  -2.1331 Ekin=  38.5840 iekrange= 177 217 fermifac   1.0000
+ k point #         124   input no. of plane waves =        1940
+ k value = -0.433333337      0.133333340       1.26237862E-15
+iq=124 qsym=1 ib=   3 Ei=  -7.6191 Ekin=  33.0980 iekrange=  40  80 fermifac   1.0000
+iq=124 qsym=1 ib=   4 Ei=  -1.9604 Ekin=  38.7567 iekrange= 181 221 fermifac   1.0000
+ k point #         125   input no. of plane waves =        1947
+ k value = -0.400000006      0.133333340       1.26237862E-15
+iq=125 qsym=1 ib=   3 Ei=  -7.5916 Ekin=  33.1255 iekrange=  41  81 fermifac   1.0000
+iq=125 qsym=1 ib=   4 Ei=  -2.1331 Ekin=  38.5840 iekrange= 177 217 fermifac   1.0000
+ k point #         126   input no. of plane waves =        1949
+ k value = -0.366666675      0.133333340       1.26237862E-15
+iq=126 qsym=1 ib=   3 Ei=  -7.5089 Ekin=  33.2082 iekrange=  43  83 fermifac   1.0000
+iq=126 qsym=1 ib=   4 Ei=  -2.5597 Ekin=  38.1574 iekrange= 167 207 fermifac   1.0000
+ k point #         127   input no. of plane waves =        1945
+ k value = -0.333333343      0.133333340       1.26237862E-15
+iq=127 qsym=1 ib=   3 Ei=  -7.3713 Ekin=  33.3458 iekrange=  46  86 fermifac   1.0000
+iq=127 qsym=1 ib=   4 Ei=  -3.0999 Ekin=  37.6172 iekrange= 153 193 fermifac   1.0000
+ k point #         128   input no. of plane waves =        1945
+ k value = -0.300000012      0.133333340       1.26237862E-15
+iq=128 qsym=1 ib=   2 Ei= -10.2940 Ekin=  30.4231 iekrange=   1  13 fermifac   1.0000
+iq=128 qsym=1 ib=   3 Ei=  -7.1785 Ekin=  33.5386 iekrange=  51  91 fermifac   1.0000
+iq=128 qsym=1 ib=   4 Ei=  -3.6708 Ekin=  37.0463 iekrange= 139 179 fermifac   1.0000
+ k point #         129   input no. of plane waves =        1939
+ k value = -0.266666681      0.133333340       1.26237862E-15
+iq=129 qsym=1 ib=   2 Ei=  -9.4888 Ekin=  31.2283 iekrange=   1  33 fermifac   1.0000
+iq=129 qsym=1 ib=   3 Ei=  -6.9300 Ekin=  33.7871 iekrange=  57  97 fermifac   1.0000
+iq=129 qsym=1 ib=   4 Ei=  -4.2314 Ekin=  36.4857 iekrange= 125 165 fermifac   1.0000
+ k point #         130   input no. of plane waves =        1937
+ k value = -0.233333334      0.133333340       1.26237862E-15
+iq=130 qsym=1 ib=   2 Ei=  -8.6877 Ekin=  32.0294 iekrange=  13  53 fermifac   1.0000
+iq=130 qsym=1 ib=   3 Ei=  -6.6249 Ekin=  34.0922 iekrange=  65 105 fermifac   1.0000
+iq=130 qsym=1 ib=   4 Ei=  -4.7620 Ekin=  35.9551 iekrange= 111 151 fermifac   1.0000
+ k point #         131   input no. of plane waves =        1930
+ k value = -0.200000003      0.133333340       1.26237862E-15
+iq=131 qsym=1 ib=   2 Ei=  -7.9110 Ekin=  32.8061 iekrange=  33  73 fermifac   1.0000
+iq=131 qsym=1 ib=   3 Ei=  -6.2611 Ekin=  34.4560 iekrange=  74 114 fermifac   1.0000
+iq=131 qsym=1 ib=   4 Ei=  -5.2507 Ekin=  35.4664 iekrange=  99 139 fermifac   1.0000
+ k point #         132   input no. of plane waves =        1930
+ k value = -0.166666672      0.133333340       1.26237862E-15
+iq=132 qsym=1 ib=   2 Ei=  -7.1834 Ekin=  33.5337 iekrange=  51  91 fermifac   1.0000
+iq=132 qsym=1 ib=   3 Ei=  -5.8383 Ekin=  34.8788 iekrange=  85 125 fermifac   1.0000
+iq=132 qsym=1 ib=   4 Ei=  -5.6908 Ekin=  35.0263 iekrange=  88 128 fermifac   1.0000
+ k point #         133   input no. of plane waves =        1918
+ k value = -0.133333340      0.133333340       1.26237862E-15
+iq=133 qsym=1 ib=   2 Ei=  -6.5252 Ekin=  34.1919 iekrange=  67 107 fermifac   1.0000
+iq=133 qsym=1 ib=   3 Ei=  -6.0782 Ekin=  34.6389 iekrange=  79 119 fermifac   1.0000
+iq=133 qsym=1 ib=   4 Ei=  -5.3644 Ekin=  35.3527 iekrange=  96 136 fermifac   1.0000
+ k point #         134   input no. of plane waves =        1904
+ k value = -0.100000001      0.133333340       1.26237862E-15
+iq=134 qsym=1 ib=   2 Ei=  -6.4098 Ekin=  34.3073 iekrange=  70 110 fermifac   1.0000
+iq=134 qsym=1 ib=   3 Ei=  -5.9430 Ekin=  34.7741 iekrange=  82 122 fermifac   1.0000
+iq=134 qsym=1 ib=   4 Ei=  -4.8712 Ekin=  35.8459 iekrange= 109 149 fermifac   1.0000
+ k point #         135   input no. of plane waves =        1893
+ k value =  -6.66666701E-02  0.133333340       1.26237862E-15
+iq=135 qsym=1 ib=   2 Ei=  -6.6833 Ekin=  34.0338 iekrange=  63 103 fermifac   1.0000
+iq=135 qsym=1 ib=   3 Ei=  -5.4280 Ekin=  35.2891 iekrange=  95 135 fermifac   1.0000
+iq=135 qsym=1 ib=   4 Ei=  -4.4129 Ekin=  36.3042 iekrange= 120 160 fermifac   1.0000
+ k point #         136   input no. of plane waves =        1885
+ k value =  -3.33333351E-02  0.133333340       1.26237862E-15
+iq=136 qsym=1 ib=   2 Ei=  -6.8975 Ekin=  33.8196 iekrange=  58  98 fermifac   1.0000
+iq=136 qsym=1 ib=   3 Ei=  -4.9719 Ekin=  35.7452 iekrange= 106 146 fermifac   1.0000
+iq=136 qsym=1 ib=   4 Ei=  -4.0475 Ekin=  36.6696 iekrange= 129 169 fermifac   1.0000
+ k point #         137   input no. of plane waves =        1891
+ k value =   3.88578059E-16  0.166666672       1.26237862E-15
+iq=137 qsym=1 ib=   2 Ei=  -6.7752 Ekin=  33.9419 iekrange=  61 101 fermifac   1.0000
+iq=137 qsym=1 ib=   3 Ei=  -5.3197 Ekin=  35.3974 iekrange=  98 138 fermifac   1.0000
+iq=137 qsym=1 ib=   4 Ei=  -4.1549 Ekin=  36.5622 iekrange= 127 167 fermifac   1.0000
+ k point #         138   input no. of plane waves =        1885
+ k value =   3.33333351E-02  0.166666672       1.26237862E-15
+iq=138 qsym=1 ib=   2 Ei=  -6.8975 Ekin=  33.8196 iekrange=  58  98 fermifac   1.0000
+iq=138 qsym=1 ib=   3 Ei=  -4.9719 Ekin=  35.7452 iekrange= 106 146 fermifac   1.0000
+iq=138 qsym=1 ib=   4 Ei=  -4.0475 Ekin=  36.6696 iekrange= 129 169 fermifac   1.0000
+ k point #         139   input no. of plane waves =        1873
+ k value =   6.66666701E-02  0.166666672       1.26237862E-15
+iq=139 qsym=1 ib=   2 Ei=  -6.9585 Ekin=  33.7586 iekrange=  57  97 fermifac   1.0000
+iq=139 qsym=1 ib=   3 Ei=  -4.7505 Ekin=  35.9666 iekrange= 112 152 fermifac   1.0000
+iq=139 qsym=1 ib=   4 Ei=  -4.0377 Ekin=  36.6794 iekrange= 130 170 fermifac   1.0000
+ k point #         140   input no. of plane waves =        1873
+ k value =  0.100000001      0.166666672       1.26237862E-15
+iq=140 qsym=1 ib=   2 Ei=  -6.9585 Ekin=  33.7586 iekrange=  57  97 fermifac   1.0000
+iq=140 qsym=1 ib=   3 Ei=  -4.7505 Ekin=  35.9666 iekrange= 112 152 fermifac   1.0000
+iq=140 qsym=1 ib=   4 Ei=  -4.0377 Ekin=  36.6794 iekrange= 130 170 fermifac   1.0000
+ k point #         141   input no. of plane waves =        1885
+ k value =  0.133333340      0.166666672       1.26237862E-15
+iq=141 qsym=1 ib=   2 Ei=  -6.8975 Ekin=  33.8196 iekrange=  58  98 fermifac   1.0000
+iq=141 qsym=1 ib=   3 Ei=  -4.9719 Ekin=  35.7452 iekrange= 106 146 fermifac   1.0000
+iq=141 qsym=1 ib=   4 Ei=  -4.0475 Ekin=  36.6696 iekrange= 129 169 fermifac   1.0000
+ k point #         142   input no. of plane waves =        1891
+ k value =  0.166666672      0.166666672       1.26237862E-15
+iq=142 qsym=1 ib=   2 Ei=  -6.7752 Ekin=  33.9419 iekrange=  61 101 fermifac   1.0000
+iq=142 qsym=1 ib=   3 Ei=  -5.3197 Ekin=  35.3974 iekrange=  98 138 fermifac   1.0000
+iq=142 qsym=1 ib=   4 Ei=  -4.1549 Ekin=  36.5622 iekrange= 127 167 fermifac   1.0000
+ k point #         143   input no. of plane waves =        1895
+ k value =  0.200000003      0.166666672       1.26237862E-15
+iq=143 qsym=1 ib=   2 Ei=  -6.5924 Ekin=  34.1247 iekrange=  66 106 fermifac   1.0000
+iq=143 qsym=1 ib=   3 Ei=  -5.7342 Ekin=  34.9829 iekrange=  87 127 fermifac   1.0000
+iq=143 qsym=1 ib=   4 Ei=  -4.4045 Ekin=  36.3126 iekrange= 120 160 fermifac   1.0000
+ k point #         144   input no. of plane waves =        1907
+ k value =  0.233333334      0.166666672       1.26237862E-15
+iq=144 qsym=1 ib=   2 Ei=  -6.3497 Ekin=  34.3674 iekrange=  72 112 fermifac   1.0000
+iq=144 qsym=1 ib=   3 Ei=  -6.1867 Ekin=  34.5304 iekrange=  76 116 fermifac   1.0000
+iq=144 qsym=1 ib=   4 Ei=  -4.7937 Ekin=  35.9234 iekrange= 111 151 fermifac   1.0000
+ k point #         145   input no. of plane waves =        1920
+ k value =  0.266666681      0.166666672       1.26237862E-15
+iq=145 qsym=1 ib=   2 Ei=  -6.6678 Ekin=  34.0493 iekrange=  64 104 fermifac   1.0000
+iq=145 qsym=1 ib=   3 Ei=  -6.0486 Ekin=  34.6685 iekrange=  79 119 fermifac   1.0000
+iq=145 qsym=1 ib=   4 Ei=  -5.2889 Ekin=  35.4282 iekrange=  98 138 fermifac   1.0000
+ k point #         146   input no. of plane waves =        1930
+ k value =  0.300000012      0.166666672       1.26237862E-15
+iq=146 qsym=1 ib=   2 Ei=  -7.1834 Ekin=  33.5337 iekrange=  51  91 fermifac   1.0000
+iq=146 qsym=1 ib=   3 Ei=  -5.8383 Ekin=  34.8788 iekrange=  85 125 fermifac   1.0000
+iq=146 qsym=1 ib=   4 Ei=  -5.6908 Ekin=  35.0263 iekrange=  88 128 fermifac   1.0000
+ k point #         147   input no. of plane waves =        1928
+ k value =  0.333333343      0.166666672       1.26237862E-15
+iq=147 qsym=1 ib=   2 Ei=  -7.7522 Ekin=  32.9649 iekrange=  37  77 fermifac   1.0000
+iq=147 qsym=1 ib=   3 Ei=  -6.3806 Ekin=  34.3365 iekrange=  71 111 fermifac   1.0000
+iq=147 qsym=1 ib=   4 Ei=  -5.2790 Ekin=  35.4381 iekrange=  99 139 fermifac   1.0000
+ k point #         148   input no. of plane waves =        1938
+ k value =  0.366666675      0.166666672       1.26237862E-15
+iq=148 qsym=1 ib=   2 Ei=  -8.3923 Ekin=  32.3248 iekrange=  21  61 fermifac   1.0000
+iq=148 qsym=1 ib=   3 Ei=  -6.8628 Ekin=  33.8543 iekrange=  59  99 fermifac   1.0000
+iq=148 qsym=1 ib=   4 Ei=  -4.8166 Ekin=  35.9005 iekrange= 110 150 fermifac   1.0000
+ k point #         149   input no. of plane waves =        1936
+ k value =  0.400000006      0.166666672       1.26237862E-15
+iq=149 qsym=1 ib=   2 Ei=  -9.0987 Ekin=  31.6184 iekrange=   3  43 fermifac   1.0000
+iq=149 qsym=1 ib=   3 Ei=  -7.2615 Ekin=  33.4556 iekrange=  49  89 fermifac   1.0000
+iq=149 qsym=1 ib=   4 Ei=  -4.3084 Ekin=  36.4087 iekrange= 123 163 fermifac   1.0000
+ k point #         150   input no. of plane waves =        1949
+ k value =  0.433333337      0.166666672       1.26237862E-15
+iq=150 qsym=1 ib=   2 Ei=  -9.8472 Ekin=  30.8699 iekrange=   1  24 fermifac   1.0000
+iq=150 qsym=1 ib=   3 Ei=  -7.5793 Ekin=  33.1378 iekrange=  41  81 fermifac   1.0000
+iq=150 qsym=1 ib=   4 Ei=  -3.7631 Ekin=  36.9540 iekrange= 136 176 fermifac   1.0000
+ k point #         151   input no. of plane waves =        1953
+ k value =  0.466666669      0.166666672       1.26237862E-15
+iq=151 qsym=1 ib=   2 Ei= -10.6105 Ekin=  30.1066 iekrange=   1   5 fermifac   1.0000
+iq=151 qsym=1 ib=   3 Ei=  -7.8245 Ekin=  32.8926 iekrange=  35  75 fermifac   1.0000
+iq=151 qsym=1 ib=   4 Ei=  -3.1942 Ekin=  37.5229 iekrange= 151 191 fermifac   1.0000
+ k point #         152   input no. of plane waves =        1951
+ k value =  0.500000000      0.166666672       1.26237862E-15
+iq=152 qsym=1 ib=   3 Ei=  -8.0042 Ekin=  32.7129 iekrange=  30  70 fermifac   1.0000
+iq=152 qsym=1 ib=   4 Ei=  -2.6291 Ekin=  38.0880 iekrange= 165 205 fermifac   1.0000
+ k point #         153   input no. of plane waves =        1951
+ k value = -0.466666669      0.166666672       1.26237862E-15
+iq=153 qsym=1 ib=   3 Ei=  -8.1223 Ekin=  32.5948 iekrange=  27  67 fermifac   1.0000
+iq=153 qsym=1 ib=   4 Ei=  -2.1239 Ekin=  38.5932 iekrange= 177 217 fermifac   1.0000
+ k point #         154   input no. of plane waves =        1947
+ k value = -0.433333337      0.166666672       1.26237862E-15
+iq=154 qsym=1 ib=   3 Ei=  -8.1810 Ekin=  32.5361 iekrange=  26  66 fermifac   1.0000
+iq=154 qsym=1 ib=   4 Ei=  -1.7946 Ekin=  38.9225 iekrange= 186 226 fermifac   1.0000
+ k point #         155   input no. of plane waves =        1947
+ k value = -0.400000006      0.166666672       1.26237862E-15
+iq=155 qsym=1 ib=   3 Ei=  -8.1810 Ekin=  32.5361 iekrange=  26  66 fermifac   1.0000
+iq=155 qsym=1 ib=   4 Ei=  -1.7946 Ekin=  38.9225 iekrange= 186 226 fermifac   1.0000
+ k point #         156   input no. of plane waves =        1951
+ k value = -0.366666675      0.166666672       1.26237862E-15
+iq=156 qsym=1 ib=   3 Ei=  -8.1223 Ekin=  32.5948 iekrange=  27  67 fermifac   1.0000
+iq=156 qsym=1 ib=   4 Ei=  -2.1239 Ekin=  38.5932 iekrange= 177 217 fermifac   1.0000
+ k point #         157   input no. of plane waves =        1951
+ k value = -0.333333343      0.166666672       1.26237862E-15
+iq=157 qsym=1 ib=   3 Ei=  -8.0042 Ekin=  32.7129 iekrange=  30  70 fermifac   1.0000
+iq=157 qsym=1 ib=   4 Ei=  -2.6291 Ekin=  38.0880 iekrange= 165 205 fermifac   1.0000
+ k point #         158   input no. of plane waves =        1953
+ k value = -0.300000012      0.166666672       1.26237862E-15
+iq=158 qsym=1 ib=   2 Ei= -10.6105 Ekin=  30.1066 iekrange=   1   5 fermifac   1.0000
+iq=158 qsym=1 ib=   3 Ei=  -7.8245 Ekin=  32.8926 iekrange=  35  75 fermifac   1.0000
+iq=158 qsym=1 ib=   4 Ei=  -3.1942 Ekin=  37.5229 iekrange= 151 191 fermifac   1.0000
+ k point #         159   input no. of plane waves =        1949
+ k value = -0.266666681      0.166666672       1.26237862E-15
+iq=159 qsym=1 ib=   2 Ei=  -9.8472 Ekin=  30.8699 iekrange=   1  24 fermifac   1.0000
+iq=159 qsym=1 ib=   3 Ei=  -7.5793 Ekin=  33.1378 iekrange=  41  81 fermifac   1.0000
+iq=159 qsym=1 ib=   4 Ei=  -3.7631 Ekin=  36.9540 iekrange= 136 176 fermifac   1.0000
+ k point #         160   input no. of plane waves =        1936
+ k value = -0.233333334      0.166666672       1.26237862E-15
+iq=160 qsym=1 ib=   2 Ei=  -9.0987 Ekin=  31.6184 iekrange=   3  43 fermifac   1.0000
+iq=160 qsym=1 ib=   3 Ei=  -7.2615 Ekin=  33.4556 iekrange=  49  89 fermifac   1.0000
+iq=160 qsym=1 ib=   4 Ei=  -4.3084 Ekin=  36.4087 iekrange= 123 163 fermifac   1.0000
+ k point #         161   input no. of plane waves =        1938
+ k value = -0.200000003      0.166666672       1.26237862E-15
+iq=161 qsym=1 ib=   2 Ei=  -8.3923 Ekin=  32.3248 iekrange=  21  61 fermifac   1.0000
+iq=161 qsym=1 ib=   3 Ei=  -6.8628 Ekin=  33.8543 iekrange=  59  99 fermifac   1.0000
+iq=161 qsym=1 ib=   4 Ei=  -4.8166 Ekin=  35.9005 iekrange= 110 150 fermifac   1.0000
+ k point #         162   input no. of plane waves =        1928
+ k value = -0.166666672      0.166666672       1.26237862E-15
+iq=162 qsym=1 ib=   2 Ei=  -7.7522 Ekin=  32.9649 iekrange=  37  77 fermifac   1.0000
+iq=162 qsym=1 ib=   3 Ei=  -6.3806 Ekin=  34.3365 iekrange=  71 111 fermifac   1.0000
+iq=162 qsym=1 ib=   4 Ei=  -5.2790 Ekin=  35.4381 iekrange=  99 139 fermifac   1.0000
+ k point #         163   input no. of plane waves =        1930
+ k value = -0.133333340      0.166666672       1.26237862E-15
+iq=163 qsym=1 ib=   2 Ei=  -7.1834 Ekin=  33.5337 iekrange=  51  91 fermifac   1.0000
+iq=163 qsym=1 ib=   3 Ei=  -5.8383 Ekin=  34.8788 iekrange=  85 125 fermifac   1.0000
+iq=163 qsym=1 ib=   4 Ei=  -5.6908 Ekin=  35.0263 iekrange=  88 128 fermifac   1.0000
+ k point #         164   input no. of plane waves =        1920
+ k value = -0.100000001      0.166666672       1.26237862E-15
+iq=164 qsym=1 ib=   2 Ei=  -6.6678 Ekin=  34.0493 iekrange=  64 104 fermifac   1.0000
+iq=164 qsym=1 ib=   3 Ei=  -6.0486 Ekin=  34.6685 iekrange=  79 119 fermifac   1.0000
+iq=164 qsym=1 ib=   4 Ei=  -5.2889 Ekin=  35.4282 iekrange=  98 138 fermifac   1.0000
+ k point #         165   input no. of plane waves =        1907
+ k value =  -6.66666701E-02  0.166666672       1.26237862E-15
+iq=165 qsym=1 ib=   2 Ei=  -6.3497 Ekin=  34.3674 iekrange=  72 112 fermifac   1.0000
+iq=165 qsym=1 ib=   3 Ei=  -6.1867 Ekin=  34.5304 iekrange=  76 116 fermifac   1.0000
+iq=165 qsym=1 ib=   4 Ei=  -4.7937 Ekin=  35.9234 iekrange= 111 151 fermifac   1.0000
+ k point #         166   input no. of plane waves =        1895
+ k value =  -3.33333351E-02  0.166666672       1.26237862E-15
+iq=166 qsym=1 ib=   2 Ei=  -6.5924 Ekin=  34.1247 iekrange=  66 106 fermifac   1.0000
+iq=166 qsym=1 ib=   3 Ei=  -5.7342 Ekin=  34.9829 iekrange=  87 127 fermifac   1.0000
+iq=166 qsym=1 ib=   4 Ei=  -4.4045 Ekin=  36.3126 iekrange= 120 160 fermifac   1.0000
+ k point #         167   input no. of plane waves =        1907
+ k value =   3.88578059E-16  0.200000003       1.26237862E-15
+iq=167 qsym=1 ib=   2 Ei=  -6.4408 Ekin=  34.2763 iekrange=  69 109 fermifac   1.0000
+iq=167 qsym=1 ib=   3 Ei=  -6.1260 Ekin=  34.5911 iekrange=  77 117 fermifac   1.0000
+iq=167 qsym=1 ib=   4 Ei=  -4.5097 Ekin=  36.2074 iekrange= 118 158 fermifac   1.0000
+ k point #         168   input no. of plane waves =        1895
+ k value =   3.33333351E-02  0.200000003       1.26237862E-15
+iq=168 qsym=1 ib=   2 Ei=  -6.5924 Ekin=  34.1247 iekrange=  66 106 fermifac   1.0000
+iq=168 qsym=1 ib=   3 Ei=  -5.7342 Ekin=  34.9829 iekrange=  87 127 fermifac   1.0000
+iq=168 qsym=1 ib=   4 Ei=  -4.4045 Ekin=  36.3126 iekrange= 120 160 fermifac   1.0000
+ k point #         169   input no. of plane waves =        1893
+ k value =   6.66666701E-02  0.200000003       1.26237862E-15
+iq=169 qsym=1 ib=   2 Ei=  -6.6833 Ekin=  34.0338 iekrange=  63 103 fermifac   1.0000
+iq=169 qsym=1 ib=   3 Ei=  -5.4280 Ekin=  35.2891 iekrange=  95 135 fermifac   1.0000
+iq=169 qsym=1 ib=   4 Ei=  -4.4129 Ekin=  36.3042 iekrange= 120 160 fermifac   1.0000
+ k point #         170   input no. of plane waves =        1888
+ k value =  0.100000001      0.200000003       1.26237862E-15
+iq=170 qsym=1 ib=   2 Ei=  -6.7137 Ekin=  34.0034 iekrange=  63 103 fermifac   1.0000
+iq=170 qsym=1 ib=   3 Ei=  -5.3002 Ekin=  35.4169 iekrange=  98 138 fermifac   1.0000
+iq=170 qsym=1 ib=   4 Ei=  -4.4414 Ekin=  36.2757 iekrange= 119 159 fermifac   1.0000
+ k point #         171   input no. of plane waves =        1893
+ k value =  0.133333340      0.200000003       1.26237862E-15
+iq=171 qsym=1 ib=   2 Ei=  -6.6833 Ekin=  34.0338 iekrange=  63 103 fermifac   1.0000
+iq=171 qsym=1 ib=   3 Ei=  -5.4280 Ekin=  35.2891 iekrange=  95 135 fermifac   1.0000
+iq=171 qsym=1 ib=   4 Ei=  -4.4129 Ekin=  36.3042 iekrange= 120 160 fermifac   1.0000
+ k point #         172   input no. of plane waves =        1895
+ k value =  0.166666672      0.200000003       1.26237862E-15
+iq=172 qsym=1 ib=   2 Ei=  -6.5924 Ekin=  34.1247 iekrange=  66 106 fermifac   1.0000
+iq=172 qsym=1 ib=   3 Ei=  -5.7342 Ekin=  34.9829 iekrange=  87 127 fermifac   1.0000
+iq=172 qsym=1 ib=   4 Ei=  -4.4045 Ekin=  36.3126 iekrange= 120 160 fermifac   1.0000
+ k point #         173   input no. of plane waves =        1907
+ k value =  0.200000003      0.200000003       1.26237862E-15
+iq=173 qsym=1 ib=   2 Ei=  -6.4408 Ekin=  34.2763 iekrange=  69 109 fermifac   1.0000
+iq=173 qsym=1 ib=   3 Ei=  -6.1260 Ekin=  34.5911 iekrange=  77 117 fermifac   1.0000
+iq=173 qsym=1 ib=   4 Ei=  -4.5097 Ekin=  36.2074 iekrange= 118 158 fermifac   1.0000
+ k point #         174   input no. of plane waves =        1908
+ k value =  0.233333334      0.200000003       1.26237862E-15
+iq=174 qsym=1 ib=   2 Ei=  -6.5556 Ekin=  34.1615 iekrange=  67 107 fermifac   1.0000
+iq=174 qsym=1 ib=   3 Ei=  -6.2297 Ekin=  34.4874 iekrange=  75 115 fermifac   1.0000
+iq=174 qsym=1 ib=   4 Ei=  -4.7632 Ekin=  35.9539 iekrange= 111 151 fermifac   1.0000
+ k point #         175   input no. of plane waves =        1913
+ k value =  0.266666681      0.200000003       1.26237862E-15
+iq=175 qsym=1 ib=   2 Ei=  -7.0007 Ekin=  33.7164 iekrange=  55  95 fermifac   1.0000
+iq=175 qsym=1 ib=   3 Ei=  -5.9596 Ekin=  34.7575 iekrange=  82 122 fermifac   1.0000
+iq=175 qsym=1 ib=   4 Ei=  -5.1619 Ekin=  35.5552 iekrange= 101 141 fermifac   1.0000
+ k point #         176   input no. of plane waves =        1922
+ k value =  0.300000012      0.200000003       1.26237862E-15
+iq=176 qsym=1 ib=   2 Ei=  -7.4521 Ekin=  33.2650 iekrange=  44  84 fermifac   1.0000
+iq=176 qsym=1 ib=   3 Ei=  -5.6759 Ekin=  35.0412 iekrange=  89 129 fermifac   1.0000
+iq=176 qsym=1 ib=   4 Ei=  -5.6327 Ekin=  35.0844 iekrange=  90 130 fermifac   1.0000
+ k point #         177   input no. of plane waves =        1930
+ k value =  0.333333343      0.200000003       1.26237862E-15
+iq=177 qsym=1 ib=   2 Ei=  -7.9110 Ekin=  32.8061 iekrange=  33  73 fermifac   1.0000
+iq=177 qsym=1 ib=   3 Ei=  -6.2611 Ekin=  34.4560 iekrange=  74 114 fermifac   1.0000
+iq=177 qsym=1 ib=   4 Ei=  -5.2507 Ekin=  35.4664 iekrange=  99 139 fermifac   1.0000
+ k point #         178   input no. of plane waves =        1938
+ k value =  0.366666675      0.200000003       1.26237862E-15
+iq=178 qsym=1 ib=   2 Ei=  -8.3923 Ekin=  32.3248 iekrange=  21  61 fermifac   1.0000
+iq=178 qsym=1 ib=   3 Ei=  -6.8628 Ekin=  33.8543 iekrange=  59  99 fermifac   1.0000
+iq=178 qsym=1 ib=   4 Ei=  -4.8166 Ekin=  35.9005 iekrange= 110 150 fermifac   1.0000
+ k point #         179   input no. of plane waves =        1938
+ k value =  0.400000006      0.200000003       1.26237862E-15
+iq=179 qsym=1 ib=   2 Ei=  -8.9232 Ekin=  31.7939 iekrange=   7  47 fermifac   1.0000
+iq=179 qsym=1 ib=   3 Ei=  -7.4191 Ekin=  33.2980 iekrange=  45  85 fermifac   1.0000
+iq=179 qsym=1 ib=   4 Ei=  -4.3343 Ekin=  36.3828 iekrange= 122 162 fermifac   1.0000
+ k point #         180   input no. of plane waves =        1948
+ k value =  0.433333337      0.200000003       1.26237862E-15
+iq=180 qsym=1 ib=   2 Ei=  -9.5268 Ekin=  31.1903 iekrange=   1  32 fermifac   1.0000
+iq=180 qsym=1 ib=   3 Ei=  -7.8810 Ekin=  32.8361 iekrange=  33  73 fermifac   1.0000
+iq=180 qsym=1 ib=   4 Ei=  -3.8102 Ekin=  36.9069 iekrange= 135 175 fermifac   1.0000
+ k point #         181   input no. of plane waves =        1936
+ k value =  0.466666669      0.200000003       1.26237862E-15
+iq=181 qsym=1 ib=   2 Ei= -10.1961 Ekin=  30.5210 iekrange=   1  16 fermifac   1.0000
+iq=181 qsym=1 ib=   3 Ei=  -8.2327 Ekin=  32.4844 iekrange=  25  65 fermifac   1.0000
+iq=181 qsym=1 ib=   4 Ei=  -3.2525 Ekin=  37.4646 iekrange= 149 189 fermifac   1.0000
+ k point #         182   input no. of plane waves =        1947
+ k value =  0.500000000      0.200000003       1.26237862E-15
+iq=182 qsym=1 ib=   3 Ei=  -8.4870 Ekin=  32.2301 iekrange=  18  58 fermifac   1.0000
+iq=182 qsym=1 ib=   4 Ei=  -2.6808 Ekin=  38.0363 iekrange= 163 203 fermifac   1.0000
+ k point #         183   input no. of plane waves =        1949
+ k value = -0.466666669      0.200000003       1.26237862E-15
+iq=183 qsym=1 ib=   3 Ei=  -8.6589 Ekin=  32.0582 iekrange=  14  54 fermifac   1.0000
+iq=183 qsym=1 ib=   4 Ei=  -2.1293 Ekin=  38.5878 iekrange= 177 217 fermifac   1.0000
+ k point #         184   input no. of plane waves =        1937
+ k value = -0.433333337      0.200000003       1.26237862E-15
+iq=184 qsym=1 ib=   3 Ei=  -8.7587 Ekin=  31.9584 iekrange=  12  52 fermifac   1.0000
+iq=184 qsym=1 ib=   4 Ei=  -1.6781 Ekin=  39.0390 iekrange= 189 229 fermifac   1.0000
+ k point #         185   input no. of plane waves =        1928
+ k value = -0.400000006      0.200000003       1.26237862E-15
+iq=185 qsym=1 ib=   3 Ei=  -8.7914 Ekin=  31.9257 iekrange=  11  51 fermifac   1.0000
+iq=185 qsym=1 ib=   4 Ei=  -1.4876 Ekin=  39.2295 iekrange= 193 233 fermifac   1.0000
+ k point #         186   input no. of plane waves =        1937
+ k value = -0.366666675      0.200000003       1.26237862E-15
+iq=186 qsym=1 ib=   3 Ei=  -8.7587 Ekin=  31.9584 iekrange=  12  52 fermifac   1.0000
+iq=186 qsym=1 ib=   4 Ei=  -1.6781 Ekin=  39.0390 iekrange= 189 229 fermifac   1.0000
+ k point #         187   input no. of plane waves =        1949
+ k value = -0.333333343      0.200000003       1.26237862E-15
+iq=187 qsym=1 ib=   3 Ei=  -8.6589 Ekin=  32.0582 iekrange=  14  54 fermifac   1.0000
+iq=187 qsym=1 ib=   4 Ei=  -2.1293 Ekin=  38.5878 iekrange= 177 217 fermifac   1.0000
+ k point #         188   input no. of plane waves =        1947
+ k value = -0.300000012      0.200000003       1.26237862E-15
+iq=188 qsym=1 ib=   3 Ei=  -8.4870 Ekin=  32.2301 iekrange=  18  58 fermifac   1.0000
+iq=188 qsym=1 ib=   4 Ei=  -2.6808 Ekin=  38.0363 iekrange= 163 203 fermifac   1.0000
+ k point #         189   input no. of plane waves =        1936
+ k value = -0.266666681      0.200000003       1.26237862E-15
+iq=189 qsym=1 ib=   2 Ei= -10.1961 Ekin=  30.5210 iekrange=   1  16 fermifac   1.0000
+iq=189 qsym=1 ib=   3 Ei=  -8.2327 Ekin=  32.4844 iekrange=  25  65 fermifac   1.0000
+iq=189 qsym=1 ib=   4 Ei=  -3.2525 Ekin=  37.4646 iekrange= 149 189 fermifac   1.0000
+ k point #         190   input no. of plane waves =        1948
+ k value = -0.233333334      0.200000003       1.26237862E-15
+iq=190 qsym=1 ib=   2 Ei=  -9.5268 Ekin=  31.1903 iekrange=   1  32 fermifac   1.0000
+iq=190 qsym=1 ib=   3 Ei=  -7.8810 Ekin=  32.8361 iekrange=  33  73 fermifac   1.0000
+iq=190 qsym=1 ib=   4 Ei=  -3.8102 Ekin=  36.9069 iekrange= 135 175 fermifac   1.0000
+ k point #         191   input no. of plane waves =        1938
+ k value = -0.200000003      0.200000003       1.26237862E-15
+iq=191 qsym=1 ib=   2 Ei=  -8.9232 Ekin=  31.7939 iekrange=   7  47 fermifac   1.0000
+iq=191 qsym=1 ib=   3 Ei=  -7.4191 Ekin=  33.2980 iekrange=  45  85 fermifac   1.0000
+iq=191 qsym=1 ib=   4 Ei=  -4.3343 Ekin=  36.3828 iekrange= 122 162 fermifac   1.0000
+ k point #         192   input no. of plane waves =        1938
+ k value = -0.166666672      0.200000003       1.26237862E-15
+iq=192 qsym=1 ib=   2 Ei=  -8.3923 Ekin=  32.3248 iekrange=  21  61 fermifac   1.0000
+iq=192 qsym=1 ib=   3 Ei=  -6.8628 Ekin=  33.8543 iekrange=  59  99 fermifac   1.0000
+iq=192 qsym=1 ib=   4 Ei=  -4.8166 Ekin=  35.9005 iekrange= 110 150 fermifac   1.0000
+ k point #         193   input no. of plane waves =        1930
+ k value = -0.133333340      0.200000003       1.26237862E-15
+iq=193 qsym=1 ib=   2 Ei=  -7.9110 Ekin=  32.8061 iekrange=  33  73 fermifac   1.0000
+iq=193 qsym=1 ib=   3 Ei=  -6.2611 Ekin=  34.4560 iekrange=  74 114 fermifac   1.0000
+iq=193 qsym=1 ib=   4 Ei=  -5.2507 Ekin=  35.4664 iekrange=  99 139 fermifac   1.0000
+ k point #         194   input no. of plane waves =        1922
+ k value = -0.100000001      0.200000003       1.26237862E-15
+iq=194 qsym=1 ib=   2 Ei=  -7.4521 Ekin=  33.2650 iekrange=  44  84 fermifac   1.0000
+iq=194 qsym=1 ib=   3 Ei=  -5.6759 Ekin=  35.0412 iekrange=  89 129 fermifac   1.0000
+iq=194 qsym=1 ib=   4 Ei=  -5.6327 Ekin=  35.0844 iekrange=  90 130 fermifac   1.0000
+ k point #         195   input no. of plane waves =        1913
+ k value =  -6.66666701E-02  0.200000003       1.26237862E-15
+iq=195 qsym=1 ib=   2 Ei=  -7.0007 Ekin=  33.7164 iekrange=  55  95 fermifac   1.0000
+iq=195 qsym=1 ib=   3 Ei=  -5.9596 Ekin=  34.7575 iekrange=  82 122 fermifac   1.0000
+iq=195 qsym=1 ib=   4 Ei=  -5.1619 Ekin=  35.5552 iekrange= 101 141 fermifac   1.0000
+ k point #         196   input no. of plane waves =        1908
+ k value =  -3.33333351E-02  0.200000003       1.26237862E-15
+iq=196 qsym=1 ib=   2 Ei=  -6.5556 Ekin=  34.1615 iekrange=  67 107 fermifac   1.0000
+iq=196 qsym=1 ib=   3 Ei=  -6.2297 Ekin=  34.4874 iekrange=  75 115 fermifac   1.0000
+iq=196 qsym=1 ib=   4 Ei=  -4.7632 Ekin=  35.9539 iekrange= 111 151 fermifac   1.0000
+ k point #         197   input no. of plane waves =        1919
+ k value =   3.88578059E-16  0.233333334       1.26237862E-15
+iq=197 qsym=1 ib=   2 Ei=  -6.9755 Ekin=  33.7416 iekrange=  56  96 fermifac   1.0000
+iq=197 qsym=1 ib=   3 Ei=  -6.0501 Ekin=  34.6670 iekrange=  79 119 fermifac   1.0000
+iq=197 qsym=1 ib=   4 Ei=  -4.8589 Ekin=  35.8582 iekrange= 109 149 fermifac   1.0000
+ k point #         198   input no. of plane waves =        1908
+ k value =   3.33333351E-02  0.233333334       1.26237862E-15
+iq=198 qsym=1 ib=   2 Ei=  -6.5556 Ekin=  34.1615 iekrange=  67 107 fermifac   1.0000
+iq=198 qsym=1 ib=   3 Ei=  -6.2297 Ekin=  34.4874 iekrange=  75 115 fermifac   1.0000
+iq=198 qsym=1 ib=   4 Ei=  -4.7632 Ekin=  35.9539 iekrange= 111 151 fermifac   1.0000
+ k point #         199   input no. of plane waves =        1907
+ k value =   6.66666701E-02  0.233333334       1.26237862E-15
+iq=199 qsym=1 ib=   2 Ei=  -6.3497 Ekin=  34.3674 iekrange=  72 112 fermifac   1.0000
+iq=199 qsym=1 ib=   3 Ei=  -6.1867 Ekin=  34.5304 iekrange=  76 116 fermifac   1.0000
+iq=199 qsym=1 ib=   4 Ei=  -4.7937 Ekin=  35.9234 iekrange= 111 151 fermifac   1.0000
+ k point #         200   input no. of plane waves =        1904
+ k value =  0.100000001      0.233333334       1.26237862E-15
+iq=200 qsym=1 ib=   2 Ei=  -6.4098 Ekin=  34.3073 iekrange=  70 110 fermifac   1.0000
+iq=200 qsym=1 ib=   3 Ei=  -5.9430 Ekin=  34.7741 iekrange=  82 122 fermifac   1.0000
+iq=200 qsym=1 ib=   4 Ei=  -4.8711 Ekin=  35.8460 iekrange= 109 149 fermifac   1.0000
+ k point #         201   input no. of plane waves =        1904
+ k value =  0.133333340      0.233333334       1.26237862E-15
+iq=201 qsym=1 ib=   2 Ei=  -6.4098 Ekin=  34.3073 iekrange=  70 110 fermifac   1.0000
+iq=201 qsym=1 ib=   3 Ei=  -5.9430 Ekin=  34.7741 iekrange=  82 122 fermifac   1.0000
+iq=201 qsym=1 ib=   4 Ei=  -4.8711 Ekin=  35.8460 iekrange= 109 149 fermifac   1.0000
+ k point #         202   input no. of plane waves =        1907
+ k value =  0.166666672      0.233333334       1.26237862E-15
+iq=202 qsym=1 ib=   2 Ei=  -6.3497 Ekin=  34.3674 iekrange=  72 112 fermifac   1.0000
+iq=202 qsym=1 ib=   3 Ei=  -6.1867 Ekin=  34.5304 iekrange=  76 116 fermifac   1.0000
+iq=202 qsym=1 ib=   4 Ei=  -4.7937 Ekin=  35.9234 iekrange= 111 151 fermifac   1.0000
+ k point #         203   input no. of plane waves =        1908
+ k value =  0.200000003      0.233333334       1.26237862E-15
+iq=203 qsym=1 ib=   2 Ei=  -6.5556 Ekin=  34.1615 iekrange=  67 107 fermifac   1.0000
+iq=203 qsym=1 ib=   3 Ei=  -6.2297 Ekin=  34.4874 iekrange=  75 115 fermifac   1.0000
+iq=203 qsym=1 ib=   4 Ei=  -4.7632 Ekin=  35.9539 iekrange= 111 151 fermifac   1.0000
+ k point #         204   input no. of plane waves =        1919
+ k value =  0.233333334      0.233333334       1.26237862E-15
+iq=204 qsym=1 ib=   2 Ei=  -6.9755 Ekin=  33.7416 iekrange=  56  96 fermifac   1.0000
+iq=204 qsym=1 ib=   3 Ei=  -6.0501 Ekin=  34.6670 iekrange=  79 119 fermifac   1.0000
+iq=204 qsym=1 ib=   4 Ei=  -4.8589 Ekin=  35.8582 iekrange= 109 149 fermifac   1.0000
+ k point #         205   input no. of plane waves =        1914
+ k value =  0.266666681      0.233333334       1.26237862E-15
+iq=205 qsym=1 ib=   2 Ei=  -7.4118 Ekin=  33.3053 iekrange=  45  85 fermifac   1.0000
+iq=205 qsym=1 ib=   3 Ei=  -5.8119 Ekin=  34.9052 iekrange=  85 125 fermifac   1.0000
+iq=205 qsym=1 ib=   4 Ei=  -5.1074 Ekin=  35.6097 iekrange= 103 143 fermifac   1.0000
+ k point #         206   input no. of plane waves =        1923
+ k value =  0.300000012      0.233333334       1.26237862E-15
+iq=206 qsym=1 ib=   2 Ei=  -7.8472 Ekin=  32.8699 iekrange=  34  74 fermifac   1.0000
+iq=206 qsym=1 ib=   3 Ei=  -5.5165 Ekin=  35.2006 iekrange=  93 133 fermifac   1.0000
+iq=206 qsym=1 ib=   4 Ei=  -5.5055 Ekin=  35.2116 iekrange=  93 133 fermifac   1.0000
+ k point #         207   input no. of plane waves =        1931
+ k value =  0.333333343      0.233333334       1.26237862E-15
+iq=207 qsym=1 ib=   2 Ei=  -8.2730 Ekin=  32.4441 iekrange=  24  64 fermifac   1.0000
+iq=207 qsym=1 ib=   3 Ei=  -6.0242 Ekin=  34.6929 iekrange=  80 120 fermifac   1.0000
+iq=207 qsym=1 ib=   4 Ei=  -5.1657 Ekin=  35.5514 iekrange= 101 141 fermifac   1.0000
+ k point #         208   input no. of plane waves =        1937
+ k value =  0.366666675      0.233333334       1.26237862E-15
+iq=208 qsym=1 ib=   2 Ei=  -8.6877 Ekin=  32.0294 iekrange=  13  53 fermifac   1.0000
+iq=208 qsym=1 ib=   3 Ei=  -6.6249 Ekin=  34.0922 iekrange=  65 105 fermifac   1.0000
+iq=208 qsym=1 ib=   4 Ei=  -4.7620 Ekin=  35.9551 iekrange= 111 151 fermifac   1.0000
+ k point #         209   input no. of plane waves =        1936
+ k value =  0.400000006      0.233333334       1.26237862E-15
+iq=209 qsym=1 ib=   2 Ei=  -9.0987 Ekin=  31.6184 iekrange=   3  43 fermifac   1.0000
+iq=209 qsym=1 ib=   3 Ei=  -7.2615 Ekin=  33.4556 iekrange=  49  89 fermifac   1.0000
+iq=209 qsym=1 ib=   4 Ei=  -4.3084 Ekin=  36.4087 iekrange= 123 163 fermifac   1.0000
+ k point #         210   input no. of plane waves =        1948
+ k value =  0.433333337      0.233333334       1.26237862E-15
+iq=210 qsym=1 ib=   2 Ei=  -9.5268 Ekin=  31.1903 iekrange=   1  32 fermifac   1.0000
+iq=210 qsym=1 ib=   3 Ei=  -7.8810 Ekin=  32.8361 iekrange=  33  73 fermifac   1.0000
+iq=210 qsym=1 ib=   4 Ei=  -3.8102 Ekin=  36.9069 iekrange= 135 175 fermifac   1.0000
+ k point #         211   input no. of plane waves =        1948
+ k value =  0.466666669      0.233333334       1.26237862E-15
+iq=211 qsym=1 ib=   2 Ei= -10.0056 Ekin=  30.7115 iekrange=   1  20 fermifac   1.0000
+iq=211 qsym=1 ib=   3 Ei=  -8.4229 Ekin=  32.2942 iekrange=  20  60 fermifac   1.0000
+iq=211 qsym=1 ib=   4 Ei=  -3.2725 Ekin=  37.4446 iekrange= 149 189 fermifac   1.0000
+ k point #         212   input no. of plane waves =        1940
+ k value =  0.500000000      0.233333334       1.26237862E-15
+iq=212 qsym=1 ib=   2 Ei= -10.5608 Ekin=  30.1563 iekrange=   1   6 fermifac   1.0000
+iq=212 qsym=1 ib=   3 Ei=  -8.8398 Ekin=  31.8773 iekrange=  10  50 fermifac   1.0000
+iq=212 qsym=1 ib=   4 Ei=  -2.7081 Ekin=  38.0090 iekrange= 163 203 fermifac   1.0000
+ k point #         213   input no. of plane waves =        1943
+ k value = -0.466666669      0.233333334       1.26237862E-15
+iq=213 qsym=1 ib=   3 Ei=  -9.1251 Ekin=  31.5920 iekrange=   2  42 fermifac   1.0000
+iq=213 qsym=1 ib=   4 Ei=  -2.1377 Ekin=  38.5794 iekrange= 177 217 fermifac   1.0000
+ k point #         214   input no. of plane waves =        1949
+ k value = -0.433333337      0.233333334       1.26237862E-15
+iq=214 qsym=1 ib=   3 Ei=  -9.2994 Ekin=  31.4177 iekrange=   1  38 fermifac   1.0000
+iq=214 qsym=1 ib=   4 Ei=  -1.6081 Ekin=  39.1090 iekrange= 190 230 fermifac   1.0000
+ k point #         215   input no. of plane waves =        1935
+ k value = -0.400000006      0.233333334       1.26237862E-15
+iq=215 qsym=1 ib=   3 Ei=  -9.3818 Ekin=  31.3353 iekrange=   1  36 fermifac   1.0000
+iq=215 qsym=1 ib=   4 Ei=  -1.2385 Ekin=  39.4786 iekrange= 200 240 fermifac   1.0000
+ k point #         216   input no. of plane waves =        1935
+ k value = -0.366666675      0.233333334       1.26237862E-15
+iq=216 qsym=1 ib=   3 Ei=  -9.3818 Ekin=  31.3353 iekrange=   1  36 fermifac   1.0000
+iq=216 qsym=1 ib=   4 Ei=  -1.2385 Ekin=  39.4786 iekrange= 200 240 fermifac   1.0000
+ k point #         217   input no. of plane waves =        1949
+ k value = -0.333333343      0.233333334       1.26237862E-15
+iq=217 qsym=1 ib=   3 Ei=  -9.2994 Ekin=  31.4177 iekrange=   1  38 fermifac   1.0000
+iq=217 qsym=1 ib=   4 Ei=  -1.6081 Ekin=  39.1090 iekrange= 190 230 fermifac   1.0000
+ k point #         218   input no. of plane waves =        1943
+ k value = -0.300000012      0.233333334       1.26237862E-15
+iq=218 qsym=1 ib=   3 Ei=  -9.1251 Ekin=  31.5920 iekrange=   2  42 fermifac   1.0000
+iq=218 qsym=1 ib=   4 Ei=  -2.1377 Ekin=  38.5794 iekrange= 177 217 fermifac   1.0000
+ k point #         219   input no. of plane waves =        1940
+ k value = -0.266666681      0.233333334       1.26237862E-15
+iq=219 qsym=1 ib=   2 Ei= -10.5608 Ekin=  30.1563 iekrange=   1   6 fermifac   1.0000
+iq=219 qsym=1 ib=   3 Ei=  -8.8398 Ekin=  31.8773 iekrange=  10  50 fermifac   1.0000
+iq=219 qsym=1 ib=   4 Ei=  -2.7081 Ekin=  38.0090 iekrange= 163 203 fermifac   1.0000
+ k point #         220   input no. of plane waves =        1948
+ k value = -0.233333334      0.233333334       1.26237862E-15
+iq=220 qsym=1 ib=   2 Ei= -10.0056 Ekin=  30.7115 iekrange=   1  20 fermifac   1.0000
+iq=220 qsym=1 ib=   3 Ei=  -8.4229 Ekin=  32.2942 iekrange=  20  60 fermifac   1.0000
+iq=220 qsym=1 ib=   4 Ei=  -3.2725 Ekin=  37.4446 iekrange= 149 189 fermifac   1.0000
+ k point #         221   input no. of plane waves =        1948
+ k value = -0.200000003      0.233333334       1.26237862E-15
+iq=221 qsym=1 ib=   2 Ei=  -9.5268 Ekin=  31.1903 iekrange=   1  32 fermifac   1.0000
+iq=221 qsym=1 ib=   3 Ei=  -7.8810 Ekin=  32.8361 iekrange=  33  73 fermifac   1.0000
+iq=221 qsym=1 ib=   4 Ei=  -3.8102 Ekin=  36.9069 iekrange= 135 175 fermifac   1.0000
+ k point #         222   input no. of plane waves =        1936
+ k value = -0.166666672      0.233333334       1.26237862E-15
+iq=222 qsym=1 ib=   2 Ei=  -9.0987 Ekin=  31.6184 iekrange=   3  43 fermifac   1.0000
+iq=222 qsym=1 ib=   3 Ei=  -7.2615 Ekin=  33.4556 iekrange=  49  89 fermifac   1.0000
+iq=222 qsym=1 ib=   4 Ei=  -4.3084 Ekin=  36.4087 iekrange= 123 163 fermifac   1.0000
+ k point #         223   input no. of plane waves =        1937
+ k value = -0.133333340      0.233333334       1.26237862E-15
+iq=223 qsym=1 ib=   2 Ei=  -8.6877 Ekin=  32.0294 iekrange=  13  53 fermifac   1.0000
+iq=223 qsym=1 ib=   3 Ei=  -6.6249 Ekin=  34.0922 iekrange=  65 105 fermifac   1.0000
+iq=223 qsym=1 ib=   4 Ei=  -4.7620 Ekin=  35.9551 iekrange= 111 151 fermifac   1.0000
+ k point #         224   input no. of plane waves =        1931
+ k value = -0.100000001      0.233333334       1.26237862E-15
+iq=224 qsym=1 ib=   2 Ei=  -8.2730 Ekin=  32.4441 iekrange=  24  64 fermifac   1.0000
+iq=224 qsym=1 ib=   3 Ei=  -6.0242 Ekin=  34.6929 iekrange=  80 120 fermifac   1.0000
+iq=224 qsym=1 ib=   4 Ei=  -5.1657 Ekin=  35.5514 iekrange= 101 141 fermifac   1.0000
+ k point #         225   input no. of plane waves =        1923
+ k value =  -6.66666701E-02  0.233333334       1.26237862E-15
+iq=225 qsym=1 ib=   2 Ei=  -7.8472 Ekin=  32.8699 iekrange=  34  74 fermifac   1.0000
+iq=225 qsym=1 ib=   3 Ei=  -5.5165 Ekin=  35.2006 iekrange=  93 133 fermifac   1.0000
+iq=225 qsym=1 ib=   4 Ei=  -5.5055 Ekin=  35.2116 iekrange=  93 133 fermifac   1.0000
+ k point #         226   input no. of plane waves =        1914
+ k value =  -3.33333351E-02  0.233333334       1.26237862E-15
+iq=226 qsym=1 ib=   2 Ei=  -7.4117 Ekin=  33.3054 iekrange=  45  85 fermifac   1.0000
+iq=226 qsym=1 ib=   3 Ei=  -5.8119 Ekin=  34.9052 iekrange=  85 125 fermifac   1.0000
+iq=226 qsym=1 ib=   4 Ei=  -5.1074 Ekin=  35.6097 iekrange= 103 143 fermifac   1.0000
+ k point #         227   input no. of plane waves =        1921
+ k value =   3.88578059E-16  0.266666681       1.26237862E-15
+iq=227 qsym=1 ib=   2 Ei=  -7.8479 Ekin=  32.8692 iekrange=  34  74 fermifac   1.0000
+iq=227 qsym=1 ib=   3 Ei=  -5.6058 Ekin=  35.1113 iekrange=  90 130 fermifac   1.0000
+iq=227 qsym=1 ib=   4 Ei=  -5.1886 Ekin=  35.5285 iekrange= 101 141 fermifac   1.0000
+ k point #         228   input no. of plane waves =        1914
+ k value =   3.33333351E-02  0.266666681       1.26237862E-15
+iq=228 qsym=1 ib=   2 Ei=  -7.4117 Ekin=  33.3054 iekrange=  45  85 fermifac   1.0000
+iq=228 qsym=1 ib=   3 Ei=  -5.8119 Ekin=  34.9052 iekrange=  85 125 fermifac   1.0000
+iq=228 qsym=1 ib=   4 Ei=  -5.1074 Ekin=  35.6097 iekrange= 103 143 fermifac   1.0000
+ k point #         229   input no. of plane waves =        1913
+ k value =   6.66666701E-02  0.266666681       1.26237862E-15
+iq=229 qsym=1 ib=   2 Ei=  -7.0007 Ekin=  33.7164 iekrange=  55  95 fermifac   1.0000
+iq=229 qsym=1 ib=   3 Ei=  -5.9596 Ekin=  34.7575 iekrange=  82 122 fermifac   1.0000
+iq=229 qsym=1 ib=   4 Ei=  -5.1619 Ekin=  35.5552 iekrange= 101 141 fermifac   1.0000
+ k point #         230   input no. of plane waves =        1920
+ k value =  0.100000001      0.266666681       1.26237862E-15
+iq=230 qsym=1 ib=   2 Ei=  -6.6678 Ekin=  34.0493 iekrange=  64 104 fermifac   1.0000
+iq=230 qsym=1 ib=   3 Ei=  -6.0486 Ekin=  34.6685 iekrange=  79 119 fermifac   1.0000
+iq=230 qsym=1 ib=   4 Ei=  -5.2889 Ekin=  35.4282 iekrange=  98 138 fermifac   1.0000
+ k point #         231   input no. of plane waves =        1918
+ k value =  0.133333340      0.266666681       1.26237862E-15
+iq=231 qsym=1 ib=   2 Ei=  -6.5253 Ekin=  34.1918 iekrange=  67 107 fermifac   1.0000
+iq=231 qsym=1 ib=   3 Ei=  -6.0782 Ekin=  34.6389 iekrange=  79 119 fermifac   1.0000
+iq=231 qsym=1 ib=   4 Ei=  -5.3644 Ekin=  35.3527 iekrange=  96 136 fermifac   1.0000
+ k point #         232   input no. of plane waves =        1920
+ k value =  0.166666672      0.266666681       1.26237862E-15
+iq=232 qsym=1 ib=   2 Ei=  -6.6678 Ekin=  34.0493 iekrange=  64 104 fermifac   1.0000
+iq=232 qsym=1 ib=   3 Ei=  -6.0486 Ekin=  34.6685 iekrange=  79 119 fermifac   1.0000
+iq=232 qsym=1 ib=   4 Ei=  -5.2889 Ekin=  35.4282 iekrange=  98 138 fermifac   1.0000
+ k point #         233   input no. of plane waves =        1913
+ k value =  0.200000003      0.266666681       1.26237862E-15
+iq=233 qsym=1 ib=   2 Ei=  -7.0007 Ekin=  33.7164 iekrange=  55  95 fermifac   1.0000
+iq=233 qsym=1 ib=   3 Ei=  -5.9596 Ekin=  34.7575 iekrange=  82 122 fermifac   1.0000
+iq=233 qsym=1 ib=   4 Ei=  -5.1619 Ekin=  35.5552 iekrange= 101 141 fermifac   1.0000
+ k point #         234   input no. of plane waves =        1914
+ k value =  0.233333334      0.266666681       1.26237862E-15
+iq=234 qsym=1 ib=   2 Ei=  -7.4118 Ekin=  33.3053 iekrange=  45  85 fermifac   1.0000
+iq=234 qsym=1 ib=   3 Ei=  -5.8119 Ekin=  34.9052 iekrange=  85 125 fermifac   1.0000
+iq=234 qsym=1 ib=   4 Ei=  -5.1074 Ekin=  35.6097 iekrange= 103 143 fermifac   1.0000
+ k point #         235   input no. of plane waves =        1921
+ k value =  0.266666681      0.266666681       1.26237862E-15
+iq=235 qsym=1 ib=   2 Ei=  -7.8479 Ekin=  32.8692 iekrange=  34  74 fermifac   1.0000
+iq=235 qsym=1 ib=   3 Ei=  -5.6058 Ekin=  35.1113 iekrange=  90 130 fermifac   1.0000
+iq=235 qsym=1 ib=   4 Ei=  -5.1886 Ekin=  35.5285 iekrange= 101 141 fermifac   1.0000
+ k point #         236   input no. of plane waves =        1918
+ k value =  0.300000012      0.266666681       1.26237862E-15
+iq=236 qsym=1 ib=   2 Ei=  -8.2843 Ekin=  32.4328 iekrange=  23  63 fermifac   1.0000
+iq=236 qsym=1 ib=   3 Ei=  -5.4265 Ekin=  35.2906 iekrange=  95 135 fermifac   1.0000
+iq=236 qsym=1 ib=   4 Ei=  -5.3429 Ekin=  35.3742 iekrange=  97 137 fermifac   1.0000
+ k point #         237   input no. of plane waves =        1929
+ k value =  0.333333343      0.266666681       1.26237862E-15
+iq=237 qsym=1 ib=   2 Ei=  -8.7074 Ekin=  32.0097 iekrange=  13  53 fermifac   1.0000
+iq=237 qsym=1 ib=   3 Ei=  -5.8157 Ekin=  34.9014 iekrange=  85 125 fermifac   1.0000
+iq=237 qsym=1 ib=   4 Ei=  -5.0246 Ekin=  35.6925 iekrange= 105 145 fermifac   1.0000
+ k point #         238   input no. of plane waves =        1939
+ k value =  0.366666675      0.266666681       1.26237862E-15
+iq=238 qsym=1 ib=   2 Ei=  -9.1098 Ekin=  31.6073 iekrange=   3  43 fermifac   1.0000
+iq=238 qsym=1 ib=   3 Ei=  -6.3289 Ekin=  34.3882 iekrange=  72 112 fermifac   1.0000
+iq=238 qsym=1 ib=   4 Ei=  -4.6532 Ekin=  36.0639 iekrange= 114 154 fermifac   1.0000
+ k point #         239   input no. of plane waves =        1939
+ k value =  0.400000006      0.266666681       1.26237862E-15
+iq=239 qsym=1 ib=   2 Ei=  -9.4888 Ekin=  31.2283 iekrange=   1  33 fermifac   1.0000
+iq=239 qsym=1 ib=   3 Ei=  -6.9300 Ekin=  33.7871 iekrange=  57  97 fermifac   1.0000
+iq=239 qsym=1 ib=   4 Ei=  -4.2314 Ekin=  36.4857 iekrange= 125 165 fermifac   1.0000
+ k point #         240   input no. of plane waves =        1949
+ k value =  0.433333337      0.266666681       1.26237862E-15
+iq=240 qsym=1 ib=   2 Ei=  -9.8472 Ekin=  30.8699 iekrange=   1  24 fermifac   1.0000
+iq=240 qsym=1 ib=   3 Ei=  -7.5793 Ekin=  33.1378 iekrange=  41  81 fermifac   1.0000
+iq=240 qsym=1 ib=   4 Ei=  -3.7631 Ekin=  36.9540 iekrange= 136 176 fermifac   1.0000
+ k point #         241   input no. of plane waves =        1936
+ k value =  0.466666669      0.266666681       1.26237862E-15
+iq=241 qsym=1 ib=   2 Ei= -10.1961 Ekin=  30.5210 iekrange=   1  16 fermifac   1.0000
+iq=241 qsym=1 ib=   3 Ei=  -8.2327 Ekin=  32.4844 iekrange=  25  65 fermifac   1.0000
+iq=241 qsym=1 ib=   4 Ei=  -3.2525 Ekin=  37.4646 iekrange= 149 189 fermifac   1.0000
+ k point #         242   input no. of plane waves =        1940
+ k value =  0.500000000      0.266666681       1.26237862E-15
+iq=242 qsym=1 ib=   2 Ei= -10.5608 Ekin=  30.1563 iekrange=   1   6 fermifac   1.0000
+iq=242 qsym=1 ib=   3 Ei=  -8.8398 Ekin=  31.8773 iekrange=  10  50 fermifac   1.0000
+iq=242 qsym=1 ib=   4 Ei=  -2.7081 Ekin=  38.0090 iekrange= 163 203 fermifac   1.0000
+ k point #         243   input no. of plane waves =        1942
+ k value = -0.466666669      0.266666681       1.26237862E-15
+iq=243 qsym=1 ib=   3 Ei=  -9.3391 Ekin=  31.3780 iekrange=   1  37 fermifac   1.0000
+iq=243 qsym=1 ib=   4 Ei=  -2.1413 Ekin=  38.5758 iekrange= 177 217 fermifac   1.0000
+ k point #         244   input no. of plane waves =        1940
+ k value = -0.433333337      0.266666681       1.26237862E-15
+iq=244 qsym=1 ib=   3 Ei=  -9.6844 Ekin=  31.0327 iekrange=   1  28 fermifac   1.0000
+iq=244 qsym=1 ib=   4 Ei=  -1.5758 Ekin=  39.1413 iekrange= 191 231 fermifac   1.0000
+ k point #         245   input no. of plane waves =        1941
+ k value = -0.400000006      0.266666681       1.26237862E-15
+iq=245 qsym=1 ib=   3 Ei=  -9.8757 Ekin=  30.8414 iekrange=   1  24 fermifac   1.0000
+iq=245 qsym=1 ib=   4 Ei=  -1.0735 Ekin=  39.6436 iekrange= 204 244 fermifac   1.0000
+ k point #         246   input no. of plane waves =        1936
+ k value = -0.366666675      0.266666681       1.26237862E-15
+iq=246 qsym=1 ib=   3 Ei=  -9.9358 Ekin=  30.7813 iekrange=   1  22 fermifac   1.0000
+iq=246 qsym=1 ib=   4 Ei=  -0.8331 Ekin=  39.8840 iekrange= 210 250 fermifac   1.0000
+iq=246 qsym=1 ib=   5 Ei=   0.7892 Ekin=  41.5063 iekrange= 250 251 fermifac   1.0000
+ k point #         247   input no. of plane waves =        1941
+ k value = -0.333333343      0.266666681       1.26237862E-15
+iq=247 qsym=1 ib=   3 Ei=  -9.8757 Ekin=  30.8414 iekrange=   1  24 fermifac   1.0000
+iq=247 qsym=1 ib=   4 Ei=  -1.0735 Ekin=  39.6436 iekrange= 204 244 fermifac   1.0000
+ k point #         248   input no. of plane waves =        1940
+ k value = -0.300000012      0.266666681       1.26237862E-15
+iq=248 qsym=1 ib=   3 Ei=  -9.6844 Ekin=  31.0327 iekrange=   1  28 fermifac   1.0000
+iq=248 qsym=1 ib=   4 Ei=  -1.5758 Ekin=  39.1413 iekrange= 191 231 fermifac   1.0000
+ k point #         249   input no. of plane waves =        1942
+ k value = -0.266666681      0.266666681       1.26237862E-15
+iq=249 qsym=1 ib=   3 Ei=  -9.3391 Ekin=  31.3780 iekrange=   1  37 fermifac   1.0000
+iq=249 qsym=1 ib=   4 Ei=  -2.1413 Ekin=  38.5758 iekrange= 177 217 fermifac   1.0000
+ k point #         250   input no. of plane waves =        1940
+ k value = -0.233333334      0.266666681       1.26237862E-15
+iq=250 qsym=1 ib=   2 Ei= -10.5608 Ekin=  30.1563 iekrange=   1   6 fermifac   1.0000
+iq=250 qsym=1 ib=   3 Ei=  -8.8398 Ekin=  31.8773 iekrange=  10  50 fermifac   1.0000
+iq=250 qsym=1 ib=   4 Ei=  -2.7081 Ekin=  38.0090 iekrange= 163 203 fermifac   1.0000
+ k point #         251   input no. of plane waves =        1936
+ k value = -0.200000003      0.266666681       1.26237862E-15
+iq=251 qsym=1 ib=   2 Ei= -10.1961 Ekin=  30.5210 iekrange=   1  16 fermifac   1.0000
+iq=251 qsym=1 ib=   3 Ei=  -8.2327 Ekin=  32.4844 iekrange=  25  65 fermifac   1.0000
+iq=251 qsym=1 ib=   4 Ei=  -3.2525 Ekin=  37.4646 iekrange= 149 189 fermifac   1.0000
+ k point #         252   input no. of plane waves =        1949
+ k value = -0.166666672      0.266666681       1.26237862E-15
+iq=252 qsym=1 ib=   2 Ei=  -9.8472 Ekin=  30.8699 iekrange=   1  24 fermifac   1.0000
+iq=252 qsym=1 ib=   3 Ei=  -7.5793 Ekin=  33.1378 iekrange=  41  81 fermifac   1.0000
+iq=252 qsym=1 ib=   4 Ei=  -3.7631 Ekin=  36.9540 iekrange= 136 176 fermifac   1.0000
+ k point #         253   input no. of plane waves =        1939
+ k value = -0.133333340      0.266666681       1.26237862E-15
+iq=253 qsym=1 ib=   2 Ei=  -9.4888 Ekin=  31.2283 iekrange=   1  33 fermifac   1.0000
+iq=253 qsym=1 ib=   3 Ei=  -6.9300 Ekin=  33.7871 iekrange=  57  97 fermifac   1.0000
+iq=253 qsym=1 ib=   4 Ei=  -4.2314 Ekin=  36.4857 iekrange= 125 165 fermifac   1.0000
+ k point #         254   input no. of plane waves =        1939
+ k value = -0.100000001      0.266666681       1.26237862E-15
+iq=254 qsym=1 ib=   2 Ei=  -9.1098 Ekin=  31.6073 iekrange=   3  43 fermifac   1.0000
+iq=254 qsym=1 ib=   3 Ei=  -6.3289 Ekin=  34.3882 iekrange=  72 112 fermifac   1.0000
+iq=254 qsym=1 ib=   4 Ei=  -4.6532 Ekin=  36.0639 iekrange= 114 154 fermifac   1.0000
+ k point #         255   input no. of plane waves =        1929
+ k value =  -6.66666701E-02  0.266666681       1.26237862E-15
+iq=255 qsym=1 ib=   2 Ei=  -8.7074 Ekin=  32.0097 iekrange=  13  53 fermifac   1.0000
+iq=255 qsym=1 ib=   3 Ei=  -5.8157 Ekin=  34.9014 iekrange=  85 125 fermifac   1.0000
+iq=255 qsym=1 ib=   4 Ei=  -5.0246 Ekin=  35.6925 iekrange= 105 145 fermifac   1.0000
+ k point #         256   input no. of plane waves =        1918
+ k value =  -3.33333351E-02  0.266666681       1.26237862E-15
+iq=256 qsym=1 ib=   2 Ei=  -8.2842 Ekin=  32.4329 iekrange=  23  63 fermifac   1.0000
+iq=256 qsym=1 ib=   3 Ei=  -5.4265 Ekin=  35.2906 iekrange=  95 135 fermifac   1.0000
+iq=256 qsym=1 ib=   4 Ei=  -5.3429 Ekin=  35.3742 iekrange=  97 137 fermifac   1.0000
+ k point #         257   input no. of plane waves =        1923
+ k value =   3.60822483E-16  0.300000012       1.26237862E-15
+iq=257 qsym=1 ib=   2 Ei=  -8.7275 Ekin=  31.9896 iekrange=  12  52 fermifac   1.0000
+iq=257 qsym=1 ib=   3 Ei=  -5.4892 Ekin=  35.2279 iekrange=  93 133 fermifac   1.0000
+iq=257 qsym=1 ib=   4 Ei=  -5.1133 Ekin=  35.6038 iekrange= 103 143 fermifac   1.0000
+ k point #         258   input no. of plane waves =        1918
+ k value =   3.33333351E-02  0.300000012       1.26237862E-15
+iq=258 qsym=1 ib=   2 Ei=  -8.2842 Ekin=  32.4329 iekrange=  23  63 fermifac   1.0000
+iq=258 qsym=1 ib=   3 Ei=  -5.4265 Ekin=  35.2906 iekrange=  95 135 fermifac   1.0000
+iq=258 qsym=1 ib=   4 Ei=  -5.3429 Ekin=  35.3742 iekrange=  97 137 fermifac   1.0000
+ k point #         259   input no. of plane waves =        1923
+ k value =   6.66666701E-02  0.300000012       1.26237862E-15
+iq=259 qsym=1 ib=   2 Ei=  -7.8472 Ekin=  32.8699 iekrange=  34  74 fermifac   1.0000
+iq=259 qsym=1 ib=   3 Ei=  -5.5165 Ekin=  35.2006 iekrange=  93 133 fermifac   1.0000
+iq=259 qsym=1 ib=   4 Ei=  -5.5055 Ekin=  35.2116 iekrange=  93 133 fermifac   1.0000
+ k point #         260   input no. of plane waves =        1922
+ k value =  0.100000001      0.300000012       1.26237862E-15
+iq=260 qsym=1 ib=   2 Ei=  -7.4521 Ekin=  33.2650 iekrange=  44  84 fermifac   1.0000
+iq=260 qsym=1 ib=   3 Ei=  -5.6759 Ekin=  35.0412 iekrange=  89 129 fermifac   1.0000
+iq=260 qsym=1 ib=   4 Ei=  -5.6327 Ekin=  35.0844 iekrange=  90 130 fermifac   1.0000
+ k point #         261   input no. of plane waves =        1930
+ k value =  0.133333340      0.300000012       1.26237862E-15
+iq=261 qsym=1 ib=   2 Ei=  -7.1834 Ekin=  33.5337 iekrange=  51  91 fermifac   1.0000
+iq=261 qsym=1 ib=   3 Ei=  -5.8383 Ekin=  34.8788 iekrange=  85 125 fermifac   1.0000
+iq=261 qsym=1 ib=   4 Ei=  -5.6908 Ekin=  35.0263 iekrange=  88 128 fermifac   1.0000
+ k point #         262   input no. of plane waves =        1930
+ k value =  0.166666672      0.300000012       1.26237862E-15
+iq=262 qsym=1 ib=   2 Ei=  -7.1834 Ekin=  33.5337 iekrange=  51  91 fermifac   1.0000
+iq=262 qsym=1 ib=   3 Ei=  -5.8383 Ekin=  34.8788 iekrange=  85 125 fermifac   1.0000
+iq=262 qsym=1 ib=   4 Ei=  -5.6908 Ekin=  35.0263 iekrange=  88 128 fermifac   1.0000
+ k point #         263   input no. of plane waves =        1922
+ k value =  0.200000003      0.300000012       1.26237862E-15
+iq=263 qsym=1 ib=   2 Ei=  -7.4521 Ekin=  33.2650 iekrange=  44  84 fermifac   1.0000
+iq=263 qsym=1 ib=   3 Ei=  -5.6759 Ekin=  35.0412 iekrange=  89 129 fermifac   1.0000
+iq=263 qsym=1 ib=   4 Ei=  -5.6327 Ekin=  35.0844 iekrange=  90 130 fermifac   1.0000
+ k point #         264   input no. of plane waves =        1923
+ k value =  0.233333334      0.300000012       1.26237862E-15
+iq=264 qsym=1 ib=   2 Ei=  -7.8472 Ekin=  32.8699 iekrange=  34  74 fermifac   1.0000
+iq=264 qsym=1 ib=   3 Ei=  -5.5165 Ekin=  35.2006 iekrange=  93 133 fermifac   1.0000
+iq=264 qsym=1 ib=   4 Ei=  -5.5055 Ekin=  35.2116 iekrange=  93 133 fermifac   1.0000
+ k point #         265   input no. of plane waves =        1918
+ k value =  0.266666681      0.300000012       1.26237862E-15
+iq=265 qsym=1 ib=   2 Ei=  -8.2843 Ekin=  32.4328 iekrange=  23  63 fermifac   1.0000
+iq=265 qsym=1 ib=   3 Ei=  -5.4265 Ekin=  35.2906 iekrange=  95 135 fermifac   1.0000
+iq=265 qsym=1 ib=   4 Ei=  -5.3429 Ekin=  35.3742 iekrange=  97 137 fermifac   1.0000
+ k point #         266   input no. of plane waves =        1923
+ k value =  0.300000012      0.300000012       1.26237862E-15
+iq=266 qsym=1 ib=   2 Ei=  -8.7275 Ekin=  31.9896 iekrange=  12  52 fermifac   1.0000
+iq=266 qsym=1 ib=   3 Ei=  -5.4891 Ekin=  35.2280 iekrange=  93 133 fermifac   1.0000
+iq=266 qsym=1 ib=   4 Ei=  -5.1133 Ekin=  35.6038 iekrange= 103 143 fermifac   1.0000
+ k point #         267   input no. of plane waves =        1928
+ k value =  0.333333343      0.300000012       1.26237862E-15
+iq=267 qsym=1 ib=   2 Ei=  -9.1584 Ekin=  31.5587 iekrange=   2  42 fermifac   1.0000
+iq=267 qsym=1 ib=   3 Ei=  -5.7115 Ekin=  35.0056 iekrange=  88 128 fermifac   1.0000
+iq=267 qsym=1 ib=   4 Ei=  -4.8291 Ekin=  35.8880 iekrange= 110 150 fermifac   1.0000
+ k point #         268   input no. of plane waves =        1941
+ k value =  0.366666675      0.300000012       1.26237862E-15
+iq=268 qsym=1 ib=   2 Ei=  -9.5667 Ekin=  31.1504 iekrange=   1  31 fermifac   1.0000
+iq=268 qsym=1 ib=   3 Ei=  -6.0863 Ekin=  34.6308 iekrange=  78 118 fermifac   1.0000
+iq=268 qsym=1 ib=   4 Ei=  -4.4919 Ekin=  36.2252 iekrange= 118 158 fermifac   1.0000
+ k point #         269   input no. of plane waves =        1941
+ k value =  0.400000006      0.300000012       1.26237862E-15
+iq=269 qsym=1 ib=   2 Ei=  -9.9462 Ekin=  30.7709 iekrange=   1  22 fermifac   1.0000
+iq=269 qsym=1 ib=   3 Ei=  -6.5866 Ekin=  34.1305 iekrange=  66 106 fermifac   1.0000
+iq=269 qsym=1 ib=   4 Ei=  -4.1046 Ekin=  36.6125 iekrange= 128 168 fermifac   1.0000
+ k point #         270   input no. of plane waves =        1945
+ k value =  0.433333337      0.300000012       1.26237862E-15
+iq=270 qsym=1 ib=   2 Ei= -10.2940 Ekin=  30.4231 iekrange=   1  13 fermifac   1.0000
+iq=270 qsym=1 ib=   3 Ei=  -7.1785 Ekin=  33.5386 iekrange=  51  91 fermifac   1.0000
+iq=270 qsym=1 ib=   4 Ei=  -3.6708 Ekin=  37.0463 iekrange= 139 179 fermifac   1.0000
+ k point #         271   input no. of plane waves =        1953
+ k value =  0.466666669      0.300000012       1.26237862E-15
+iq=271 qsym=1 ib=   2 Ei= -10.6105 Ekin=  30.1066 iekrange=   1   5 fermifac   1.0000
+iq=271 qsym=1 ib=   3 Ei=  -7.8245 Ekin=  32.8926 iekrange=  35  75 fermifac   1.0000
+iq=271 qsym=1 ib=   4 Ei=  -3.1942 Ekin=  37.5229 iekrange= 151 191 fermifac   1.0000
+ k point #         272   input no. of plane waves =        1947
+ k value =  0.500000000      0.300000012       1.26237862E-15
+iq=272 qsym=1 ib=   3 Ei=  -8.4870 Ekin=  32.2301 iekrange=  18  58 fermifac   1.0000
+iq=272 qsym=1 ib=   4 Ei=  -2.6808 Ekin=  38.0363 iekrange= 163 203 fermifac   1.0000
+ k point #         273   input no. of plane waves =        1943
+ k value = -0.466666669      0.300000012       1.26237862E-15
+iq=273 qsym=1 ib=   3 Ei=  -9.1251 Ekin=  31.5920 iekrange=   2  42 fermifac   1.0000
+iq=273 qsym=1 ib=   4 Ei=  -2.1377 Ekin=  38.5794 iekrange= 177 217 fermifac   1.0000
+ k point #         274   input no. of plane waves =        1940
+ k value = -0.433333337      0.300000012       1.26237862E-15
+iq=274 qsym=1 ib=   3 Ei=  -9.6844 Ekin=  31.0327 iekrange=   1  28 fermifac   1.0000
+iq=274 qsym=1 ib=   4 Ei=  -1.5758 Ekin=  39.1413 iekrange= 191 231 fermifac   1.0000
+ k point #         275   input no. of plane waves =        1934
+ k value = -0.400000006      0.300000012       1.26237862E-15
+iq=275 qsym=1 ib=   3 Ei= -10.0954 Ekin=  30.6217 iekrange=   1  18 fermifac   1.0000
+iq=275 qsym=1 ib=   4 Ei=  -1.0153 Ekin=  39.7018 iekrange= 205 245 fermifac   1.0000
+ k point #         276   input no. of plane waves =        1930
+ k value = -0.366666675      0.300000012       1.26237862E-15
+iq=276 qsym=1 ib=   3 Ei= -10.3056 Ekin=  30.4115 iekrange=   1  13 fermifac   1.0000
+iq=276 qsym=1 ib=   4 Ei=  -0.5350 Ekin=  40.1821 iekrange= 217 251 fermifac   1.0000
+iq=276 qsym=1 ib=   5 Ei=   0.5249 Ekin=  41.2420 iekrange= 244 251 fermifac   1.0000
+ k point #         277   input no. of plane waves =        1930
+ k value = -0.333333343      0.300000012       1.26237862E-15
+iq=277 qsym=1 ib=   3 Ei= -10.3056 Ekin=  30.4115 iekrange=   1  13 fermifac   1.0000
+iq=277 qsym=1 ib=   4 Ei=  -0.5350 Ekin=  40.1821 iekrange= 217 251 fermifac   1.0000
+iq=277 qsym=1 ib=   5 Ei=   0.5249 Ekin=  41.2420 iekrange= 244 251 fermifac   1.0000
+ k point #         278   input no. of plane waves =        1934
+ k value = -0.300000012      0.300000012       1.26237862E-15
+iq=278 qsym=1 ib=   3 Ei= -10.0954 Ekin=  30.6217 iekrange=   1  18 fermifac   1.0000
+iq=278 qsym=1 ib=   4 Ei=  -1.0153 Ekin=  39.7018 iekrange= 205 245 fermifac   1.0000
+ k point #         279   input no. of plane waves =        1940
+ k value = -0.266666681      0.300000012       1.26237862E-15
+iq=279 qsym=1 ib=   3 Ei=  -9.6844 Ekin=  31.0327 iekrange=   1  28 fermifac   1.0000
+iq=279 qsym=1 ib=   4 Ei=  -1.5758 Ekin=  39.1413 iekrange= 191 231 fermifac   1.0000
+ k point #         280   input no. of plane waves =        1943
+ k value = -0.233333334      0.300000012       1.26237862E-15
+iq=280 qsym=1 ib=   3 Ei=  -9.1251 Ekin=  31.5920 iekrange=   2  42 fermifac   1.0000
+iq=280 qsym=1 ib=   4 Ei=  -2.1377 Ekin=  38.5794 iekrange= 177 217 fermifac   1.0000
+ k point #         281   input no. of plane waves =        1947
+ k value = -0.200000003      0.300000012       1.26237862E-15
+iq=281 qsym=1 ib=   3 Ei=  -8.4870 Ekin=  32.2301 iekrange=  18  58 fermifac   1.0000
+iq=281 qsym=1 ib=   4 Ei=  -2.6808 Ekin=  38.0363 iekrange= 163 203 fermifac   1.0000
+ k point #         282   input no. of plane waves =        1953
+ k value = -0.166666672      0.300000012       1.26237862E-15
+iq=282 qsym=1 ib=   2 Ei= -10.6105 Ekin=  30.1066 iekrange=   1   5 fermifac   1.0000
+iq=282 qsym=1 ib=   3 Ei=  -7.8245 Ekin=  32.8926 iekrange=  35  75 fermifac   1.0000
+iq=282 qsym=1 ib=   4 Ei=  -3.1942 Ekin=  37.5229 iekrange= 151 191 fermifac   1.0000
+ k point #         283   input no. of plane waves =        1945
+ k value = -0.133333340      0.300000012       1.26237862E-15
+iq=283 qsym=1 ib=   2 Ei= -10.2940 Ekin=  30.4231 iekrange=   1  13 fermifac   1.0000
+iq=283 qsym=1 ib=   3 Ei=  -7.1785 Ekin=  33.5386 iekrange=  51  91 fermifac   1.0000
+iq=283 qsym=1 ib=   4 Ei=  -3.6708 Ekin=  37.0463 iekrange= 139 179 fermifac   1.0000
+ k point #         284   input no. of plane waves =        1941
+ k value = -0.100000001      0.300000012       1.26237862E-15
+iq=284 qsym=1 ib=   2 Ei=  -9.9462 Ekin=  30.7709 iekrange=   1  22 fermifac   1.0000
+iq=284 qsym=1 ib=   3 Ei=  -6.5866 Ekin=  34.1305 iekrange=  66 106 fermifac   1.0000
+iq=284 qsym=1 ib=   4 Ei=  -4.1046 Ekin=  36.6125 iekrange= 128 168 fermifac   1.0000
+ k point #         285   input no. of plane waves =        1941
+ k value =  -6.66666701E-02  0.300000012       1.26237862E-15
+iq=285 qsym=1 ib=   2 Ei=  -9.5667 Ekin=  31.1504 iekrange=   1  31 fermifac   1.0000
+iq=285 qsym=1 ib=   3 Ei=  -6.0863 Ekin=  34.6308 iekrange=  78 118 fermifac   1.0000
+iq=285 qsym=1 ib=   4 Ei=  -4.4919 Ekin=  36.2252 iekrange= 118 158 fermifac   1.0000
+ k point #         286   input no. of plane waves =        1928
+ k value =  -3.33333351E-02  0.300000012       1.26237862E-15
+iq=286 qsym=1 ib=   2 Ei=  -9.1584 Ekin=  31.5587 iekrange=   2  42 fermifac   1.0000
+iq=286 qsym=1 ib=   3 Ei=  -5.7115 Ekin=  35.0056 iekrange=  88 128 fermifac   1.0000
+iq=286 qsym=1 ib=   4 Ei=  -4.8291 Ekin=  35.8880 iekrange= 110 150 fermifac   1.0000
+ k point #         287   input no. of plane waves =        1937
+ k value =   3.33066907E-16  0.333333343       1.26237862E-15
+iq=287 qsym=1 ib=   2 Ei=  -9.6010 Ekin=  31.1161 iekrange=   1  30 fermifac   1.0000
+iq=287 qsym=1 ib=   3 Ei=  -5.7533 Ekin=  34.9638 iekrange=  87 127 fermifac   1.0000
+iq=287 qsym=1 ib=   4 Ei=  -4.5799 Ekin=  36.1372 iekrange= 116 156 fermifac   1.0000
+ k point #         288   input no. of plane waves =        1928
+ k value =   3.33333351E-02  0.333333343       1.26237862E-15
+iq=288 qsym=1 ib=   2 Ei=  -9.1584 Ekin=  31.5587 iekrange=   2  42 fermifac   1.0000
+iq=288 qsym=1 ib=   3 Ei=  -5.7115 Ekin=  35.0056 iekrange=  88 128 fermifac   1.0000
+iq=288 qsym=1 ib=   4 Ei=  -4.8291 Ekin=  35.8880 iekrange= 110 150 fermifac   1.0000
+ k point #         289   input no. of plane waves =        1929
+ k value =   6.66666701E-02  0.333333343       1.26237862E-15
+iq=289 qsym=1 ib=   2 Ei=  -8.7074 Ekin=  32.0097 iekrange=  13  53 fermifac   1.0000
+iq=289 qsym=1 ib=   3 Ei=  -5.8157 Ekin=  34.9014 iekrange=  85 125 fermifac   1.0000
+iq=289 qsym=1 ib=   4 Ei=  -5.0246 Ekin=  35.6925 iekrange= 105 145 fermifac   1.0000
+ k point #         290   input no. of plane waves =        1931
+ k value =  0.100000001      0.333333343       1.26237862E-15
+iq=290 qsym=1 ib=   2 Ei=  -8.2730 Ekin=  32.4441 iekrange=  24  64 fermifac   1.0000
+iq=290 qsym=1 ib=   3 Ei=  -6.0242 Ekin=  34.6929 iekrange=  80 120 fermifac   1.0000
+iq=290 qsym=1 ib=   4 Ei=  -5.1657 Ekin=  35.5514 iekrange= 101 141 fermifac   1.0000
+ k point #         291   input no. of plane waves =        1930
+ k value =  0.133333340      0.333333343       1.26237862E-15
+iq=291 qsym=1 ib=   2 Ei=  -7.9110 Ekin=  32.8061 iekrange=  33  73 fermifac   1.0000
+iq=291 qsym=1 ib=   3 Ei=  -6.2611 Ekin=  34.4560 iekrange=  74 114 fermifac   1.0000
+iq=291 qsym=1 ib=   4 Ei=  -5.2507 Ekin=  35.4664 iekrange=  99 139 fermifac   1.0000
+ k point #         292   input no. of plane waves =        1928
+ k value =  0.166666672      0.333333343       1.26237862E-15
+iq=292 qsym=1 ib=   2 Ei=  -7.7522 Ekin=  32.9649 iekrange=  37  77 fermifac   1.0000
+iq=292 qsym=1 ib=   3 Ei=  -6.3806 Ekin=  34.3365 iekrange=  71 111 fermifac   1.0000
+iq=292 qsym=1 ib=   4 Ei=  -5.2790 Ekin=  35.4381 iekrange=  99 139 fermifac   1.0000
+ k point #         293   input no. of plane waves =        1930
+ k value =  0.200000003      0.333333343       1.26237862E-15
+iq=293 qsym=1 ib=   2 Ei=  -7.9110 Ekin=  32.8061 iekrange=  33  73 fermifac   1.0000
+iq=293 qsym=1 ib=   3 Ei=  -6.2611 Ekin=  34.4560 iekrange=  74 114 fermifac   1.0000
+iq=293 qsym=1 ib=   4 Ei=  -5.2507 Ekin=  35.4664 iekrange=  99 139 fermifac   1.0000
+ k point #         294   input no. of plane waves =        1931
+ k value =  0.233333334      0.333333343       1.26237862E-15
+iq=294 qsym=1 ib=   2 Ei=  -8.2730 Ekin=  32.4441 iekrange=  24  64 fermifac   1.0000
+iq=294 qsym=1 ib=   3 Ei=  -6.0242 Ekin=  34.6929 iekrange=  80 120 fermifac   1.0000
+iq=294 qsym=1 ib=   4 Ei=  -5.1657 Ekin=  35.5514 iekrange= 101 141 fermifac   1.0000
+ k point #         295   input no. of plane waves =        1929
+ k value =  0.266666681      0.333333343       1.26237862E-15
+iq=295 qsym=1 ib=   2 Ei=  -8.7074 Ekin=  32.0097 iekrange=  13  53 fermifac   1.0000
+iq=295 qsym=1 ib=   3 Ei=  -5.8157 Ekin=  34.9014 iekrange=  85 125 fermifac   1.0000
+iq=295 qsym=1 ib=   4 Ei=  -5.0246 Ekin=  35.6925 iekrange= 105 145 fermifac   1.0000
+ k point #         296   input no. of plane waves =        1928
+ k value =  0.300000012      0.333333343       1.26237862E-15
+iq=296 qsym=1 ib=   2 Ei=  -9.1584 Ekin=  31.5587 iekrange=   2  42 fermifac   1.0000
+iq=296 qsym=1 ib=   3 Ei=  -5.7115 Ekin=  35.0056 iekrange=  88 128 fermifac   1.0000
+iq=296 qsym=1 ib=   4 Ei=  -4.8291 Ekin=  35.8880 iekrange= 110 150 fermifac   1.0000
+ k point #         297   input no. of plane waves =        1937
+ k value =  0.333333343      0.333333343       1.26237862E-15
+iq=297 qsym=1 ib=   2 Ei=  -9.6010 Ekin=  31.1161 iekrange=   1  30 fermifac   1.0000
+iq=297 qsym=1 ib=   3 Ei=  -5.7533 Ekin=  34.9638 iekrange=  87 127 fermifac   1.0000
+iq=297 qsym=1 ib=   4 Ei=  -4.5799 Ekin=  36.1372 iekrange= 116 156 fermifac   1.0000
+ k point #         298   input no. of plane waves =        1932
+ k value =  0.366666675      0.333333343       1.26237862E-15
+iq=298 qsym=1 ib=   2 Ei= -10.0217 Ekin=  30.6954 iekrange=   1  20 fermifac   1.0000
+iq=298 qsym=1 ib=   3 Ei=  -5.9563 Ekin=  34.7608 iekrange=  82 122 fermifac   1.0000
+iq=298 qsym=1 ib=   4 Ei=  -4.2791 Ekin=  36.4380 iekrange= 124 164 fermifac   1.0000
+ k point #         299   input no. of plane waves =        1945
+ k value =  0.400000006      0.333333343       1.26237862E-15
+iq=299 qsym=1 ib=   2 Ei= -10.4125 Ekin=  30.3046 iekrange=   1  10 fermifac   1.0000
+iq=299 qsym=1 ib=   3 Ei=  -6.3127 Ekin=  34.4044 iekrange=  73 113 fermifac   1.0000
+iq=299 qsym=1 ib=   4 Ei=  -3.9298 Ekin=  36.7873 iekrange= 132 172 fermifac   1.0000
+ k point #         300   input no. of plane waves =        1947
+ k value =  0.433333337      0.333333343       1.26237862E-15
+iq=300 qsym=1 ib=   2 Ei= -10.7684 Ekin=  29.9487 iekrange=   1   1 fermifac   1.0000
+iq=300 qsym=1 ib=   3 Ei=  -6.7957 Ekin=  33.9214 iekrange=  61 101 fermifac   1.0000
+iq=300 qsym=1 ib=   4 Ei=  -3.5353 Ekin=  37.1818 iekrange= 142 182 fermifac   1.0000
+ k point #         301   input no. of plane waves =        1945
+ k value =  0.466666669      0.333333343       1.26237862E-15
+iq=301 qsym=1 ib=   3 Ei=  -7.3713 Ekin=  33.3458 iekrange=  46  86 fermifac   1.0000
+iq=301 qsym=1 ib=   4 Ei=  -3.0999 Ekin=  37.6172 iekrange= 153 193 fermifac   1.0000
+ k point #         302   input no. of plane waves =        1951
+ k value =  0.500000000      0.333333343       1.26237862E-15
+iq=302 qsym=1 ib=   3 Ei=  -8.0042 Ekin=  32.7129 iekrange=  30  70 fermifac   1.0000
+iq=302 qsym=1 ib=   4 Ei=  -2.6291 Ekin=  38.0880 iekrange= 165 205 fermifac   1.0000
+ k point #         303   input no. of plane waves =        1949
+ k value = -0.466666669      0.333333343       1.26237862E-15
+iq=303 qsym=1 ib=   3 Ei=  -8.6589 Ekin=  32.0582 iekrange=  14  54 fermifac   1.0000
+iq=303 qsym=1 ib=   4 Ei=  -2.1293 Ekin=  38.5878 iekrange= 177 217 fermifac   1.0000
+ k point #         304   input no. of plane waves =        1949
+ k value = -0.433333337      0.333333343       1.26237862E-15
+iq=304 qsym=1 ib=   3 Ei=  -9.2994 Ekin=  31.4177 iekrange=   1  38 fermifac   1.0000
+iq=304 qsym=1 ib=   4 Ei=  -1.6081 Ekin=  39.1090 iekrange= 190 230 fermifac   1.0000
+ k point #         305   input no. of plane waves =        1941
+ k value = -0.400000006      0.333333343       1.26237862E-15
+iq=305 qsym=1 ib=   3 Ei=  -9.8757 Ekin=  30.8414 iekrange=   1  24 fermifac   1.0000
+iq=305 qsym=1 ib=   4 Ei=  -1.0735 Ekin=  39.6436 iekrange= 204 244 fermifac   1.0000
+ k point #         306   input no. of plane waves =        1930
+ k value = -0.366666675      0.333333343       1.26237862E-15
+iq=306 qsym=1 ib=   3 Ei= -10.3056 Ekin=  30.4115 iekrange=   1  13 fermifac   1.0000
+iq=306 qsym=1 ib=   4 Ei=  -0.5350 Ekin=  40.1821 iekrange= 217 251 fermifac   1.0000
+iq=306 qsym=1 ib=   5 Ei=   0.5249 Ekin=  41.2420 iekrange= 244 251 fermifac   1.0000
+ k point #         307   input no. of plane waves =        1914
+ k value = -0.333333343      0.333333343       1.26237862E-15
+iq=307 qsym=1 ib=   3 Ei= -10.4711 Ekin=  30.2460 iekrange=   1   9 fermifac   1.0000
+iq=307 qsym=1 ib=   4 Ei=  -0.0001 Ekin=  40.7170 iekrange= 230 251 fermifac   1.0000
+iq=307 qsym=1 ib=   5 Ei=  -0.0001 Ekin=  40.7170 iekrange= 230 251 fermifac   1.0000
+ k point #         308   input no. of plane waves =        1930
+ k value = -0.300000012      0.333333343       1.26237862E-15
+iq=308 qsym=1 ib=   3 Ei= -10.3056 Ekin=  30.4115 iekrange=   1  13 fermifac   1.0000
+iq=308 qsym=1 ib=   4 Ei=  -0.5350 Ekin=  40.1821 iekrange= 217 251 fermifac   1.0000
+iq=308 qsym=1 ib=   5 Ei=   0.5249 Ekin=  41.2420 iekrange= 244 251 fermifac   1.0000
+ k point #         309   input no. of plane waves =        1941
+ k value = -0.266666681      0.333333343       1.26237862E-15
+iq=309 qsym=1 ib=   3 Ei=  -9.8757 Ekin=  30.8414 iekrange=   1  24 fermifac   1.0000
+iq=309 qsym=1 ib=   4 Ei=  -1.0735 Ekin=  39.6436 iekrange= 204 244 fermifac   1.0000
+ k point #         310   input no. of plane waves =        1949
+ k value = -0.233333334      0.333333343       1.26237862E-15
+iq=310 qsym=1 ib=   3 Ei=  -9.2994 Ekin=  31.4177 iekrange=   1  38 fermifac   1.0000
+iq=310 qsym=1 ib=   4 Ei=  -1.6081 Ekin=  39.1090 iekrange= 190 230 fermifac   1.0000
+ k point #         311   input no. of plane waves =        1949
+ k value = -0.200000003      0.333333343       1.26237862E-15
+iq=311 qsym=1 ib=   3 Ei=  -8.6589 Ekin=  32.0582 iekrange=  14  54 fermifac   1.0000
+iq=311 qsym=1 ib=   4 Ei=  -2.1293 Ekin=  38.5878 iekrange= 177 217 fermifac   1.0000
+ k point #         312   input no. of plane waves =        1951
+ k value = -0.166666672      0.333333343       1.26237862E-15
+iq=312 qsym=1 ib=   3 Ei=  -8.0042 Ekin=  32.7129 iekrange=  30  70 fermifac   1.0000
+iq=312 qsym=1 ib=   4 Ei=  -2.6291 Ekin=  38.0880 iekrange= 165 205 fermifac   1.0000
+ k point #         313   input no. of plane waves =        1945
+ k value = -0.133333340      0.333333343       1.26237862E-15
+iq=313 qsym=1 ib=   3 Ei=  -7.3713 Ekin=  33.3458 iekrange=  46  86 fermifac   1.0000
+iq=313 qsym=1 ib=   4 Ei=  -3.0999 Ekin=  37.6172 iekrange= 153 193 fermifac   1.0000
+ k point #         314   input no. of plane waves =        1947
+ k value = -0.100000001      0.333333343       1.26237862E-15
+iq=314 qsym=1 ib=   2 Ei= -10.7683 Ekin=  29.9488 iekrange=   1   1 fermifac   1.0000
+iq=314 qsym=1 ib=   3 Ei=  -6.7957 Ekin=  33.9214 iekrange=  61 101 fermifac   1.0000
+iq=314 qsym=1 ib=   4 Ei=  -3.5353 Ekin=  37.1818 iekrange= 142 182 fermifac   1.0000
+ k point #         315   input no. of plane waves =        1945
+ k value =  -6.66666701E-02  0.333333343       1.26237862E-15
+iq=315 qsym=1 ib=   2 Ei= -10.4125 Ekin=  30.3046 iekrange=   1  10 fermifac   1.0000
+iq=315 qsym=1 ib=   3 Ei=  -6.3127 Ekin=  34.4044 iekrange=  73 113 fermifac   1.0000
+iq=315 qsym=1 ib=   4 Ei=  -3.9298 Ekin=  36.7873 iekrange= 132 172 fermifac   1.0000
+ k point #         316   input no. of plane waves =        1932
+ k value =  -3.33333351E-02  0.333333343       1.26237862E-15
+iq=316 qsym=1 ib=   2 Ei= -10.0217 Ekin=  30.6954 iekrange=   1  20 fermifac   1.0000
+iq=316 qsym=1 ib=   3 Ei=  -5.9563 Ekin=  34.7608 iekrange=  82 122 fermifac   1.0000
+iq=316 qsym=1 ib=   4 Ei=  -4.2791 Ekin=  36.4380 iekrange= 124 164 fermifac   1.0000
+ k point #         317   input no. of plane waves =        1931
+ k value =   3.33066907E-16  0.366666675       1.26237862E-15
+iq=317 qsym=1 ib=   2 Ei= -10.4572 Ekin=  30.2599 iekrange=   1   9 fermifac   1.0000
+iq=317 qsym=1 ib=   3 Ei=  -5.9751 Ekin=  34.7420 iekrange=  81 121 fermifac   1.0000
+iq=317 qsym=1 ib=   4 Ei=  -4.0176 Ekin=  36.6995 iekrange= 130 170 fermifac   1.0000
+ k point #         318   input no. of plane waves =        1932
+ k value =   3.33333351E-02  0.366666675       1.26237862E-15
+iq=318 qsym=1 ib=   2 Ei= -10.0217 Ekin=  30.6954 iekrange=   1  20 fermifac   1.0000
+iq=318 qsym=1 ib=   3 Ei=  -5.9563 Ekin=  34.7608 iekrange=  82 122 fermifac   1.0000
+iq=318 qsym=1 ib=   4 Ei=  -4.2791 Ekin=  36.4380 iekrange= 124 164 fermifac   1.0000
+ k point #         319   input no. of plane waves =        1941
+ k value =   6.66666701E-02  0.366666675       1.26237862E-15
+iq=319 qsym=1 ib=   2 Ei=  -9.5667 Ekin=  31.1504 iekrange=   1  31 fermifac   1.0000
+iq=319 qsym=1 ib=   3 Ei=  -6.0863 Ekin=  34.6308 iekrange=  78 118 fermifac   1.0000
+iq=319 qsym=1 ib=   4 Ei=  -4.4919 Ekin=  36.2252 iekrange= 118 158 fermifac   1.0000
+ k point #         320   input no. of plane waves =        1939
+ k value =  0.100000001      0.366666675       1.26237862E-15
+iq=320 qsym=1 ib=   2 Ei=  -9.1098 Ekin=  31.6073 iekrange=   3  43 fermifac   1.0000
+iq=320 qsym=1 ib=   3 Ei=  -6.3289 Ekin=  34.3882 iekrange=  72 112 fermifac   1.0000
+iq=320 qsym=1 ib=   4 Ei=  -4.6532 Ekin=  36.0639 iekrange= 114 154 fermifac   1.0000
+ k point #         321   input no. of plane waves =        1937
+ k value =  0.133333340      0.366666675       1.26237862E-15
+iq=321 qsym=1 ib=   2 Ei=  -8.6877 Ekin=  32.0294 iekrange=  13  53 fermifac   1.0000
+iq=321 qsym=1 ib=   3 Ei=  -6.6249 Ekin=  34.0922 iekrange=  65 105 fermifac   1.0000
+iq=321 qsym=1 ib=   4 Ei=  -4.7620 Ekin=  35.9551 iekrange= 111 151 fermifac   1.0000
+ k point #         322   input no. of plane waves =        1938
+ k value =  0.166666672      0.366666675       1.26237862E-15
+iq=322 qsym=1 ib=   2 Ei=  -8.3923 Ekin=  32.3248 iekrange=  21  61 fermifac   1.0000
+iq=322 qsym=1 ib=   3 Ei=  -6.8628 Ekin=  33.8543 iekrange=  59  99 fermifac   1.0000
+iq=322 qsym=1 ib=   4 Ei=  -4.8166 Ekin=  35.9005 iekrange= 110 150 fermifac   1.0000
+ k point #         323   input no. of plane waves =        1938
+ k value =  0.200000003      0.366666675       1.26237862E-15
+iq=323 qsym=1 ib=   2 Ei=  -8.3923 Ekin=  32.3248 iekrange=  21  61 fermifac   1.0000
+iq=323 qsym=1 ib=   3 Ei=  -6.8628 Ekin=  33.8543 iekrange=  59  99 fermifac   1.0000
+iq=323 qsym=1 ib=   4 Ei=  -4.8166 Ekin=  35.9005 iekrange= 110 150 fermifac   1.0000
+ k point #         324   input no. of plane waves =        1937
+ k value =  0.233333334      0.366666675       1.26237862E-15
+iq=324 qsym=1 ib=   2 Ei=  -8.6877 Ekin=  32.0294 iekrange=  13  53 fermifac   1.0000
+iq=324 qsym=1 ib=   3 Ei=  -6.6249 Ekin=  34.0922 iekrange=  65 105 fermifac   1.0000
+iq=324 qsym=1 ib=   4 Ei=  -4.7620 Ekin=  35.9551 iekrange= 111 151 fermifac   1.0000
+ k point #         325   input no. of plane waves =        1939
+ k value =  0.266666681      0.366666675       1.26237862E-15
+iq=325 qsym=1 ib=   2 Ei=  -9.1098 Ekin=  31.6073 iekrange=   3  43 fermifac   1.0000
+iq=325 qsym=1 ib=   3 Ei=  -6.3289 Ekin=  34.3882 iekrange=  72 112 fermifac   1.0000
+iq=325 qsym=1 ib=   4 Ei=  -4.6532 Ekin=  36.0639 iekrange= 114 154 fermifac   1.0000
+ k point #         326   input no. of plane waves =        1941
+ k value =  0.300000012      0.366666675       1.26237862E-15
+iq=326 qsym=1 ib=   2 Ei=  -9.5667 Ekin=  31.1504 iekrange=   1  31 fermifac   1.0000
+iq=326 qsym=1 ib=   3 Ei=  -6.0863 Ekin=  34.6308 iekrange=  78 118 fermifac   1.0000
+iq=326 qsym=1 ib=   4 Ei=  -4.4919 Ekin=  36.2252 iekrange= 118 158 fermifac   1.0000
+ k point #         327   input no. of plane waves =        1932
+ k value =  0.333333343      0.366666675       1.26237862E-15
+iq=327 qsym=1 ib=   2 Ei= -10.0217 Ekin=  30.6954 iekrange=   1  20 fermifac   1.0000
+iq=327 qsym=1 ib=   3 Ei=  -5.9563 Ekin=  34.7608 iekrange=  82 122 fermifac   1.0000
+iq=327 qsym=1 ib=   4 Ei=  -4.2791 Ekin=  36.4380 iekrange= 124 164 fermifac   1.0000
+ k point #         328   input no. of plane waves =        1931
+ k value =  0.366666675      0.366666675       1.26237862E-15
+iq=328 qsym=1 ib=   2 Ei= -10.4572 Ekin=  30.2599 iekrange=   1   9 fermifac   1.0000
+iq=328 qsym=1 ib=   3 Ei=  -5.9751 Ekin=  34.7420 iekrange=  81 121 fermifac   1.0000
+iq=328 qsym=1 ib=   4 Ei=  -4.0176 Ekin=  36.6995 iekrange= 130 170 fermifac   1.0000
+ k point #         329   input no. of plane waves =        1931
+ k value =  0.400000006      0.366666675       1.26237862E-15
+iq=329 qsym=1 ib=   3 Ei=  -6.1567 Ekin=  34.5604 iekrange=  77 117 fermifac   1.0000
+iq=329 qsym=1 ib=   4 Ei=  -3.7095 Ekin=  37.0076 iekrange= 138 178 fermifac   1.0000
+ k point #         330   input no. of plane waves =        1941
+ k value =  0.433333337      0.366666675       1.26237862E-15
+iq=330 qsym=1 ib=   3 Ei=  -6.4917 Ekin=  34.2254 iekrange=  68 108 fermifac   1.0000
+iq=330 qsym=1 ib=   4 Ei=  -3.3602 Ekin=  37.3569 iekrange= 146 186 fermifac   1.0000
+ k point #         331   input no. of plane waves =        1945
+ k value =  0.466666669      0.366666675       1.26237862E-15
+iq=331 qsym=1 ib=   3 Ei=  -6.9536 Ekin=  33.7635 iekrange=  57  97 fermifac   1.0000
+iq=331 qsym=1 ib=   4 Ei=  -2.9747 Ekin=  37.7424 iekrange= 156 196 fermifac   1.0000
+ k point #         332   input no. of plane waves =        1949
+ k value =  0.500000000      0.366666675       1.26237862E-15
+iq=332 qsym=1 ib=   3 Ei=  -7.5089 Ekin=  33.2082 iekrange=  43  83 fermifac   1.0000
+iq=332 qsym=1 ib=   4 Ei=  -2.5597 Ekin=  38.1574 iekrange= 167 207 fermifac   1.0000
+ k point #         333   input no. of plane waves =        1951
+ k value = -0.466666669      0.366666675       1.26237862E-15
+iq=333 qsym=1 ib=   3 Ei=  -8.1222 Ekin=  32.5949 iekrange=  27  67 fermifac   1.0000
+iq=333 qsym=1 ib=   4 Ei=  -2.1239 Ekin=  38.5932 iekrange= 177 217 fermifac   1.0000
+ k point #         334   input no. of plane waves =        1937
+ k value = -0.433333337      0.366666675       1.26237862E-15
+iq=334 qsym=1 ib=   3 Ei=  -8.7587 Ekin=  31.9584 iekrange=  12  52 fermifac   1.0000
+iq=334 qsym=1 ib=   4 Ei=  -1.6781 Ekin=  39.0390 iekrange= 189 229 fermifac   1.0000
+ k point #         335   input no. of plane waves =        1935
+ k value = -0.400000006      0.366666675       1.26237862E-15
+iq=335 qsym=1 ib=   3 Ei=  -9.3818 Ekin=  31.3353 iekrange=   1  36 fermifac   1.0000
+iq=335 qsym=1 ib=   4 Ei=  -1.2385 Ekin=  39.4786 iekrange= 200 240 fermifac   1.0000
+ k point #         336   input no. of plane waves =        1936
+ k value = -0.366666675      0.366666675       1.26237862E-15
+iq=336 qsym=1 ib=   3 Ei=  -9.9358 Ekin=  30.7813 iekrange=   1  22 fermifac   1.0000
+iq=336 qsym=1 ib=   4 Ei=  -0.8331 Ekin=  39.8840 iekrange= 210 250 fermifac   1.0000
+iq=336 qsym=1 ib=   5 Ei=   0.7892 Ekin=  41.5063 iekrange= 250 251 fermifac   1.0000
+ k point #         337   input no. of plane waves =        1930
+ k value = -0.333333343      0.366666675       1.26237862E-15
+iq=337 qsym=1 ib=   3 Ei= -10.3056 Ekin=  30.4115 iekrange=   1  13 fermifac   1.0000
+iq=337 qsym=1 ib=   4 Ei=  -0.5350 Ekin=  40.1821 iekrange= 217 251 fermifac   1.0000
+iq=337 qsym=1 ib=   5 Ei=   0.5249 Ekin=  41.2420 iekrange= 244 251 fermifac   1.0000
+ k point #         338   input no. of plane waves =        1930
+ k value = -0.300000012      0.366666675       1.26237862E-15
+iq=338 qsym=1 ib=   3 Ei= -10.3056 Ekin=  30.4115 iekrange=   1  13 fermifac   1.0000
+iq=338 qsym=1 ib=   4 Ei=  -0.5350 Ekin=  40.1821 iekrange= 217 251 fermifac   1.0000
+iq=338 qsym=1 ib=   5 Ei=   0.5249 Ekin=  41.2420 iekrange= 244 251 fermifac   1.0000
+ k point #         339   input no. of plane waves =        1936
+ k value = -0.266666681      0.366666675       1.26237862E-15
+iq=339 qsym=1 ib=   3 Ei=  -9.9358 Ekin=  30.7813 iekrange=   1  22 fermifac   1.0000
+iq=339 qsym=1 ib=   4 Ei=  -0.8331 Ekin=  39.8840 iekrange= 210 250 fermifac   1.0000
+iq=339 qsym=1 ib=   5 Ei=   0.7892 Ekin=  41.5063 iekrange= 250 251 fermifac   1.0000
+ k point #         340   input no. of plane waves =        1935
+ k value = -0.233333334      0.366666675       1.26237862E-15
+iq=340 qsym=1 ib=   3 Ei=  -9.3818 Ekin=  31.3353 iekrange=   1  36 fermifac   1.0000
+iq=340 qsym=1 ib=   4 Ei=  -1.2385 Ekin=  39.4786 iekrange= 200 240 fermifac   1.0000
+ k point #         341   input no. of plane waves =        1937
+ k value = -0.200000003      0.366666675       1.26237862E-15
+iq=341 qsym=1 ib=   3 Ei=  -8.7587 Ekin=  31.9584 iekrange=  12  52 fermifac   1.0000
+iq=341 qsym=1 ib=   4 Ei=  -1.6781 Ekin=  39.0390 iekrange= 189 229 fermifac   1.0000
+ k point #         342   input no. of plane waves =        1951
+ k value = -0.166666672      0.366666675       1.26237862E-15
+iq=342 qsym=1 ib=   3 Ei=  -8.1223 Ekin=  32.5948 iekrange=  27  67 fermifac   1.0000
+iq=342 qsym=1 ib=   4 Ei=  -2.1239 Ekin=  38.5932 iekrange= 177 217 fermifac   1.0000
+ k point #         343   input no. of plane waves =        1949
+ k value = -0.133333340      0.366666675       1.26237862E-15
+iq=343 qsym=1 ib=   3 Ei=  -7.5089 Ekin=  33.2082 iekrange=  43  83 fermifac   1.0000
+iq=343 qsym=1 ib=   4 Ei=  -2.5597 Ekin=  38.1574 iekrange= 167 207 fermifac   1.0000
+ k point #         344   input no. of plane waves =        1945
+ k value = -0.100000001      0.366666675       1.26237862E-15
+iq=344 qsym=1 ib=   3 Ei=  -6.9536 Ekin=  33.7635 iekrange=  57  97 fermifac   1.0000
+iq=344 qsym=1 ib=   4 Ei=  -2.9747 Ekin=  37.7424 iekrange= 156 196 fermifac   1.0000
+ k point #         345   input no. of plane waves =        1941
+ k value =  -6.66666701E-02  0.366666675       1.26237862E-15
+iq=345 qsym=1 ib=   3 Ei=  -6.4917 Ekin=  34.2254 iekrange=  68 108 fermifac   1.0000
+iq=345 qsym=1 ib=   4 Ei=  -3.3602 Ekin=  37.3569 iekrange= 146 186 fermifac   1.0000
+ k point #         346   input no. of plane waves =        1931
+ k value =  -3.33333351E-02  0.366666675       1.26237862E-15
+iq=346 qsym=1 ib=   3 Ei=  -6.1567 Ekin=  34.5604 iekrange=  77 117 fermifac   1.0000
+iq=346 qsym=1 ib=   4 Ei=  -3.7095 Ekin=  37.0076 iekrange= 138 178 fermifac   1.0000
+ k point #         347   input no. of plane waves =        1933
+ k value =   3.33066907E-16  0.400000006       1.26237862E-15
+iq=347 qsym=1 ib=   3 Ei=  -6.1516 Ekin=  34.5655 iekrange=  77 117 fermifac   1.0000
+iq=347 qsym=1 ib=   4 Ei=  -3.4485 Ekin=  37.2686 iekrange= 144 184 fermifac   1.0000
+ k point #         348   input no. of plane waves =        1931
+ k value =   3.33333351E-02  0.400000006       1.26237862E-15
+iq=348 qsym=1 ib=   3 Ei=  -6.1567 Ekin=  34.5604 iekrange=  77 117 fermifac   1.0000
+iq=348 qsym=1 ib=   4 Ei=  -3.7095 Ekin=  37.0076 iekrange= 138 178 fermifac   1.0000
+ k point #         349   input no. of plane waves =        1945
+ k value =   6.66666701E-02  0.400000006       1.26237862E-15
+iq=349 qsym=1 ib=   2 Ei= -10.4125 Ekin=  30.3046 iekrange=   1  10 fermifac   1.0000
+iq=349 qsym=1 ib=   3 Ei=  -6.3127 Ekin=  34.4044 iekrange=  73 113 fermifac   1.0000
+iq=349 qsym=1 ib=   4 Ei=  -3.9298 Ekin=  36.7873 iekrange= 132 172 fermifac   1.0000
+ k point #         350   input no. of plane waves =        1941
+ k value =  0.100000001      0.400000006       1.26237862E-15
+iq=350 qsym=1 ib=   2 Ei=  -9.9462 Ekin=  30.7709 iekrange=   1  22 fermifac   1.0000
+iq=350 qsym=1 ib=   3 Ei=  -6.5866 Ekin=  34.1305 iekrange=  66 106 fermifac   1.0000
+iq=350 qsym=1 ib=   4 Ei=  -4.1046 Ekin=  36.6125 iekrange= 128 168 fermifac   1.0000
+ k point #         351   input no. of plane waves =        1939
+ k value =  0.133333340      0.400000006       1.26237862E-15
+iq=351 qsym=1 ib=   2 Ei=  -9.4888 Ekin=  31.2283 iekrange=   1  33 fermifac   1.0000
+iq=351 qsym=1 ib=   3 Ei=  -6.9300 Ekin=  33.7871 iekrange=  57  97 fermifac   1.0000
+iq=351 qsym=1 ib=   4 Ei=  -4.2314 Ekin=  36.4857 iekrange= 125 165 fermifac   1.0000
+ k point #         352   input no. of plane waves =        1936
+ k value =  0.166666672      0.400000006       1.26237862E-15
+iq=352 qsym=1 ib=   2 Ei=  -9.0987 Ekin=  31.6184 iekrange=   3  43 fermifac   1.0000
+iq=352 qsym=1 ib=   3 Ei=  -7.2615 Ekin=  33.4556 iekrange=  49  89 fermifac   1.0000
+iq=352 qsym=1 ib=   4 Ei=  -4.3084 Ekin=  36.4087 iekrange= 123 163 fermifac   1.0000
+ k point #         353   input no. of plane waves =        1938
+ k value =  0.200000003      0.400000006       1.26237862E-15
+iq=353 qsym=1 ib=   2 Ei=  -8.9232 Ekin=  31.7939 iekrange=   7  47 fermifac   1.0000
+iq=353 qsym=1 ib=   3 Ei=  -7.4191 Ekin=  33.2980 iekrange=  45  85 fermifac   1.0000
+iq=353 qsym=1 ib=   4 Ei=  -4.3343 Ekin=  36.3828 iekrange= 122 162 fermifac   1.0000
+ k point #         354   input no. of plane waves =        1936
+ k value =  0.233333334      0.400000006       1.26237862E-15
+iq=354 qsym=1 ib=   2 Ei=  -9.0987 Ekin=  31.6184 iekrange=   3  43 fermifac   1.0000
+iq=354 qsym=1 ib=   3 Ei=  -7.2615 Ekin=  33.4556 iekrange=  49  89 fermifac   1.0000
+iq=354 qsym=1 ib=   4 Ei=  -4.3084 Ekin=  36.4087 iekrange= 123 163 fermifac   1.0000
+ k point #         355   input no. of plane waves =        1939
+ k value =  0.266666681      0.400000006       1.26237862E-15
+iq=355 qsym=1 ib=   2 Ei=  -9.4888 Ekin=  31.2283 iekrange=   1  33 fermifac   1.0000
+iq=355 qsym=1 ib=   3 Ei=  -6.9300 Ekin=  33.7871 iekrange=  57  97 fermifac   1.0000
+iq=355 qsym=1 ib=   4 Ei=  -4.2314 Ekin=  36.4857 iekrange= 125 165 fermifac   1.0000
+ k point #         356   input no. of plane waves =        1941
+ k value =  0.300000012      0.400000006       1.26237862E-15
+iq=356 qsym=1 ib=   2 Ei=  -9.9462 Ekin=  30.7709 iekrange=   1  22 fermifac   1.0000
+iq=356 qsym=1 ib=   3 Ei=  -6.5866 Ekin=  34.1305 iekrange=  66 106 fermifac   1.0000
+iq=356 qsym=1 ib=   4 Ei=  -4.1046 Ekin=  36.6125 iekrange= 128 168 fermifac   1.0000
+ k point #         357   input no. of plane waves =        1945
+ k value =  0.333333343      0.400000006       1.26237862E-15
+iq=357 qsym=1 ib=   2 Ei= -10.4125 Ekin=  30.3046 iekrange=   1  10 fermifac   1.0000
+iq=357 qsym=1 ib=   3 Ei=  -6.3127 Ekin=  34.4044 iekrange=  73 113 fermifac   1.0000
+iq=357 qsym=1 ib=   4 Ei=  -3.9298 Ekin=  36.7873 iekrange= 132 172 fermifac   1.0000
+ k point #         358   input no. of plane waves =        1931
+ k value =  0.366666675      0.400000006       1.26237862E-15
+iq=358 qsym=1 ib=   3 Ei=  -6.1567 Ekin=  34.5604 iekrange=  77 117 fermifac   1.0000
+iq=358 qsym=1 ib=   4 Ei=  -3.7095 Ekin=  37.0076 iekrange= 138 178 fermifac   1.0000
+ k point #         359   input no. of plane waves =        1933
+ k value =  0.400000006      0.400000006       1.26237862E-15
+iq=359 qsym=1 ib=   3 Ei=  -6.1516 Ekin=  34.5655 iekrange=  77 117 fermifac   1.0000
+iq=359 qsym=1 ib=   4 Ei=  -3.4485 Ekin=  37.2686 iekrange= 144 184 fermifac   1.0000
+ k point #         360   input no. of plane waves =        1931
+ k value =  0.433333337      0.400000006       1.26237862E-15
+iq=360 qsym=1 ib=   3 Ei=  -6.3095 Ekin=  34.4076 iekrange=  73 113 fermifac   1.0000
+iq=360 qsym=1 ib=   4 Ei=  -3.1510 Ekin=  37.5661 iekrange= 152 192 fermifac   1.0000
+ k point #         361   input no. of plane waves =        1951
+ k value =  0.466666669      0.400000006       1.26237862E-15
+iq=361 qsym=1 ib=   3 Ei=  -6.6212 Ekin=  34.0959 iekrange=  65 105 fermifac   1.0000
+iq=361 qsym=1 ib=   4 Ei=  -2.8262 Ekin=  37.8909 iekrange= 160 200 fermifac   1.0000
+ k point #         362   input no. of plane waves =        1949
+ k value =  0.500000000      0.400000006       1.26237862E-15
+iq=362 qsym=1 ib=   3 Ei=  -7.0597 Ekin=  33.6574 iekrange=  54  94 fermifac   1.0000
+iq=362 qsym=1 ib=   4 Ei=  -2.4825 Ekin=  38.2346 iekrange= 168 208 fermifac   1.0000
+ k point #         363   input no. of plane waves =        1947
+ k value = -0.466666669      0.400000006       1.26237862E-15
+iq=363 qsym=1 ib=   3 Ei=  -7.5916 Ekin=  33.1255 iekrange=  41  81 fermifac   1.0000
+iq=363 qsym=1 ib=   4 Ei=  -2.1331 Ekin=  38.5840 iekrange= 177 217 fermifac   1.0000
+ k point #         364   input no. of plane waves =        1947
+ k value = -0.433333337      0.400000006       1.26237862E-15
+iq=364 qsym=1 ib=   3 Ei=  -8.1810 Ekin=  32.5361 iekrange=  26  66 fermifac   1.0000
+iq=364 qsym=1 ib=   4 Ei=  -1.7946 Ekin=  38.9225 iekrange= 186 226 fermifac   1.0000
+ k point #         365   input no. of plane waves =        1928
+ k value = -0.400000006      0.400000006       1.26237862E-15
+iq=365 qsym=1 ib=   3 Ei=  -8.7914 Ekin=  31.9257 iekrange=  11  51 fermifac   1.0000
+iq=365 qsym=1 ib=   4 Ei=  -1.4876 Ekin=  39.2295 iekrange= 193 233 fermifac   1.0000
+ k point #         366   input no. of plane waves =        1935
+ k value = -0.366666675      0.400000006       1.26237862E-15
+iq=366 qsym=1 ib=   3 Ei=  -9.3818 Ekin=  31.3353 iekrange=   1  36 fermifac   1.0000
+iq=366 qsym=1 ib=   4 Ei=  -1.2385 Ekin=  39.4786 iekrange= 200 240 fermifac   1.0000
+ k point #         367   input no. of plane waves =        1941
+ k value = -0.333333343      0.400000006       1.26237862E-15
+iq=367 qsym=1 ib=   3 Ei=  -9.8757 Ekin=  30.8414 iekrange=   1  24 fermifac   1.0000
+iq=367 qsym=1 ib=   4 Ei=  -1.0735 Ekin=  39.6436 iekrange= 204 244 fermifac   1.0000
+ k point #         368   input no. of plane waves =        1934
+ k value = -0.300000012      0.400000006       1.26237862E-15
+iq=368 qsym=1 ib=   3 Ei= -10.0954 Ekin=  30.6217 iekrange=   1  18 fermifac   1.0000
+iq=368 qsym=1 ib=   4 Ei=  -1.0153 Ekin=  39.7018 iekrange= 205 245 fermifac   1.0000
+ k point #         369   input no. of plane waves =        1941
+ k value = -0.266666681      0.400000006       1.26237862E-15
+iq=369 qsym=1 ib=   3 Ei=  -9.8757 Ekin=  30.8414 iekrange=   1  24 fermifac   1.0000
+iq=369 qsym=1 ib=   4 Ei=  -1.0735 Ekin=  39.6436 iekrange= 204 244 fermifac   1.0000
+ k point #         370   input no. of plane waves =        1935
+ k value = -0.233333334      0.400000006       1.26237862E-15
+iq=370 qsym=1 ib=   3 Ei=  -9.3818 Ekin=  31.3353 iekrange=   1  36 fermifac   1.0000
+iq=370 qsym=1 ib=   4 Ei=  -1.2385 Ekin=  39.4786 iekrange= 200 240 fermifac   1.0000
+ k point #         371   input no. of plane waves =        1928
+ k value = -0.200000003      0.400000006       1.26237862E-15
+iq=371 qsym=1 ib=   3 Ei=  -8.7914 Ekin=  31.9257 iekrange=  11  51 fermifac   1.0000
+iq=371 qsym=1 ib=   4 Ei=  -1.4876 Ekin=  39.2295 iekrange= 193 233 fermifac   1.0000
+ k point #         372   input no. of plane waves =        1947
+ k value = -0.166666672      0.400000006       1.26237862E-15
+iq=372 qsym=1 ib=   3 Ei=  -8.1810 Ekin=  32.5361 iekrange=  26  66 fermifac   1.0000
+iq=372 qsym=1 ib=   4 Ei=  -1.7946 Ekin=  38.9225 iekrange= 186 226 fermifac   1.0000
+ k point #         373   input no. of plane waves =        1947
+ k value = -0.133333340      0.400000006       1.26237862E-15
+iq=373 qsym=1 ib=   3 Ei=  -7.5916 Ekin=  33.1255 iekrange=  41  81 fermifac   1.0000
+iq=373 qsym=1 ib=   4 Ei=  -2.1331 Ekin=  38.5840 iekrange= 177 217 fermifac   1.0000
+ k point #         374   input no. of plane waves =        1949
+ k value = -0.100000001      0.400000006       1.26237862E-15
+iq=374 qsym=1 ib=   3 Ei=  -7.0597 Ekin=  33.6574 iekrange=  54  94 fermifac   1.0000
+iq=374 qsym=1 ib=   4 Ei=  -2.4825 Ekin=  38.2346 iekrange= 168 208 fermifac   1.0000
+ k point #         375   input no. of plane waves =        1951
+ k value =  -6.66666701E-02  0.400000006       1.26237862E-15
+iq=375 qsym=1 ib=   3 Ei=  -6.6212 Ekin=  34.0959 iekrange=  65 105 fermifac   1.0000
+iq=375 qsym=1 ib=   4 Ei=  -2.8262 Ekin=  37.8909 iekrange= 160 200 fermifac   1.0000
+ k point #         376   input no. of plane waves =        1931
+ k value =  -3.33333351E-02  0.400000006       1.26237862E-15
+iq=376 qsym=1 ib=   3 Ei=  -6.3095 Ekin=  34.4076 iekrange=  73 113 fermifac   1.0000
+iq=376 qsym=1 ib=   4 Ei=  -3.1510 Ekin=  37.5661 iekrange= 152 192 fermifac   1.0000
+ k point #         377   input no. of plane waves =        1931
+ k value =   3.05311332E-16  0.433333337       1.26237862E-15
+iq=377 qsym=1 ib=   3 Ei=  -6.2789 Ekin=  34.4382 iekrange=  74 114 fermifac   1.0000
+iq=377 qsym=1 ib=   4 Ei=  -2.9157 Ekin=  37.8014 iekrange= 158 198 fermifac   1.0000
+ k point #         378   input no. of plane waves =        1931
+ k value =   3.33333351E-02  0.433333337       1.26237862E-15
+iq=378 qsym=1 ib=   3 Ei=  -6.3095 Ekin=  34.4076 iekrange=  73 113 fermifac   1.0000
+iq=378 qsym=1 ib=   4 Ei=  -3.1510 Ekin=  37.5661 iekrange= 152 192 fermifac   1.0000
+ k point #         379   input no. of plane waves =        1941
+ k value =   6.66666701E-02  0.433333337       1.26237862E-15
+iq=379 qsym=1 ib=   3 Ei=  -6.4917 Ekin=  34.2254 iekrange=  68 108 fermifac   1.0000
+iq=379 qsym=1 ib=   4 Ei=  -3.3602 Ekin=  37.3569 iekrange= 146 186 fermifac   1.0000
+ k point #         380   input no. of plane waves =        1947
+ k value =  0.100000001      0.433333337       1.26237862E-15
+iq=380 qsym=1 ib=   2 Ei= -10.7683 Ekin=  29.9488 iekrange=   1   1 fermifac   1.0000
+iq=380 qsym=1 ib=   3 Ei=  -6.7957 Ekin=  33.9214 iekrange=  61 101 fermifac   1.0000
+iq=380 qsym=1 ib=   4 Ei=  -3.5353 Ekin=  37.1818 iekrange= 142 182 fermifac   1.0000
+ k point #         381   input no. of plane waves =        1945
+ k value =  0.133333340      0.433333337       1.26237862E-15
+iq=381 qsym=1 ib=   2 Ei= -10.2940 Ekin=  30.4231 iekrange=   1  13 fermifac   1.0000
+iq=381 qsym=1 ib=   3 Ei=  -7.1785 Ekin=  33.5386 iekrange=  51  91 fermifac   1.0000
+iq=381 qsym=1 ib=   4 Ei=  -3.6708 Ekin=  37.0463 iekrange= 139 179 fermifac   1.0000
+ k point #         382   input no. of plane waves =        1949
+ k value =  0.166666672      0.433333337       1.26237862E-15
+iq=382 qsym=1 ib=   2 Ei=  -9.8472 Ekin=  30.8699 iekrange=   1  24 fermifac   1.0000
+iq=382 qsym=1 ib=   3 Ei=  -7.5793 Ekin=  33.1378 iekrange=  41  81 fermifac   1.0000
+iq=382 qsym=1 ib=   4 Ei=  -3.7631 Ekin=  36.9540 iekrange= 136 176 fermifac   1.0000
+ k point #         383   input no. of plane waves =        1948
+ k value =  0.200000003      0.433333337       1.26237862E-15
+iq=383 qsym=1 ib=   2 Ei=  -9.5268 Ekin=  31.1903 iekrange=   1  32 fermifac   1.0000
+iq=383 qsym=1 ib=   3 Ei=  -7.8810 Ekin=  32.8361 iekrange=  33  73 fermifac   1.0000
+iq=383 qsym=1 ib=   4 Ei=  -3.8102 Ekin=  36.9069 iekrange= 135 175 fermifac   1.0000
+ k point #         384   input no. of plane waves =        1948
+ k value =  0.233333334      0.433333337       1.26237862E-15
+iq=384 qsym=1 ib=   2 Ei=  -9.5268 Ekin=  31.1903 iekrange=   1  32 fermifac   1.0000
+iq=384 qsym=1 ib=   3 Ei=  -7.8810 Ekin=  32.8361 iekrange=  33  73 fermifac   1.0000
+iq=384 qsym=1 ib=   4 Ei=  -3.8102 Ekin=  36.9069 iekrange= 135 175 fermifac   1.0000
+ k point #         385   input no. of plane waves =        1949
+ k value =  0.266666681      0.433333337       1.26237862E-15
+iq=385 qsym=1 ib=   2 Ei=  -9.8472 Ekin=  30.8699 iekrange=   1  24 fermifac   1.0000
+iq=385 qsym=1 ib=   3 Ei=  -7.5793 Ekin=  33.1378 iekrange=  41  81 fermifac   1.0000
+iq=385 qsym=1 ib=   4 Ei=  -3.7631 Ekin=  36.9540 iekrange= 136 176 fermifac   1.0000
+ k point #         386   input no. of plane waves =        1945
+ k value =  0.300000012      0.433333337       1.26237862E-15
+iq=386 qsym=1 ib=   2 Ei= -10.2940 Ekin=  30.4231 iekrange=   1  13 fermifac   1.0000
+iq=386 qsym=1 ib=   3 Ei=  -7.1785 Ekin=  33.5386 iekrange=  51  91 fermifac   1.0000
+iq=386 qsym=1 ib=   4 Ei=  -3.6708 Ekin=  37.0463 iekrange= 139 179 fermifac   1.0000
+ k point #         387   input no. of plane waves =        1947
+ k value =  0.333333343      0.433333337       1.26237862E-15
+iq=387 qsym=1 ib=   2 Ei= -10.7684 Ekin=  29.9487 iekrange=   1   1 fermifac   1.0000
+iq=387 qsym=1 ib=   3 Ei=  -6.7957 Ekin=  33.9214 iekrange=  61 101 fermifac   1.0000
+iq=387 qsym=1 ib=   4 Ei=  -3.5353 Ekin=  37.1818 iekrange= 142 182 fermifac   1.0000
+ k point #         388   input no. of plane waves =        1941
+ k value =  0.366666675      0.433333337       1.26237862E-15
+iq=388 qsym=1 ib=   3 Ei=  -6.4917 Ekin=  34.2254 iekrange=  68 108 fermifac   1.0000
+iq=388 qsym=1 ib=   4 Ei=  -3.3602 Ekin=  37.3569 iekrange= 146 186 fermifac   1.0000
+ k point #         389   input no. of plane waves =        1931
+ k value =  0.400000006      0.433333337       1.26237862E-15
+iq=389 qsym=1 ib=   3 Ei=  -6.3095 Ekin=  34.4076 iekrange=  73 113 fermifac   1.0000
+iq=389 qsym=1 ib=   4 Ei=  -3.1510 Ekin=  37.5661 iekrange= 152 192 fermifac   1.0000
+ k point #         390   input no. of plane waves =        1931
+ k value =  0.433333337      0.433333337       1.26237862E-15
+iq=390 qsym=1 ib=   3 Ei=  -6.2789 Ekin=  34.4382 iekrange=  74 114 fermifac   1.0000
+iq=390 qsym=1 ib=   4 Ei=  -2.9157 Ekin=  37.8014 iekrange= 158 198 fermifac   1.0000
+ k point #         391   input no. of plane waves =        1941
+ k value =  0.466666669      0.433333337       1.26237862E-15
+iq=391 qsym=1 ib=   3 Ei=  -6.4127 Ekin=  34.3044 iekrange=  70 110 fermifac   1.0000
+iq=391 qsym=1 ib=   4 Ei=  -2.6644 Ekin=  38.0527 iekrange= 164 204 fermifac   1.0000
+ k point #         392   input no. of plane waves =        1945
+ k value =  0.500000000      0.433333337       1.26237862E-15
+iq=392 qsym=1 ib=   3 Ei=  -6.6994 Ekin=  34.0177 iekrange=  63 103 fermifac   1.0000
+iq=392 qsym=1 ib=   4 Ei=  -2.4106 Ekin=  38.3065 iekrange= 170 210 fermifac   1.0000
+ k point #         393   input no. of plane waves =        1941
+ k value = -0.466666669      0.433333337       1.26237862E-15
+iq=393 qsym=1 ib=   3 Ei=  -7.1129 Ekin=  33.6042 iekrange=  53  93 fermifac   1.0000
+iq=393 qsym=1 ib=   4 Ei=  -2.1702 Ekin=  38.5469 iekrange= 176 216 fermifac   1.0000
+ k point #         394   input no. of plane waves =        1940
+ k value = -0.433333337      0.433333337       1.26237862E-15
+iq=394 qsym=1 ib=   3 Ei=  -7.6191 Ekin=  33.0980 iekrange=  40  80 fermifac   1.0000
+iq=394 qsym=1 ib=   4 Ei=  -1.9604 Ekin=  38.7567 iekrange= 181 221 fermifac   1.0000
+ k point #         395   input no. of plane waves =        1947
+ k value = -0.400000006      0.433333337       1.26237862E-15
+iq=395 qsym=1 ib=   3 Ei=  -8.1810 Ekin=  32.5361 iekrange=  26  66 fermifac   1.0000
+iq=395 qsym=1 ib=   4 Ei=  -1.7946 Ekin=  38.9225 iekrange= 186 226 fermifac   1.0000
+ k point #         396   input no. of plane waves =        1937
+ k value = -0.366666675      0.433333337       1.26237862E-15
+iq=396 qsym=1 ib=   3 Ei=  -8.7587 Ekin=  31.9584 iekrange=  12  52 fermifac   1.0000
+iq=396 qsym=1 ib=   4 Ei=  -1.6781 Ekin=  39.0390 iekrange= 189 229 fermifac   1.0000
+ k point #         397   input no. of plane waves =        1949
+ k value = -0.333333343      0.433333337       1.26237862E-15
+iq=397 qsym=1 ib=   3 Ei=  -9.2994 Ekin=  31.4177 iekrange=   1  38 fermifac   1.0000
+iq=397 qsym=1 ib=   4 Ei=  -1.6081 Ekin=  39.1090 iekrange= 190 230 fermifac   1.0000
+ k point #         398   input no. of plane waves =        1940
+ k value = -0.300000012      0.433333337       1.26237862E-15
+iq=398 qsym=1 ib=   3 Ei=  -9.6844 Ekin=  31.0327 iekrange=   1  28 fermifac   1.0000
+iq=398 qsym=1 ib=   4 Ei=  -1.5758 Ekin=  39.1413 iekrange= 191 231 fermifac   1.0000
+ k point #         399   input no. of plane waves =        1940
+ k value = -0.266666681      0.433333337       1.26237862E-15
+iq=399 qsym=1 ib=   3 Ei=  -9.6844 Ekin=  31.0327 iekrange=   1  28 fermifac   1.0000
+iq=399 qsym=1 ib=   4 Ei=  -1.5758 Ekin=  39.1413 iekrange= 191 231 fermifac   1.0000
+ k point #         400   input no. of plane waves =        1949
+ k value = -0.233333334      0.433333337       1.26237862E-15
+iq=400 qsym=1 ib=   3 Ei=  -9.2994 Ekin=  31.4177 iekrange=   1  38 fermifac   1.0000
+iq=400 qsym=1 ib=   4 Ei=  -1.6081 Ekin=  39.1090 iekrange= 190 230 fermifac   1.0000
+ k point #         401   input no. of plane waves =        1937
+ k value = -0.200000003      0.433333337       1.26237862E-15
+iq=401 qsym=1 ib=   3 Ei=  -8.7587 Ekin=  31.9584 iekrange=  12  52 fermifac   1.0000
+iq=401 qsym=1 ib=   4 Ei=  -1.6781 Ekin=  39.0390 iekrange= 189 229 fermifac   1.0000
+ k point #         402   input no. of plane waves =        1947
+ k value = -0.166666672      0.433333337       1.26237862E-15
+iq=402 qsym=1 ib=   3 Ei=  -8.1810 Ekin=  32.5361 iekrange=  26  66 fermifac   1.0000
+iq=402 qsym=1 ib=   4 Ei=  -1.7946 Ekin=  38.9225 iekrange= 186 226 fermifac   1.0000
+ k point #         403   input no. of plane waves =        1940
+ k value = -0.133333340      0.433333337       1.26237862E-15
+iq=403 qsym=1 ib=   3 Ei=  -7.6191 Ekin=  33.0980 iekrange=  40  80 fermifac   1.0000
+iq=403 qsym=1 ib=   4 Ei=  -1.9604 Ekin=  38.7567 iekrange= 181 221 fermifac   1.0000
+ k point #         404   input no. of plane waves =        1941
+ k value = -0.100000001      0.433333337       1.26237862E-15
+iq=404 qsym=1 ib=   3 Ei=  -7.1129 Ekin=  33.6042 iekrange=  53  93 fermifac   1.0000
+iq=404 qsym=1 ib=   4 Ei=  -2.1702 Ekin=  38.5469 iekrange= 176 216 fermifac   1.0000
+ k point #         405   input no. of plane waves =        1945
+ k value =  -6.66666701E-02  0.433333337       1.26237862E-15
+iq=405 qsym=1 ib=   3 Ei=  -6.6994 Ekin=  34.0177 iekrange=  63 103 fermifac   1.0000
+iq=405 qsym=1 ib=   4 Ei=  -2.4106 Ekin=  38.3065 iekrange= 170 210 fermifac   1.0000
+ k point #         406   input no. of plane waves =        1941
+ k value =  -3.33333351E-02  0.433333337       1.26237862E-15
+iq=406 qsym=1 ib=   3 Ei=  -6.4127 Ekin=  34.3044 iekrange=  70 110 fermifac   1.0000
+iq=406 qsym=1 ib=   4 Ei=  -2.6644 Ekin=  38.0527 iekrange= 164 204 fermifac   1.0000
+ k point #         407   input no. of plane waves =        1917
+ k value =   3.33066907E-16  0.466666669       1.26237862E-15
+iq=407 qsym=1 ib=   3 Ei=  -6.3557 Ekin=  34.3614 iekrange=  72 112 fermifac   1.0000
+iq=407 qsym=1 ib=   4 Ei=  -2.5034 Ekin=  38.2137 iekrange= 168 208 fermifac   1.0000
+ k point #         408   input no. of plane waves =        1941
+ k value =   3.33333351E-02  0.466666669       1.26237862E-15
+iq=408 qsym=1 ib=   3 Ei=  -6.4127 Ekin=  34.3044 iekrange=  70 110 fermifac   1.0000
+iq=408 qsym=1 ib=   4 Ei=  -2.6644 Ekin=  38.0527 iekrange= 164 204 fermifac   1.0000
+ k point #         409   input no. of plane waves =        1951
+ k value =   6.66666701E-02  0.466666669       1.26237862E-15
+iq=409 qsym=1 ib=   3 Ei=  -6.6212 Ekin=  34.0959 iekrange=  65 105 fermifac   1.0000
+iq=409 qsym=1 ib=   4 Ei=  -2.8262 Ekin=  37.8909 iekrange= 160 200 fermifac   1.0000
+ k point #         410   input no. of plane waves =        1945
+ k value =  0.100000001      0.466666669       1.26237862E-15
+iq=410 qsym=1 ib=   3 Ei=  -6.9536 Ekin=  33.7635 iekrange=  57  97 fermifac   1.0000
+iq=410 qsym=1 ib=   4 Ei=  -2.9747 Ekin=  37.7424 iekrange= 156 196 fermifac   1.0000
+ k point #         411   input no. of plane waves =        1945
+ k value =  0.133333340      0.466666669       1.26237862E-15
+iq=411 qsym=1 ib=   3 Ei=  -7.3713 Ekin=  33.3458 iekrange=  46  86 fermifac   1.0000
+iq=411 qsym=1 ib=   4 Ei=  -3.0999 Ekin=  37.6172 iekrange= 153 193 fermifac   1.0000
+ k point #         412   input no. of plane waves =        1953
+ k value =  0.166666672      0.466666669       1.26237862E-15
+iq=412 qsym=1 ib=   2 Ei= -10.6105 Ekin=  30.1066 iekrange=   1   5 fermifac   1.0000
+iq=412 qsym=1 ib=   3 Ei=  -7.8245 Ekin=  32.8926 iekrange=  35  75 fermifac   1.0000
+iq=412 qsym=1 ib=   4 Ei=  -3.1942 Ekin=  37.5229 iekrange= 151 191 fermifac   1.0000
+ k point #         413   input no. of plane waves =        1936
+ k value =  0.200000003      0.466666669       1.26237862E-15
+iq=413 qsym=1 ib=   2 Ei= -10.1961 Ekin=  30.5210 iekrange=   1  16 fermifac   1.0000
+iq=413 qsym=1 ib=   3 Ei=  -8.2327 Ekin=  32.4844 iekrange=  25  65 fermifac   1.0000
+iq=413 qsym=1 ib=   4 Ei=  -3.2525 Ekin=  37.4646 iekrange= 149 189 fermifac   1.0000
+ k point #         414   input no. of plane waves =        1948
+ k value =  0.233333334      0.466666669       1.26237862E-15
+iq=414 qsym=1 ib=   2 Ei= -10.0056 Ekin=  30.7115 iekrange=   1  20 fermifac   1.0000
+iq=414 qsym=1 ib=   3 Ei=  -8.4229 Ekin=  32.2942 iekrange=  20  60 fermifac   1.0000
+iq=414 qsym=1 ib=   4 Ei=  -3.2725 Ekin=  37.4446 iekrange= 149 189 fermifac   1.0000
+ k point #         415   input no. of plane waves =        1936
+ k value =  0.266666681      0.466666669       1.26237862E-15
+iq=415 qsym=1 ib=   2 Ei= -10.1961 Ekin=  30.5210 iekrange=   1  16 fermifac   1.0000
+iq=415 qsym=1 ib=   3 Ei=  -8.2327 Ekin=  32.4844 iekrange=  25  65 fermifac   1.0000
+iq=415 qsym=1 ib=   4 Ei=  -3.2525 Ekin=  37.4646 iekrange= 149 189 fermifac   1.0000
+ k point #         416   input no. of plane waves =        1953
+ k value =  0.300000012      0.466666669       1.26237862E-15
+iq=416 qsym=1 ib=   2 Ei= -10.6105 Ekin=  30.1066 iekrange=   1   5 fermifac   1.0000
+iq=416 qsym=1 ib=   3 Ei=  -7.8245 Ekin=  32.8926 iekrange=  35  75 fermifac   1.0000
+iq=416 qsym=1 ib=   4 Ei=  -3.1942 Ekin=  37.5229 iekrange= 151 191 fermifac   1.0000
+ k point #         417   input no. of plane waves =        1945
+ k value =  0.333333343      0.466666669       1.26237862E-15
+iq=417 qsym=1 ib=   3 Ei=  -7.3713 Ekin=  33.3458 iekrange=  46  86 fermifac   1.0000
+iq=417 qsym=1 ib=   4 Ei=  -3.0999 Ekin=  37.6172 iekrange= 153 193 fermifac   1.0000
+ k point #         418   input no. of plane waves =        1945
+ k value =  0.366666675      0.466666669       1.26237862E-15
+iq=418 qsym=1 ib=   3 Ei=  -6.9536 Ekin=  33.7635 iekrange=  57  97 fermifac   1.0000
+iq=418 qsym=1 ib=   4 Ei=  -2.9747 Ekin=  37.7424 iekrange= 156 196 fermifac   1.0000
+ k point #         419   input no. of plane waves =        1951
+ k value =  0.400000006      0.466666669       1.26237862E-15
+iq=419 qsym=1 ib=   3 Ei=  -6.6212 Ekin=  34.0959 iekrange=  65 105 fermifac   1.0000
+iq=419 qsym=1 ib=   4 Ei=  -2.8262 Ekin=  37.8909 iekrange= 160 200 fermifac   1.0000
+ k point #         420   input no. of plane waves =        1941
+ k value =  0.433333337      0.466666669       1.26237862E-15
+iq=420 qsym=1 ib=   3 Ei=  -6.4127 Ekin=  34.3044 iekrange=  70 110 fermifac   1.0000
+iq=420 qsym=1 ib=   4 Ei=  -2.6644 Ekin=  38.0527 iekrange= 164 204 fermifac   1.0000
+ k point #         421   input no. of plane waves =        1917
+ k value =  0.466666669      0.466666669       1.26237862E-15
+iq=421 qsym=1 ib=   3 Ei=  -6.3557 Ekin=  34.3614 iekrange=  72 112 fermifac   1.0000
+iq=421 qsym=1 ib=   4 Ei=  -2.5034 Ekin=  38.2137 iekrange= 168 208 fermifac   1.0000
+ k point #         422   input no. of plane waves =        1935
+ k value =  0.500000000      0.466666669       1.26237862E-15
+iq=422 qsym=1 ib=   3 Ei=  -6.4643 Ekin=  34.2528 iekrange=  69 109 fermifac   1.0000
+iq=422 qsym=1 ib=   4 Ei=  -2.3592 Ekin=  38.3579 iekrange= 172 212 fermifac   1.0000
+ k point #         423   input no. of plane waves =        1938
+ k value = -0.466666669      0.466666669       1.26237862E-15
+iq=423 qsym=1 ib=   3 Ei=  -6.7255 Ekin=  33.9916 iekrange=  62 102 fermifac   1.0000
+iq=423 qsym=1 ib=   4 Ei=  -2.2455 Ekin=  38.4716 iekrange= 174 214 fermifac   1.0000
+ k point #         424   input no. of plane waves =        1941
+ k value = -0.433333337      0.466666669       1.26237862E-15
+iq=424 qsym=1 ib=   3 Ei=  -7.1129 Ekin=  33.6042 iekrange=  53  93 fermifac   1.0000
+iq=424 qsym=1 ib=   4 Ei=  -2.1702 Ekin=  38.5469 iekrange= 176 216 fermifac   1.0000
+ k point #         425   input no. of plane waves =        1947
+ k value = -0.400000006      0.466666669       1.26237862E-15
+iq=425 qsym=1 ib=   3 Ei=  -7.5916 Ekin=  33.1255 iekrange=  41  81 fermifac   1.0000
+iq=425 qsym=1 ib=   4 Ei=  -2.1331 Ekin=  38.5840 iekrange= 177 217 fermifac   1.0000
+ k point #         426   input no. of plane waves =        1951
+ k value = -0.366666675      0.466666669       1.26237862E-15
+iq=426 qsym=1 ib=   3 Ei=  -8.1222 Ekin=  32.5949 iekrange=  27  67 fermifac   1.0000
+iq=426 qsym=1 ib=   4 Ei=  -2.1239 Ekin=  38.5932 iekrange= 177 217 fermifac   1.0000
+ k point #         427   input no. of plane waves =        1949
+ k value = -0.333333343      0.466666669       1.26237862E-15
+iq=427 qsym=1 ib=   3 Ei=  -8.6589 Ekin=  32.0582 iekrange=  14  54 fermifac   1.0000
+iq=427 qsym=1 ib=   4 Ei=  -2.1293 Ekin=  38.5878 iekrange= 177 217 fermifac   1.0000
+ k point #         428   input no. of plane waves =        1943
+ k value = -0.300000012      0.466666669       1.26237862E-15
+iq=428 qsym=1 ib=   3 Ei=  -9.1251 Ekin=  31.5920 iekrange=   2  42 fermifac   1.0000
+iq=428 qsym=1 ib=   4 Ei=  -2.1377 Ekin=  38.5794 iekrange= 177 217 fermifac   1.0000
+ k point #         429   input no. of plane waves =        1942
+ k value = -0.266666681      0.466666669       1.26237862E-15
+iq=429 qsym=1 ib=   3 Ei=  -9.3391 Ekin=  31.3780 iekrange=   1  37 fermifac   1.0000
+iq=429 qsym=1 ib=   4 Ei=  -2.1413 Ekin=  38.5758 iekrange= 177 217 fermifac   1.0000
+ k point #         430   input no. of plane waves =        1943
+ k value = -0.233333334      0.466666669       1.26237862E-15
+iq=430 qsym=1 ib=   3 Ei=  -9.1251 Ekin=  31.5920 iekrange=   2  42 fermifac   1.0000
+iq=430 qsym=1 ib=   4 Ei=  -2.1377 Ekin=  38.5794 iekrange= 177 217 fermifac   1.0000
+ k point #         431   input no. of plane waves =        1949
+ k value = -0.200000003      0.466666669       1.26237862E-15
+iq=431 qsym=1 ib=   3 Ei=  -8.6589 Ekin=  32.0582 iekrange=  14  54 fermifac   1.0000
+iq=431 qsym=1 ib=   4 Ei=  -2.1293 Ekin=  38.5878 iekrange= 177 217 fermifac   1.0000
+ k point #         432   input no. of plane waves =        1951
+ k value = -0.166666672      0.466666669       1.26237862E-15
+iq=432 qsym=1 ib=   3 Ei=  -8.1223 Ekin=  32.5948 iekrange=  27  67 fermifac   1.0000
+iq=432 qsym=1 ib=   4 Ei=  -2.1239 Ekin=  38.5932 iekrange= 177 217 fermifac   1.0000
+ k point #         433   input no. of plane waves =        1947
+ k value = -0.133333340      0.466666669       1.26237862E-15
+iq=433 qsym=1 ib=   3 Ei=  -7.5916 Ekin=  33.1255 iekrange=  41  81 fermifac   1.0000
+iq=433 qsym=1 ib=   4 Ei=  -2.1331 Ekin=  38.5840 iekrange= 177 217 fermifac   1.0000
+ k point #         434   input no. of plane waves =        1941
+ k value = -0.100000001      0.466666669       1.26237862E-15
+iq=434 qsym=1 ib=   3 Ei=  -7.1129 Ekin=  33.6042 iekrange=  53  93 fermifac   1.0000
+iq=434 qsym=1 ib=   4 Ei=  -2.1702 Ekin=  38.5469 iekrange= 176 216 fermifac   1.0000
+ k point #         435   input no. of plane waves =        1938
+ k value =  -6.66666701E-02  0.466666669       1.26237862E-15
+iq=435 qsym=1 ib=   3 Ei=  -6.7256 Ekin=  33.9915 iekrange=  62 102 fermifac   1.0000
+iq=435 qsym=1 ib=   4 Ei=  -2.2455 Ekin=  38.4716 iekrange= 174 214 fermifac   1.0000
+ k point #         436   input no. of plane waves =        1935
+ k value =  -3.33333351E-02  0.466666669       1.26237862E-15
+iq=436 qsym=1 ib=   3 Ei=  -6.4643 Ekin=  34.2528 iekrange=  69 109 fermifac   1.0000
+iq=436 qsym=1 ib=   4 Ei=  -2.3592 Ekin=  38.3579 iekrange= 172 212 fermifac   1.0000
+ k point #         437   input no. of plane waves =        1910
+ k value =   3.33066907E-16  0.500000000       1.26237862E-15
+iq=437 qsym=1 ib=   3 Ei=  -6.3817 Ekin=  34.3354 iekrange=  71 111 fermifac   1.0000
+iq=437 qsym=1 ib=   4 Ei=  -2.3401 Ekin=  38.3770 iekrange= 172 212 fermifac   1.0000
+ k point #         438   input no. of plane waves =        1935
+ k value =   3.33333351E-02  0.500000000       1.26237862E-15
+iq=438 qsym=1 ib=   3 Ei=  -6.4643 Ekin=  34.2528 iekrange=  69 109 fermifac   1.0000
+iq=438 qsym=1 ib=   4 Ei=  -2.3592 Ekin=  38.3579 iekrange= 172 212 fermifac   1.0000
+ k point #         439   input no. of plane waves =        1945
+ k value =   6.66666701E-02  0.500000000       1.26237862E-15
+iq=439 qsym=1 ib=   3 Ei=  -6.6994 Ekin=  34.0177 iekrange=  63 103 fermifac   1.0000
+iq=439 qsym=1 ib=   4 Ei=  -2.4106 Ekin=  38.3065 iekrange= 170 210 fermifac   1.0000
+ k point #         440   input no. of plane waves =        1949
+ k value =  0.100000001      0.500000000       1.26237862E-15
+iq=440 qsym=1 ib=   3 Ei=  -7.0597 Ekin=  33.6574 iekrange=  54  94 fermifac   1.0000
+iq=440 qsym=1 ib=   4 Ei=  -2.4825 Ekin=  38.2346 iekrange= 168 208 fermifac   1.0000
+ k point #         441   input no. of plane waves =        1949
+ k value =  0.133333340      0.500000000       1.26237862E-15
+iq=441 qsym=1 ib=   3 Ei=  -7.5089 Ekin=  33.2082 iekrange=  43  83 fermifac   1.0000
+iq=441 qsym=1 ib=   4 Ei=  -2.5597 Ekin=  38.1574 iekrange= 167 207 fermifac   1.0000
+ k point #         442   input no. of plane waves =        1951
+ k value =  0.166666672      0.500000000       1.26237862E-15
+iq=442 qsym=1 ib=   3 Ei=  -8.0042 Ekin=  32.7129 iekrange=  30  70 fermifac   1.0000
+iq=442 qsym=1 ib=   4 Ei=  -2.6291 Ekin=  38.0880 iekrange= 165 205 fermifac   1.0000
+ k point #         443   input no. of plane waves =        1947
+ k value =  0.200000003      0.500000000       1.26237862E-15
+iq=443 qsym=1 ib=   3 Ei=  -8.4870 Ekin=  32.2301 iekrange=  18  58 fermifac   1.0000
+iq=443 qsym=1 ib=   4 Ei=  -2.6808 Ekin=  38.0363 iekrange= 163 203 fermifac   1.0000
+ k point #         444   input no. of plane waves =        1940
+ k value =  0.233333334      0.500000000       1.26237862E-15
+iq=444 qsym=1 ib=   2 Ei= -10.5608 Ekin=  30.1563 iekrange=   1   6 fermifac   1.0000
+iq=444 qsym=1 ib=   3 Ei=  -8.8398 Ekin=  31.8773 iekrange=  10  50 fermifac   1.0000
+iq=444 qsym=1 ib=   4 Ei=  -2.7081 Ekin=  38.0090 iekrange= 163 203 fermifac   1.0000
+ k point #         445   input no. of plane waves =        1940
+ k value =  0.266666681      0.500000000       1.26237862E-15
+iq=445 qsym=1 ib=   2 Ei= -10.5608 Ekin=  30.1563 iekrange=   1   6 fermifac   1.0000
+iq=445 qsym=1 ib=   3 Ei=  -8.8398 Ekin=  31.8773 iekrange=  10  50 fermifac   1.0000
+iq=445 qsym=1 ib=   4 Ei=  -2.7081 Ekin=  38.0090 iekrange= 163 203 fermifac   1.0000
+ k point #         446   input no. of plane waves =        1947
+ k value =  0.300000012      0.500000000       1.26237862E-15
+iq=446 qsym=1 ib=   3 Ei=  -8.4870 Ekin=  32.2301 iekrange=  18  58 fermifac   1.0000
+iq=446 qsym=1 ib=   4 Ei=  -2.6808 Ekin=  38.0363 iekrange= 163 203 fermifac   1.0000
+ k point #         447   input no. of plane waves =        1951
+ k value =  0.333333343      0.500000000       1.26237862E-15
+iq=447 qsym=1 ib=   3 Ei=  -8.0042 Ekin=  32.7129 iekrange=  30  70 fermifac   1.0000
+iq=447 qsym=1 ib=   4 Ei=  -2.6291 Ekin=  38.0880 iekrange= 165 205 fermifac   1.0000
+ k point #         448   input no. of plane waves =        1949
+ k value =  0.366666675      0.500000000       1.26237862E-15
+iq=448 qsym=1 ib=   3 Ei=  -7.5089 Ekin=  33.2082 iekrange=  43  83 fermifac   1.0000
+iq=448 qsym=1 ib=   4 Ei=  -2.5597 Ekin=  38.1574 iekrange= 167 207 fermifac   1.0000
+ k point #         449   input no. of plane waves =        1949
+ k value =  0.400000006      0.500000000       1.26237862E-15
+iq=449 qsym=1 ib=   3 Ei=  -7.0597 Ekin=  33.6574 iekrange=  54  94 fermifac   1.0000
+iq=449 qsym=1 ib=   4 Ei=  -2.4825 Ekin=  38.2346 iekrange= 168 208 fermifac   1.0000
+ k point #         450   input no. of plane waves =        1945
+ k value =  0.433333337      0.500000000       1.26237862E-15
+iq=450 qsym=1 ib=   3 Ei=  -6.6994 Ekin=  34.0177 iekrange=  63 103 fermifac   1.0000
+iq=450 qsym=1 ib=   4 Ei=  -2.4106 Ekin=  38.3065 iekrange= 170 210 fermifac   1.0000
+ k point #         451   input no. of plane waves =        1935
+ k value =  0.466666669      0.500000000       1.26237862E-15
+iq=451 qsym=1 ib=   3 Ei=  -6.4643 Ekin=  34.2528 iekrange=  69 109 fermifac   1.0000
+iq=451 qsym=1 ib=   4 Ei=  -2.3592 Ekin=  38.3579 iekrange= 172 212 fermifac   1.0000
+ k point #         452   input no. of plane waves =        1910
+ k value =  0.500000000      0.500000000       1.26237862E-15
+iq=452 qsym=1 ib=   3 Ei=  -6.3817 Ekin=  34.3354 iekrange=  71 111 fermifac   1.0000
+iq=452 qsym=1 ib=   4 Ei=  -2.3401 Ekin=  38.3770 iekrange= 172 212 fermifac   1.0000
+
+ ELAPSED WALL TIME =    2.7429999999985739       seconds
+
+ DONE WITH ARUPS

@@ -1,0 +1,15 @@
+ARUPS.out           # name of outputfile
+-99                 # dummy-line: kept for backward-compatibilty
+1 8                 # selected band range
+-2.785900           # Fermi-energy taken from OUTCAR-file
+-0.025              # in eV (when < 0, then no Fermi smearing is taken into account)
+4.282900            # work function (difference between Fermi and vacuum level)
+45  99              # photon energy (eV)
+0.2                 # energy broadening in eV
+0.2  0.2            # k-space broadening in kx and ky directions
+0                   # switch: 0 = band-map for fixed photon energy and range of binding energies
+-10 0 0.04          # range of binding energies (eV)
+-3.5  3.5  0.04     # k-range: min, max, step
+0.0  0.0  1.0       # unit vector for normal emission
+0.0  1.0  0.0       # unit vector in kx-direction
+-99 99              # damping parameter gamma, z0 (gamma < 0 means plane wave final state)

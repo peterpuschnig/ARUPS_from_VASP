@@ -1,0 +1,10 @@
+INCAR created by Atomic Simulation Environment
+ EDIFF = 1.00e-07
+ ALGO = Fast
+ PREC = Accurate
+ ICHARG = 11
+ IDIPOL = 3
+ ISYM = 0
+ LDIPOL = .TRUE.
+ LVHAR = .TRUE.
+ LREAL = False

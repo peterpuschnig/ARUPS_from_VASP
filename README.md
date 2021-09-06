@@ -145,3 +145,5 @@ and executed, e.g. with using 4 parallel processes, as follows:
 The program `arups_spinor.f90` in `src` contains an experimental, serial version of the program which can be applied to spionor wave functions which are, for instance, 
 required in the case spin-orbital coupling. Please refer to the Master's thesis of Christoph Dösinger for further information: https://homepage.uni-graz.at/de/peter.puschnig/theses/ 
 
+------
+September 6th, 2021
